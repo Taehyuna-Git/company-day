@@ -1,0 +1,6 @@
+import fs from 'node:fs/promises';
+const data=JSON.parse(await fs.readFile('lib/official-links.json','utf8'));
+const urls=[...new Set(Object.values(data).flatMap(r=>[r.careersSource,...(r.sns||[]).map(s=>s.source),...(r.publicContacts||[]).map(p=>p.source)]).filter(Boolean))];
+const active={};let cursor=0,done=0;
+async function run(){while(cursor<urls.length){const url=urls[cursor++];try{const res=await fetch(url,{signal:AbortSignal.timeout(7000),headers:{'User-Agent':'CompanyDayResearch/1.0'}});if(!res.ok)throw Error(res.status);const bytes=await res.arrayBuffer();const head=new TextDecoder().decode(bytes.slice(0,5000));const encoding=/charset\s*=\s*["']?(euc-kr|ks_c_5601-1987)/i.test(head+res.headers.get('content-type'))?'euc-kr':'utf-8';const html=new TextDecoder(encoding).decode(bytes).replace(/<!--[\s\S]*?-->/g,'').replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'');const links=[];for(const m of html.matchAll(/<a\b[^>]*href\s*=\s*["']([^"']+)["']/gi)){try{links.push(new URL(m[1].replaceAll('&amp;','&'),res.url).href)}catch{}}active[url]=links;}catch{active[url]=[]}done++;if(done%100===0)console.log(done,'/',urls.length)}}
+await Promise.all(Array.from({length:10},run));await fs.writeFile('../company-data/active-official-links.json',JSON.stringify(active));console.log('Active link verification complete',urls.length);

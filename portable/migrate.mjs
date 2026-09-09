@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';
+import ts from 'typescript';
+import {generateSQLiteDrizzleJson,generateSQLiteMigration} from 'drizzle-kit/api';
+const output=ts.transpileModule(await fs.readFile('db/schema.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+await fs.writeFile('db/generated-schema.mjs',output);
+const schema=await import('../db/generated-schema.mjs');
+const prev=await generateSQLiteDrizzleJson({});
+const current=await generateSQLiteDrizzleJson(schema,prev.id);
+const sql=await generateSQLiteMigration(prev,current);
+await fs.mkdir('drizzle/meta',{recursive:true});
+await fs.writeFile('drizzle/0000_company_foundation.sql',sql.join('\n--> statement-breakpoint\n'));
+await fs.writeFile('drizzle/meta/0000_snapshot.json',JSON.stringify(current,null,2));
+await fs.writeFile('drizzle/meta/_journal.json',JSON.stringify({version:'7',dialect:'sqlite',entries:[{idx:0,version:'6',when:Date.now(),tag:'0000_company_foundation',breakpoints:true}]},null,2));
+console.log('Generated initial SQLite migration');
