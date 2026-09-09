@@ -1,0 +1,29 @@
+import officialLinks from './official-links.json';
+import curated from './curated-overrides.json';
+import listed from './listed-companies.json';
+import catalogMeta from './catalog-meta.json';
+export {catalogMeta};
+export type Company = {products?:string;sourceVerifiedAt?:string;anniversaryNote?:string;careersSource?:string;linksVerifiedAt?:string;publicContacts?:{email:string;label:string;source:string}[];fieldSources?:{label:string;url:string}[];stockCode?:string;listedOn?:string;region?:string;catalogSource?:string;verifiedAt?:string;id:string;name:string;en:string;market:string;sector:string;summary:string;tags:string[];group:string;color:string;website:string;founded?:string;anniversary?:string;source?:string;ceo?:string;address?:string;phone?:string;email?:string;department?:string;careers?:string;sns?:{name:string;url:string;source?:string}[]};
+const featuredCompanies:Company[] = [
+{id:'samsung-electronics',name:'삼성전자',en:'Samsung Electronics',market:'KOSPI',sector:'반도체 · 전자',summary:'반도체, 스마트폰, TV와 가전제품을 만드는 글로벌 전자 기업',tags:['Galaxy','BESPOKE','반도체'],group:'삼성',color:'#153fa1',website:'https://www.samsung.com/sec/',founded:'1969-01-13',anniversary:'1969-11-01',source:'https://news.samsung.com/kr/',careers:'https://www.samsungcareers.com/'},
+{id:'samsung-sdi',name:'삼성SDI',en:'Samsung SDI',market:'KOSPI',sector:'배터리 · 에너지',summary:'이차전지와 반도체·디스플레이용 전자재료를 개발·생산하는 기업',tags:['전기차 배터리','ESS','PRiMX'],group:'삼성',color:'#1762bc',website:'https://www.samsungsdi.co.kr/',founded:'1970-01-20',anniversary:'1970-07-01',source:'https://news.samsungsdi.com/ko/articleView?seq=473',ceo:'최주선',address:'경기도 용인시 기흥구 공세로 150-20',phone:'031-288-4115',sns:[{name:'공식 뉴스룸',url:'https://news.samsungsdi.com/'},{name:'공식 유튜브 모음',url:'https://www.samsungsdi.co.kr/sdi-now/sdi-media/list.html'}],careers:'https://www.samsungcareers.com/'},
+{id:'samsung-display',name:'삼성디스플레이',en:'Samsung Display',market:'비상장',sector:'디스플레이',summary:'스마트폰, IT 기기와 TV용 디스플레이를 개발·생산하는 기업',tags:['OLED','QD-OLED'],group:'삼성',color:'#213a89',website:'https://www.samsungdisplay.com/',careers:'https://www.samsungcareers.com/'},
+{id:'naver',name:'NAVER',en:'Naver 네이버',market:'KOSPI',sector:'인터넷 · 플랫폼',summary:'검색, 커머스, 콘텐츠와 클라우드 서비스를 제공하는 플랫폼 기업',tags:['네이버','클라우드','검색'],group:'네이버',color:'#03a65a',website:'https://www.navercorp.com/',careers:'https://recruit.navercorp.com/'},
+{id:'kakao',name:'카카오',en:'Kakao',market:'KOSPI',sector:'인터넷 · 플랫폼',summary:'카카오톡을 중심으로 일상과 비즈니스를 연결하는 플랫폼 기업',tags:['카카오톡','플랫폼'],group:'카카오',color:'#715716',website:'https://www.kakaocorp.com/',careers:'https://careers.kakao.com/'},
+{id:'hyundai-motor',name:'현대자동차',en:'Hyundai Motor',market:'KOSPI',sector:'자동차 · 모빌리티',summary:'자동차 제조와 미래 모빌리티 서비스를 제공하는 기업',tags:['IONIQ','자동차','수소'],group:'현대자동차',color:'#173d59',website:'https://www.hyundai.com/kr/ko',careers:'https://talent.hyundai.com/'},
+{id:'sk-hynix',name:'SK하이닉스',en:'SK hynix 에스케이하이닉스',market:'KOSPI',sector:'반도체 · 전자',summary:'DRAM과 NAND 플래시 등 메모리 반도체를 개발·생산하는 기업',tags:['HBM','DRAM','NAND'],group:'SK',color:'#b84228',website:'https://www.skhynix.com/'},
+{id:'ecopro-bm',name:'에코프로비엠',en:'EcoPro BM',market:'KOSDAQ',sector:'배터리 · 에너지',summary:'이차전지용 양극 소재를 개발·생산하는 기업',tags:['양극재','배터리'],group:'에코프로',color:'#0e807c',website:'https://www.ecoprobm.co.kr/'}
+];
+const codes:Record<string,string>={'samsung-electronics':'005930','samsung-sdi':'006400',naver:'035420',kakao:'035720','hyundai-motor':'005380','sk-hynix':'000660','ecopro-bm':'247540'};
+const featuredCodes=new Set(Object.values(codes));
+const catalog:Company[]=[...featuredCompanies.map(c=>{const r=listed.find(r=>r.stockCode===codes[c.id]);return r?{...r,...c,stockCode:r.stockCode,ceo:r.ceo||c.ceo,address:r.address||c.address,phone:r.phone||c.phone,founded:r.founded||c.founded,listedOn:r.listedOn,catalogSource:r.catalogSource,verifiedAt:r.verifiedAt}:c}),...listed.filter(r=>!featuredCodes.has(r.stockCode))];
+const linkOverrides:Record<string,Partial<Company>>=officialLinks;
+const curatedOverrides:Record<string,Partial<Company>>=curated;
+export const companies:Company[]=catalog.map(c=>{const links=linkOverrides[c.stockCode||'']||{};return {...c,products:listed.find(r=>r.stockCode===c.stockCode)?.summary,...links,sns:c.sns?.length?c.sns:links.sns,careers:c.careers||links.careers,...(curatedOverrides[c.stockCode||c.id]||{})}});
+export const initials=(s:string)=>Array.from(s).map(c=>{const n=c.charCodeAt(0)-44032;return n>=0&&n<11172?'ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ'[Math.floor(n/588)]:c.toLowerCase()}).join('');
+const keyMap:Record<string,string>={r:'ㄱ',s:'ㄴ',e:'ㄷ',f:'ㄹ',a:'ㅁ',q:'ㅂ',t:'ㅅ',d:'ㅇ',w:'ㅈ',c:'ㅊ',z:'ㅋ',x:'ㅌ',v:'ㅍ',g:'ㅎ',k:'ㅏ',o:'ㅐ',i:'ㅑ',j:'ㅓ',p:'ㅔ',u:'ㅕ',h:'ㅗ',y:'ㅛ',n:'ㅜ',b:'ㅠ',m:'ㅡ',l:'ㅣ'};
+const compact=(s:string)=>s.toLowerCase().replace(/\s/g,'');
+const jamo=(s:string)=>s.normalize('NFD').replace(/[ᄀ-하-ᅵᆨ-ᇂ]/g,c=>{const a='ᄀᄁᄂᄃᄄᄅᄆᄇᄈᄉᄊᄋᄌᄍᄎᄏᄐᄑᄒ',b='ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ',v='ᅡᅢᅣᅤᅥᅦᅧᅨᅩᅪᅫᅬᅭᅮᅯᅰᅱᅲᅳᅴᅵ',w='ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ',t='ᆨᆩᆪᆫᆬᆭᆮᆯᆰᆱᆲᆳᆴᆵᆶᆷᆸᆹᆺᆻᆼᆽᆾᆿᇀᇁᇂ',u='ㄱㄲㄳㄴㄵㄶㄷㄹㄺㄻㄼㄽㄾㄿㅀㅁㅂㅄㅅㅆㅇㅈㅊㅋㅌㅍㅎ';return a.includes(c)?b[a.indexOf(c)]:v.includes(c)?w[v.indexOf(c)]:u[t.indexOf(c)]});
+export function matches(c:Company,q:string){const s=compact(q),hay=compact(c.name+c.en+(c.stockCode||'')+c.tags.join(''));return !s||hay.includes(s)||initials(compact(c.name+c.en)).includes(s)||jamo(hay).includes([...s].map(k=>keyMap[k]??k).join(''));}
+export const koreaDate=(now=new Date())=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(now);
+export function occasion(c:Company,now=new Date()){if(!c.anniversary)return null;const today=new Date(koreaDate(now)+'T00:00:00Z');const monthday=c.anniversary.slice(5);let year=today.getUTCFullYear();let next=new Date(`${year}-${monthday}T00:00:00Z`);if(next<today){year++;next=new Date(`${year}-${monthday}T00:00:00Z`)}return {days:Math.round((+next-+today)/86400000),year,age:year-Number(c.anniversary.slice(0,4)),date:`${year}-${monthday}`};}

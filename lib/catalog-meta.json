@@ -1,0 +1,21 @@
+{
+  "collectedAt": "2026-09-07T19:46:16.039Z",
+  "total": 2651,
+  "kospi": 832,
+  "kosdaq": 1819,
+  "profiles": 2599,
+  "fields": {
+    "en": 2599,
+    "ceo": 2649,
+    "address": 2599,
+    "phone": 2564,
+    "website": 2484,
+    "founded": 2599
+  },
+  "sources": [
+    "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+    "https://finance.naver.com/sise/sise_market_sum.naver",
+    "https://finance.daum.net/domestic/market_cap"
+  ],
+  "duplicatesRemoved": 37
+}

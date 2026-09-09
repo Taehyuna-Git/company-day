@@ -1,0 +1,69 @@
+{
+  "samsung-display": {
+    "anniversary": "2012-07-01",
+    "source": "https://global.samsungdisplay.com/30222/",
+    "sourceVerifiedAt": "2026-09-08",
+    "address": "경기도 용인시 기흥구 삼성로 1",
+    "fieldSources": [{"label":"본사 주소","url":"https://news.samsungdisplay.com/"}]
+  },
+  "017670": {
+    "anniversary": "1984-03-29",
+    "source": "https://news.sktelecom.com/223224",
+    "sourceVerifiedAt": "2026-09-08"
+  },
+  "005490": {
+    "anniversary": "1968-04-01",
+    "source": "https://www.posco-inc.com/hs91a1-front/app/heritage/history.html",
+    "sourceVerifiedAt": "2026-09-08"
+  },
+  "000880": {
+    "anniversary": "1952-10-09",
+    "source": "https://www.hanwha.co.kr/newsroom/discover/view.do?seq=2785",
+    "sourceVerifiedAt": "2026-09-08"
+  },
+  "002790": {
+    "anniversary": "1945-09-05",
+    "anniversaryNote": "그룹의 창업일을 기념하는 날짜입니다. 현 법인의 설립일과 구분합니다.",
+    "source": "https://stories.amorepacific.com/아모레퍼시픽-아모레퍼시픽그룹-창립-79주년-기념식/",
+    "sourceVerifiedAt": "2026-09-08"
+  },
+  "068270": {
+    "anniversary": "2002-02-26",
+    "source": "https://www.celltrion.com/ko-kr/company/media-center/press-release/473",
+    "sourceVerifiedAt": "2026-09-08"
+  },
+  "247540": {
+    "anniversary":"2016-05-01",
+    "source":"https://ecoprobm.co.kr/download/2022_에코프로비엠_지속가능경영보고서.pdf",
+    "sourceVerifiedAt":"2026-09-08"
+  },
+  "005800": {
+    "anniversary":"1954-10-21",
+    "source":"https://www.shinyoungwacoal.co.kr/shiny-history-all/?tab=history",
+    "sourceVerifiedAt":"2026-09-08"
+  },
+  "214180": {
+    "anniversary":"2009-03-19",
+    "source":"https://www.hectoinnovation.co.kr/company/about?mkey=17",
+    "sourceVerifiedAt":"2026-09-08"
+  },
+  "234340": {
+    "anniversary":"2000-10-09",
+    "source":"https://hectofinancial.co.kr/company",
+    "sourceVerifiedAt":"2026-09-08"
+  },
+  "430690": {
+    "anniversary":"1992-07-01",
+    "source":"https://www.hanssak.co.kr/hanssak/company/index.php",
+    "sourceVerifiedAt":"2026-09-08"
+  },
+  "950170": {
+    "founded":"1994-03-17",
+    "fieldSources":[{"label":"법인 설립일","url":"https://www.groupjtc.com/korean/about/company.html"}]
+  },
+  "001550": {
+    "summary": "작물과 토양에 맞춘 복합비료·완효성비료를 제조하고 판매하는 기업",
+    "tags": ["단한번", "이편한S", "더존", "엔케이25"],
+    "fieldSources": [{"label":"주요 업무 · 대표 제품","url":"https://kind.krx.co.kr/external/2025/03/17/001024/20250317004311/11011.htm"}]
+  }
+}
