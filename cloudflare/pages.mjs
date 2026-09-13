@@ -22,7 +22,7 @@ async function copy(dir=''){
       let html=data.toString().replace('<div id="root"',`<div id="root" data-base-path="${base}"`)
         .replace(/(href|src)="\/(?!\/)([^"]*)"/g,(_,attr,value)=>`${attr}="${base}/${value.startsWith('api/calendar/')?value+'.ics':value}"`)
         .replace(/<link rel="canonical"[^>]*>/g,'')
-        .replace(/(app\.js|style\.css)"/g,`$1?v=${assetVersion}"`);
+        .replace(/(app\.js|style\.css)(?:\?v=[a-f0-9]+)?"/g,`$1?v=${assetVersion}"`);
       if(route){routes.push(route);html=html.replace('</head>',`<link rel="canonical" href="${origin}${base}${route}"></head>`);}
       assert.ok(html.includes(`src="${base}/app.js?v=${assetVersion}"`));
       await write(route&&route!=='/'?name.slice(0,-5)+'/index.html':name,html);

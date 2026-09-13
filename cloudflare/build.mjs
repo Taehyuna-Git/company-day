@@ -3,6 +3,7 @@ import path from 'node:path';
 import {build} from 'rolldown';
 import ts from 'typescript';
 import {gzipSync} from 'node:zlib';
+import {createHash} from 'node:crypto';
 import '../portable/build.mjs';
 
 const worker=(await import('../dist/server/index.js?cloudflare-build')).default;
@@ -21,12 +22,14 @@ for(const [name,file] of [['listed','listed-companies.json'],['catalogMeta','cat
 const module=ts.transpileModule(input,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText;
 const {companies}=await import('data:text/javascript;base64,'+Buffer.from(module).toString('base64'));
 const routes=['/','/anniversaries',...companies.map(c=>'/companies/'+c.id)];
+const assetVersion=createHash('sha256').update(await fs.readFile('portable/generated/client.txt')).update(await fs.readFile('portable/generated/style.txt')).digest('hex').slice(0,16);
 const escape=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 async function write(file,body){const target=path.join(output,file);await fs.mkdir(path.dirname(target),{recursive:true});await fs.writeFile(target,body);}
 for(const route of [...routes,'/not-found']) {
   const response=await worker.fetch(new Request('https://build.invalid'+route));
   let html=await response.text();
   html=html.replace('<div id="root"','<div id="root" data-deployment="cloudflare"').replace('ChatGPT 로그인 지원','소셜 로그인 연결 준비 중');
+  html=html.replace(/(app\.js|style\.css)"/g,`$1?v=${assetVersion}"`);
   if(response.status===200)html=html.replace('name="robots" content="noindex,nofollow"','name="robots" content="index,follow"');
   if(origin&&response.status===200)html=html.replace('</head>',`<link rel="canonical" href="${escape(origin+route)}"></head>`);
   await write(route==='/not-found'?'404.html':route==='/'?'index.html':route.slice(1)+'.html',html);
