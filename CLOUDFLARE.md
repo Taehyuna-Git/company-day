@@ -35,7 +35,7 @@ npm run deploy
 - 빌드 명령: `npm run build`
 - 배포 명령: `npm run deploy`
 
-Cloudflare Workers Builds에서 이 저장소의 접근을 승인하고 연결하면 main 업데이트 시 자동 배포됩니다. 코드 업로드만으로 Cloudflare 연결까지 완료되지는 않습니다.
+2026-09-13 Cloudflare Workers Builds에 이 저장소를 연결했습니다. main에 변경을 올리면 위 명령으로 자동 빌드·배포합니다. 다른 브랜치의 미리보기 빌드는 꺼두었습니다. 배포 결과는 Cloudflare의 Deployments에서 확인합니다.
 
 GitHub Actions의 기존 Pages 배포도 유지합니다. Pages는 검색용으로 제공하며 로그인 버튼에서 Cloudflare 운영 사이트로 안내합니다.
 
