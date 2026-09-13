@@ -1,4 +1,5 @@
 import {accountApi,type AccountEnv} from './account-api';
+import {newsApi} from './news-api';
 interface Env extends AccountEnv { ASSETS: {fetch(request:Request):Promise<Response>} }
 // Independent deployment: never trust the Sites identity headers on public requests.
 export default {
@@ -7,6 +8,7 @@ export default {
     if(url.pathname.startsWith('/api/account/'))return accountApi(request,env);
     const headers={'Cache-Control':'private, no-store','X-Content-Type-Options':'nosniff','X-Robots-Tag':'noindex'};
     if(request.method!=='GET'&&request.method!=='HEAD')return new Response(null,{status:405,headers:{...headers,Allow:'GET, HEAD'}});
+    if(url.pathname.startsWith('/api/news/'))return newsApi(request);
     if(url.pathname==='/api/session') {
       return new Response(request.method==='HEAD'?null:JSON.stringify({user:null,providers:{chatgpt:false,google:false,kakao:false}}),{headers:{...headers,'Content-Type':'application/json; charset=utf-8'}});
     }

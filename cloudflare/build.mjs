@@ -59,7 +59,7 @@ await write('_headers',`/*
 /404.html
   X-Robots-Tag: noindex
 `);
-await build({input:'cloudflare/worker.ts',platform:'browser',output:{file:path.join(root,'runtime','worker.js'),format:'esm',minify:true}});
+await build({input:'cloudflare/worker.ts',platform:'browser',transform:{define:{__NEWS_COMPANIES__:JSON.stringify(Object.fromEntries(companies.map(c=>[c.id,c.name])))}},output:{file:path.join(root,'runtime','worker.js'),format:'esm',minify:true}});
 const workerGzip=gzipSync(await fs.readFile(path.join(root,'runtime','worker.js'))).length;
 if(workerGzip>3*1024*1024)throw new Error('Worker exceeds free bundle size');
 await fs.writeFile(path.join(root,'build-info.json'),JSON.stringify({builtAt:new Date().toISOString(),pages:routes.length,companies:companies.length,origin,workerGzip},null,2));
