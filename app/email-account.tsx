@@ -5,26 +5,31 @@ import {getAccountClient} from '../lib/supabase-client';
 import {accountConfig} from '../lib/account-config';
 import {sitePath} from '../portable/site-path';
 type AccountUser={id:string;name:string;email:string};
-type Value={user:AccountUser|null;loading:boolean;session:Session|null;needsAction:boolean;recovery:boolean;verificationToken:string;refresh:()=>void};
-const Account=createContext<Value>({user:null,loading:true,session:null,needsAction:false,recovery:false,verificationToken:'',refresh:()=>{}});
+type Value={user:AccountUser|null;loading:boolean;session:Session|null;needsAction:boolean;recovery:boolean;verificationToken:string;authError:string;refresh:()=>void};
+const Account=createContext<Value>({user:null,loading:true,session:null,needsAction:false,recovery:false,verificationToken:'',authError:'',refresh:()=>{}});
 export const useAccount=()=>useContext(Account);
 export function AccountProvider({children}:{children:ReactNode}){
   const [session,setSession]=useState<Session|null>(null),[loading,setLoading]=useState(true),[recovery,setRecovery]=useState(false),[token,setToken]=useState(''),[needsAction,setNeedsAction]=useState(false),[attempt,setAttempt]=useState(0);
+  const [authError,setAuthError]=useState('');
   useEffect(()=>{
     const query=new URLSearchParams(location.search),fragment=new URLSearchParams(location.hash.slice(1));const verification=fragment.get('verify-email');
     if(verification&&/^[a-f0-9]{64}$/.test(verification)){setToken(verification);setNeedsAction(true);history.replaceState(null,'',location.pathname+location.search)}
     if(query.get('account')||query.get('error')||fragment.get('error')){setNeedsAction(true);if(query.get('account')==='recovery')setRecovery(true)}
+    const callbackError=query.get('error')||fragment.get('error');
+    if(callbackError)setAuthError(callbackError==='access_denied'?'로그인이 취소되었거나 계정 연결이 허용되지 않았습니다.':'로그인을 완료하지 못했습니다. 잠시 후 다시 시도해 주세요. 문제가 계속되면 로그인 서비스 설정 확인이 필요합니다.');
     const client=getAccountClient();if(!client){setLoading(false);return}let active=true;
     const {data:{subscription}}=client.auth.onAuthStateChange((event,current)=>{if(active){setSession(current);setLoading(false);if(event==='PASSWORD_RECOVERY'){setRecovery(true);setNeedsAction(true)}}});
-    client.auth.getSession().then(({data,error})=>{if(active){setSession(error?null:data.session);setLoading(false)}}).catch(()=>{if(active)setLoading(false)});
+    client.auth.getSession().then(({data,error})=>{if(active){setSession(error?null:data.session);setLoading(false)}}).catch(()=>{if(active)setLoading(false)}).finally(()=>{
+      if(callbackError&&active){const clean=new URL(location.href);for(const key of ['error','error_code','error_description'])clean.searchParams.delete(key);clean.hash='';history.replaceState(null,'',clean.pathname+clean.search)}
+    });
     return()=>{active=false;subscription.unsubscribe()};
   },[attempt]);
   const user=session?.user?{id:session.user.id,email:session.user.email||'',name:session.user.email?.split('@')[0]||'회원'}:null;
-  return <Account.Provider value={{user,session,loading,recovery,verificationToken:token,needsAction,refresh:()=>setAttempt(v=>v+1)}}>{children}</Account.Provider>;
+  return <Account.Provider value={{user,session,loading,recovery,verificationToken:token,needsAction,authError,refresh:()=>setAttempt(v=>v+1)}}>{children}</Account.Provider>;
 }
 function errorMessage(error:unknown){const code=(error as {code?:string})?.code;return code==='invalid_credentials'?'이메일 또는 비밀번호를 확인해 주세요.':code==='email_not_confirmed'?'받은 편지함에서 이메일 인증을 완료해 주세요.':code==='over_email_send_rate_limit'?'메일 요청이 많습니다. 잠시 후 다시 시도해 주세요.':'요청을 처리하지 못했습니다. 입력 정보와 서비스 연결을 확인해 주세요.'}
 export function AccountContent(){
-  const {user,loading,session,recovery,verificationToken}=useAccount();
+  const {user,loading,session,recovery,verificationToken,authError}=useAccount();
   const [mode,setMode]=useState<'login'|'signup'|'reset'>('login'),[email,setEmail]=useState(''),[password,setPassword]=useState(''),[busy,setBusy]=useState(false),[message,setMessage]=useState(''),[failure,setFailure]=useState(false),[resetDone,setResetDone]=useState(false);
   const client=getAccountClient();
   const [providers,setProviders]=useState<{google?:boolean;kakao?:boolean}>({});
@@ -49,6 +54,7 @@ export function AccountContent(){
   if(user&&!(recovery&&!resetDone))return <Settings key={user.id} user={user} accessToken={session!.access_token} verificationToken={verificationToken}/>;
   const changing=Boolean(recovery&&user&&!resetDone);
   return <div className="account-content">
+    {authError&&!message&&<p className="account-error" role="alert">{authError}</p>}
     {!changing&&mode==='login'&&(providers.google||providers.kakao)&&<div className="account-social">{providers.google&&<button className="oauth" disabled={busy} onClick={()=>void social('google')}>Google로 계속하기</button>}{providers.kakao&&<button className="oauth kakao" disabled={busy} onClick={()=>void social('kakao')}>카카오로 계속하기</button>}</div>}
     {!changing&&<div className="account-tabs" aria-label="계정 메뉴">{(['login','signup','reset'] as const).map(value=><button key={value} aria-pressed={mode===value} disabled={busy} onClick={()=>{setMode(value);setMessage('');setPassword('')}}>{value==='login'?'로그인':value==='signup'?'회원가입':'비밀번호 찾기'}</button>)}</div>}
     {verificationToken&&!user&&<p className="notice">수신 이메일 변경을 요청한 계정으로 로그인해 주세요.</p>}
