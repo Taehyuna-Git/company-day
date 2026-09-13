@@ -12,7 +12,9 @@ if(root!==path.join(process.cwd(),'dist','cloudflare'))throw new Error('Unexpect
 await fs.rm(root,{recursive:true,force:true});
 await fs.mkdir(path.join(root,'public'),{recursive:true});
 const output=path.join(root,'public');
-const origin=process.env.PUBLIC_SITE_URL || '';
+const deployment=JSON.parse(await fs.readFile('deployment.public.json','utf8'));
+const origin=process.env.PUBLIC_SITE_URL ?? deployment.siteUrl;
+const authOrigin=process.env.PUBLIC_SUPABASE_URL??deployment.supabaseUrl;
 if(origin) {const u=new URL(origin);if(u.protocol!=='https:'||u.origin!==origin)throw new Error('PUBLIC_SITE_URL must be an HTTPS origin with no trailing slash');}
 let input=await fs.readFile('lib/companies.ts','utf8');
 for(const [name,file] of [['listed','listed-companies.json'],['catalogMeta','catalog-meta.json'],['officialLinks','official-links.json'],['curated','curated-overrides.json']])input=input.replace(`import ${name} from './${file}';`,`const ${name}=${await fs.readFile('lib/'+file,'utf8')};`);
@@ -42,7 +44,7 @@ await write('_headers',`/*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' ${authOrigin}; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'
 /app.js
   Cache-Control: public, max-age=0, must-revalidate
 /style.css
@@ -54,8 +56,8 @@ await write('_headers',`/*
 /404.html
   X-Robots-Tag: noindex
 `);
-await build({input:'cloudflare/worker.ts',platform:'browser',output:{file:path.join(root,'worker.js'),format:'esm',minify:true}});
-const workerGzip=gzipSync(await fs.readFile(path.join(root,'worker.js'))).length;
+await build({input:'cloudflare/worker.ts',platform:'browser',output:{file:path.join(root,'runtime','worker.js'),format:'esm',minify:true}});
+const workerGzip=gzipSync(await fs.readFile(path.join(root,'runtime','worker.js'))).length;
 if(workerGzip>3*1024*1024)throw new Error('Worker exceeds free bundle size');
 await fs.writeFile(path.join(root,'build-info.json'),JSON.stringify({builtAt:new Date().toISOString(),pages:routes.length,companies:companies.length,origin,workerGzip},null,2));
 console.log(`Cloudflare ready: ${routes.length} pages, ${companies.length} companies, Worker ${workerGzip} gzip bytes. ${origin?'Sitemap enabled.':'Set PUBLIC_SITE_URL after the first deployment to enable sitemap and canonical URLs.'}`);

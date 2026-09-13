@@ -1,5 +1,6 @@
 'use client';
 import {createContext,useContext,useEffect,useState, type ReactNode} from 'react';
+import {basePath,sitePath} from '../portable/site-path';
 type User = {name:string;email:string;provider:'ChatGPT'};
 const Account = createContext<{user:User|null;loading:boolean;error:boolean;chatgpt:boolean;retry:()=>void}>({user:null,loading:true,error:false,chatgpt:false,retry:()=>{}});
 export function AccountProvider({children}:{children:ReactNode}) {
@@ -8,7 +9,7 @@ export function AccountProvider({children}:{children:ReactNode}) {
   useEffect(()=>{
     const controller=new AbortController();
     setLoading(true);setError(false);
-    fetch('/api/session',{credentials:'same-origin',cache:'no-store',signal:controller.signal})
+    fetch(sitePath(basePath()?'/api/session.json':'/api/session'),{credentials:'same-origin',cache:'no-store',signal:controller.signal})
       .then(r=>{if(!r.ok)throw new Error('Session unavailable');return r.json()})
       .then(data=>{const session=data as {user:User|null;providers?:{chatgpt:boolean}};setUser(session.user);setChatgpt(session.providers?.chatgpt ?? true)})
       .catch(()=>{if(!controller.signal.aborted){setUser(null);setError(true)}})

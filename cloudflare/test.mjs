@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
-import worker from '../dist/cloudflare/worker.js';
+import worker from '../dist/cloudflare/runtime/worker.js';
 const root='dist/cloudflare/public/';
 const info=JSON.parse(await fs.readFile('dist/cloudflare/build-info.json','utf8'));
 assert.equal(info.companies,2652);

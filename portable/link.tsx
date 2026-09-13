@@ -1,2 +1,3 @@
 import React from 'react';
-export default function Link({href,children,...props}:React.AnchorHTMLAttributes<HTMLAnchorElement>){return <a href={href} {...props}>{children}</a>}
+import {sitePath} from './site-path';
+export default function Link({href,children,...props}:React.AnchorHTMLAttributes<HTMLAnchorElement>){return <a href={href?sitePath(href):href} {...props}>{children}</a>}

@@ -1,7 +1,8 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "company-day-kr",
-  "main": "dist/cloudflare/worker.js",
+  "main": "dist/cloudflare/runtime/worker.js",
+  "base_dir": "dist/cloudflare/runtime",
   "no_bundle": true,
   "compatibility_date": "2026-06-01",
   "workers_dev": true,
@@ -11,6 +12,6 @@
     "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "none",
-    "run_worker_first": ["/api/session"]
+    "run_worker_first": ["/api/session", "/api/account/*"]
   }
 }

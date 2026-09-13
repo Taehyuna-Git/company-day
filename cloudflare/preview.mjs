@@ -21,4 +21,4 @@ http.createServer(async(req,res)=>{
     res.writeHead(found?200:404,{'Content-Type':type,'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});
     res.end(req.method==='HEAD'?undefined:await fs.readFile(file));
   }catch{res.writeHead(400);res.end('Invalid request');}
-}).listen(4180,'127.0.0.1',()=>console.log('Preview: http://localhost:4180'));
+}).listen(Number(process.env.PORT||4180),'127.0.0.1',()=>console.log('Preview: http://localhost:'+(process.env.PORT||4180)));

@@ -1,4 +1,5 @@
-import {AccountProvider} from '../app/account';
+import {AccountProvider} from '../app/email-account';
+import {FollowsProvider} from '../app/follows';
 import type {Discovery} from '../lib/discovery';
 import React from 'react';
 import Explorer from '../app/explorer';
@@ -9,4 +10,4 @@ import {companies} from '../lib/companies';
 function Content({path,discovery={}}:{path:string;discovery?:Discovery}){if(path==='/')return <Explorer discovery={discovery}/>;if(path==='/anniversaries')return <Anniversaries/>;const c=companies.find(c=>path==='/companies/'+c.id);return c?<Detail c={c}/>:<NotFound/>}
 
 
-export function Surface(props:Parameters<typeof Content>[0]){return <AccountProvider><Content {...props}/></AccountProvider>}
+export function Surface(props:Parameters<typeof Content>[0]){return <AccountProvider><FollowsProvider><Content {...props}/></FollowsProvider></AccountProvider>}

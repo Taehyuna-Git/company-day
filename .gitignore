@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.npm-cache/
+portable/generated/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.dev.vars
+.wrangler/
+local-backups/
+RESUME*.md

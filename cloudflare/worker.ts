@@ -1,8 +1,10 @@
-interface Env { ASSETS: {fetch(request:Request):Promise<Response>} }
+import {accountApi,type AccountEnv} from './account-api';
+interface Env extends AccountEnv { ASSETS: {fetch(request:Request):Promise<Response>} }
 // Independent deployment: never trust the Sites identity headers on public requests.
 export default {
   async fetch(request:Request, env:Env):Promise<Response> {
     const url=new URL(request.url);
+    if(url.pathname.startsWith('/api/account/'))return accountApi(request,env);
     const headers={'Cache-Control':'private, no-store','X-Content-Type-Options':'nosniff','X-Robots-Tag':'noindex'};
     if(request.method!=='GET'&&request.method!=='HEAD')return new Response(null,{status:405,headers:{...headers,Allow:'GET, HEAD'}});
     if(url.pathname==='/api/session') {

@@ -12,7 +12,8 @@
     "deploy:cloudflare": "wrangler deploy --config wrangler.cloudflare.json",
     "build:portable": "node portable/build.mjs",
     "preview:portable": "node portable/serve.mjs",
-    "test": "node portable/test.mjs && node cloudflare/test.mjs",
+    "test": "node portable/test.mjs && node cloudflare/test.mjs && npm run test:accounts",
+    "test:accounts": "node scripts/test-accounts-db.mjs && node scripts/test-account-api.mjs",
     "dev": "node cloudflare/preview.mjs",
     "build": "node cloudflare/build.mjs",
     "start": "node cloudflare/preview.mjs",
@@ -24,6 +25,7 @@
   "dependencies": {
     "@base-ui/react": "1.7.0",
     "@shadcn/react": "0.3.0",
+    "@supabase/supabase-js": "^2.116.0",
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",
     "cmdk": "1.1.1",
@@ -46,6 +48,7 @@
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.54.4",
     "@cloudflare/workers-types": "4.20260515.1",
+    "@electric-sql/pglite": "^0.5.8",
     "@openai/sites-vite-plugin": "0.2.0",
     "@tailwindcss/postcss": "4.2.1",
     "@types/node": "22.19.19",
