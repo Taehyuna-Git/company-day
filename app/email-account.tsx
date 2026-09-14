@@ -4,6 +4,7 @@ import type {Session} from '@supabase/supabase-js';
 import {getAccountClient} from '../lib/supabase-client';
 import {accountConfig} from '../lib/account-config';
 import {sitePath} from '../portable/site-path';
+import {MailDelivery} from './mail-delivery';
 type AccountUser={id:string;name:string;email:string};
 type Value={user:AccountUser|null;loading:boolean;session:Session|null;needsAction:boolean;recovery:boolean;verificationToken:string;authError:string;refresh:()=>void};
 const Account=createContext<Value>({user:null,loading:true,session:null,needsAction:false,recovery:false,verificationToken:'',authError:'',refresh:()=>{}});
@@ -99,8 +100,9 @@ function Settings({user,accessToken,verificationToken,panel}:{user:AccountUser;a
       <fieldset disabled={busy}><legend>받고 싶은 알림</legend><label className="account-check"><input type="checkbox" checked={anniversary} onChange={e=>setAnniversary(e.target.checked)}/>창립기념일 알림</label><label className="account-check"><input type="checkbox" checked={news} onChange={e=>setNews(e.target.checked)}/>기업 뉴스 모아보기</label></fieldset>
       <fieldset disabled={busy}><legend>기념일 알림 시점</legend><div className="account-days">{[0,1,3,7].map(day=><label key={day}><input type="checkbox" checked={days.includes(day)} onChange={e=>setDays(e.target.checked?[...days,day]:days.filter(n=>n!==day))}/>{day===0?'당일':day+'일 전'}</label>)}</div></fieldset>
       <label>메일 받을 시간 · 한국 시간<select value={hour} onChange={e=>setHour(Number(e.target.value))} disabled={busy}>{Array.from({length:24},(_,n)=><option key={n} value={n}>{n}시</option>)}</select></label>
-      <p className="notice">알림 발송은 후속 단계에서 연결됩니다. 지금은 설정만 저장합니다.</p><button className="oauth" disabled={busy||days.length===0}>설정 저장</button>
+      <p className="notice">기념일 알림을 끄고 저장하면 이후 자동 발송이 중지됩니다.</p><button className="oauth" disabled={busy||days.length===0}>설정 저장</button>
     </form>}
+    {panel==='favorites'&&<MailDelivery/>}
     {panel==='account'&&<><p>현재 알림 이메일<br/><strong>{recipient||'인증된 수신 주소 없음'}</strong></p>{pending&&<p className="notice">인증 대기: {pending}</p>}
     <form className="account-form" onSubmit={e=>{e.preventDefault();perform(async()=>{await api('request',{email:newEmail.trim()});await load()},'인증 메일을 보냈습니다. 기존 수신 주소는 인증이 끝날 때까지 유지됩니다.')}}><label>새 알림 이메일<input type="email" required maxLength={254} value={newEmail} onChange={e=>setNewEmail(e.target.value)} disabled={busy}/></label><button className="oauth" disabled={busy}>이 주소로 인증 메일 보내기</button></form></>}
     </>}
