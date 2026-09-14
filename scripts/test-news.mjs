@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import worker from '../dist/cloudflare/runtime/worker.js';
 const originalFetch=globalThis.fetch;
+const originalCaches=globalThis.caches;
 let calls=0;
 const item=(title,link,day,source='테스트일보')=>`<item><title><![CDATA[${title}]]></title><link>${link}</link><pubDate>${day}</pubDate><source>${source}</source></item>`;
 const xml='<rss><channel>'+[
@@ -23,5 +24,14 @@ try{
  const data=await response.json();assert.equal(data.articles.length,3);assert.equal(data.articles[0].title,'삼성전자 신규 소식');assert.equal(data.articles[1].title,'삼성전자 신제품 & 성장');assert.ok(data.articles.every(a=>!a.title.includes('<')));assert.equal(response.headers.get('cache-control'),'public, max-age=900');
  globalThis.fetch=async()=>new Response('upstream unavailable',{status:503});
  response=await worker.fetch(new Request('https://site.test/api/news/samsung-electronics'),env);assert.equal(response.status,502);assert.equal(response.headers.get('cache-control'),'no-store');
+ let retries=0;globalThis.fetch=async()=>{if(++retries===1)throw Error('network');return new Response(xml)};
+ response=await worker.fetch(new Request('https://site.test/api/news/samsung-electronics'),env);assert.equal(response.status,200);assert.equal(retries,2);
+ const saved=new Map();globalThis.caches={default:{match:async key=>saved.get(key.url)?.clone(),put:async(key,value)=>{saved.set(key.url,value.clone())}}};
+ globalThis.fetch=async()=>new Response(xml);
+ await worker.fetch(new Request('https://site.test/api/news/samsung-electronics'),env);
+ assert.equal(saved.size,2);saved.delete('https://site.test/api/news/samsung-electronics');
+ retries=0;globalThis.fetch=async()=>{retries++;return new Response('unavailable',{status:503})};
+ response=await worker.fetch(new Request('https://site.test/api/news/samsung-electronics'),env);
+ const fallback=await response.json();assert.equal(response.status,200);assert.equal(fallback.stale,true);assert.equal(fallback.articles.length,3);assert.equal(retries,2);assert.equal(response.headers.get('cache-control'),'no-store');
  console.log('PASS: news company allowlist, fixed upstream, safe titles/links, deduplication, newest three, and upstream failure.');
-}finally{globalThis.fetch=originalFetch}
+}finally{globalThis.fetch=originalFetch;if(originalCaches===undefined)delete globalThis.caches;else globalThis.caches=originalCaches}

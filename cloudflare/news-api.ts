@@ -28,18 +28,32 @@ export async function newsApi(request:Request):Promise<Response>{
   if(!Object.hasOwn(__NEWS_COMPANIES__,id))return new Response(JSON.stringify({error:'등록된 기업을 찾지 못했습니다.'}),{status:404,headers});
   const cache=(globalThis as unknown as {caches?:{default?:Cache}}).caches?.default;
   const key=new Request(url.origin+'/api/news/'+id);
+  const backupKey=new Request(url.origin+'/api/news/'+id+'?last-success=1');
   const cached=await cache?.match(key);if(cached)return request.method==='HEAD'?new Response(null,cached):cached;
   try{
     const feed=new URL('https://news.google.com/rss/search');
     feed.search=new URLSearchParams({q:'"'+__NEWS_COMPANIES__[id]+'"',hl:'ko',gl:'KR',ceid:'KR:ko'}).toString();
-    const response=await fetch(feed,{headers:{Accept:'application/rss+xml, application/xml'},signal:AbortSignal.timeout(10000)});
-    if(!response.ok||!response.body)throw Error('upstream');
+    const retrieve=()=>fetch(feed,{headers:{Accept:'application/rss+xml, application/xml'},signal:AbortSignal.timeout(10000)});
+    let response:Response|undefined;
+    for(let attempt=0;attempt<2;attempt++){
+      try{response=await retrieve();if(response.status<500||attempt===1)break;await response.body?.cancel()}
+      catch(error){if(attempt===1)throw error}
+    }
+    if(!response?.ok||!response.body)throw Error('upstream_'+response?.status);
     const reader=response.body.getReader(),chunks:Uint8Array[]=[];let total=0;
     while(true){const {done,value}=await reader.read();if(done)break;total+=value.length;if(total>1048576){await reader.cancel();throw Error('size')}chunks.push(value)}
     const buffer=new Uint8Array(total);let offset=0;for(const chunk of chunks){buffer.set(chunk,offset);offset+=chunk.length}
     const xml=new TextDecoder().decode(buffer);if(!xml.includes('<rss'))throw Error('format');
     const result=new Response(JSON.stringify({articles:parseNews(xml,__NEWS_COMPANIES__[id]),updatedAt:new Date().toISOString()}),{headers:{...headers,'Cache-Control':'public, max-age=900'}});
-    if(cache)await cache.put(key,result.clone());
+    if(cache){
+      const backup=result.clone();backup.headers.set('Cache-Control','public, max-age=86400');
+      await Promise.all([cache.put(key,result.clone()),cache.put(backupKey,backup)]);
+    }
     return request.method==='HEAD'?new Response(null,result):result;
-  }catch{return new Response(JSON.stringify({error:'뉴스를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.'}),{status:502,headers:{...headers,'Cache-Control':'no-store'}})}
+  }catch(error){
+    console.error('news_fetch_failed',{company:id,reason:error instanceof Error?error.message:'unknown'});
+    const backup=await cache?.match(backupKey);
+    if(backup){const data=await backup.json() as {articles:Article[];updatedAt:string};return new Response(request.method==='HEAD'?null:JSON.stringify({...data,stale:true}),{headers:{...headers,'Cache-Control':'no-store'}})}
+    return new Response(JSON.stringify({error:'뉴스를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.'}),{status:502,headers:{...headers,'Cache-Control':'no-store'}})
+  }
 }
