@@ -1,6 +1,6 @@
 # 기념일 이메일 발송
 
-현재 상태 (2026-09-14): 코드와 자동 검증 완료. Supabase 신규 스키마·확인된 기념일 13곳·Cron 생성 및 anniversary-mail 함수 배포 완료. 함수의 legacy JWT 검증 옵션 변경은 명시적 승인 대기이며, SMTP_PASSWORD 입력과 실제 메일 수신 검증도 남아 있습니다. 자동 발송 enabled는 false입니다.
+현재 상태 (2026-09-14): 코드와 자동 검증 완료. Supabase 신규 스키마·확인된 기념일 13곳·Cron 생성 및 anniversary-mail 함수 배포 완료. 사용자의 명시적 승인에 따라 legacy JWT 검증 옵션을 끄고 함수 내부 인증으로 전환했으며 저장 상태를 확인했습니다. 공개 상태 응답은 HTTP 정상 응답으로 configured=false, enabled=false입니다. Cloudflare에도 메일 기능 커밋 6f21463의 배포가 반영됐습니다. SMTP_PASSWORD 사용자 입력과 실제 메일 수신 검증이 남아 있으며, 검증 전까지 자동 발송은 비활성화 상태를 유지합니다.
 
 ## 구성
 
