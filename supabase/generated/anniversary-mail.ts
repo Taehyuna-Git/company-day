@@ -13,7 +13,7 @@ export function makeMessage(job:Job,site:string):Mail{
     text:[intro,...(lines.length?lines:[empty]),footer].join('\n\n'),
     html:`<div style="max-width:620px;margin:auto;padding:24px;background:#fafaf6;color:#344b40;font-family:Arial,sans-serif;line-height:1.7"><h1 style="font-size:22px">기업의 날</h1><p>${escape(intro)}</p>${items.length?items.map(i=>`<div style="padding:16px;margin:12px 0;border-radius:12px;background:${i.age>0&&i.age%5===0?'#fff0cf':'#edf4e9'}"><strong>${escape(i.name)}</strong> · ${i.age}주년${i.age>0&&i.age%5===0?' 🎉':''}<br>${escape(i.date)} · <b>${i.days===0?'D-DAY':'D-'+i.days}</b><br><a href="${site}/companies/${encodeURIComponent(i.id)}">기업 정보 보기</a></div>`).join(''):`<p>${empty}</p>`}<p style="font-size:12px"><a href="${site}/?account=notifications">알림 설정 변경·중지</a><br>공식 창립기념일 기준 · 한국 시간</p></div>`};
 }
-type Deps={site:string;configured:()=>boolean;enabled:()=>Promise<boolean>;verifyUser:(token:string)=>Promise<string|null>;verifyScheduler:(token:string)=>Promise<boolean>;reserve:(user:string|null)=>Promise<Job|null>;revalidate:(job:Job)=>Promise<Job|null>;finish:(id:string,status:string,provider?:string)=>Promise<void>;send:(mail:Mail)=>Promise<string>};
+type Deps={site:string;configured:()=>boolean;enabled:()=>Promise<boolean>;verifyUser:(token:string)=>Promise<string|null>;verifyScheduler:(token:string)=>Promise<boolean>;checkSmtp?:()=>Promise<unknown>;reserve:(user:string|null)=>Promise<Job|null>;revalidate:(job:Job)=>Promise<Job|null>;finish:(id:string,status:string,provider?:string)=>Promise<void>;send:(mail:Mail)=>Promise<string>};
 export function createHandler(d:Deps){
   return async(request:Request)=>{
     const headers={'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','Access-Control-Allow-Origin':d.site,'Access-Control-Allow-Headers':'authorization, apikey, content-type, x-client-info','Access-Control-Allow-Methods':'GET, POST, OPTIONS','Vary':'Origin'};
@@ -29,11 +29,13 @@ export function createHandler(d:Deps){
       const auth=request.headers.get('Authorization')||'';
       if(!auth.startsWith('Bearer ')||auth.length>16000)return reply({error:'로그인이 필요합니다.'},401);
       user=await d.verifyUser(auth.slice(7));if(!user)return reply({error:'인증된 계정으로 로그인해 주세요.'},401);
-    }else if(action==='dispatch'){
+    }else if(action==='dispatch'||action==='check-smtp'){
       const token=request.headers.get('x-job-token')||'';
       if(token.length!==72||!await d.verifyScheduler(token))return reply({error:'허용되지 않은 요청입니다.'},401);
     }else return reply({error:'지원하지 않는 요청입니다.'},400);
     if(!d.configured())return reply({error:'메일 발송 서버 연결을 마무리하고 있습니다.'},503);
+    // Operator-only connectivity check. Does not reserve a job or send an email.
+    if(action==='check-smtp')return d.checkSmtp?reply(await d.checkSmtp()):reply({error:'연결 확인을 사용할 수 없습니다.'},503);
     if(action==='dispatch'&&!await d.enabled())return reply({processed:0});
     let processed=0;const started=Date.now();
     try{
@@ -43,7 +45,13 @@ export function createHandler(d:Deps){
         if(!job){await d.finish(reserved.id,'skipped');if(user)return reply({error:'수신 주소나 설정이 변경되어 발송을 취소했습니다. 새로고침 후 다시 시도해 주세요.'},409);continue}
         let provider:string;
         try{provider=await d.send(makeMessage(job,d.site))}
-        catch{await d.finish(job.id,'uncertain');if(user)return reply({error:'발송 결과를 확인하지 못했습니다. 받은 편지함과 스팸함을 확인해 주세요.'},502);continue}
+        catch(error){
+          // SMTP authentication fails before Gmail can accept any message.
+          const authFailed=(error as {code?:string})?.code==='EAUTH';
+          await d.finish(job.id,authFailed?'failed':'uncertain');
+          if(user)return reply({error:authFailed?'메일 발송 계정 연결에 문제가 있어 보내지 못했습니다. 관리자가 연결을 확인한 뒤 다시 이용해 주세요.':'발송 결과를 확인하지 못했습니다. 받은 편지함과 스팸함을 확인해 주세요.'},502);
+          continue;
+        }
         // Never resend an already reserved job, even if acknowledgement is lost.
         await d.finish(job.id,'sent',provider);processed++;
       }
@@ -66,6 +74,11 @@ const site='https://company-day-kr.taehyuna-github.workers.dev';
 const admin=createClient(Deno.env.get('SUPABASE_URL')!,Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,{auth:{persistSession:false,autoRefreshToken:false}});
 const username='taehyuna.github@gmail.com';
 const configured=()=>Boolean(Deno.env.get('SMTP_PASSWORD'));
+const transport=()=>nodemailer.createTransport({host:'smtp.gmail.com',port:465,secure:true,auth:{user:username,pass:Deno.env.get('SMTP_PASSWORD')!.replace(/\s/g,'')},connectionTimeout:10000,greetingTimeout:10000,socketTimeout:15000,disableFileAccess:true,disableUrlAccess:true});
+function smtpDiagnostic(error:unknown){
+  const e=error as {code?:string;command?:string;responseCode?:number;response?:string};
+  return {code:['EAUTH','ESOCKET','ECONNECTION','ETIMEDOUT','EDNS','EENVELOPE','EMESSAGE','ESTREAM'].includes(e?.code||'')?e.code:'UNKNOWN',command:['CONN','AUTH PLAIN','AUTH LOGIN','MAIL FROM','RCPT TO','DATA'].includes(e?.command||'')?e.command:'OTHER',responseCode:Number.isInteger(e?.responseCode)?e.responseCode:null,enhancedCode:typeof e?.response==='string'?e.response.match(/\b[245]\.\d{1,3}\.\d{1,3}\b/)?.[0]||null:null};
+}
 const rpc=async(name:string,args:Record<string,unknown>={})=>{const {data,error}=await admin.rpc(name,args);if(error)throw Error(error.message);return data};
 const enabled=async()=>{const {data,error}=await admin.from('anniversary_mail_settings').select('enabled').eq('id',true).single();if(error)throw Error('settings');return data.enabled};
 async function revalidate(job:Job):Promise<Job|null>{
@@ -84,12 +97,13 @@ async function revalidate(job:Job):Promise<Job|null>{
 const handler=createHandler({site,configured,enabled,
   verifyUser:async token=>{const {data,error}=await admin.auth.getUser(token);return !error&&data.user?.email_confirmed_at?data.user.id:null},
   verifyScheduler:async token=>Boolean(await rpc('check_anniversary_scheduler',{p_token:token})),
+  checkSmtp:async()=>{const client=transport();try{await client.verify();return {ok:true}}catch(error){return {ok:false,...smtpDiagnostic(error)}}finally{client.close()}},
   reserve:async user=>await rpc('reserve_anniversary_mail',{p_test_user:user}),
   revalidate,
   finish:async(id,status,provider)=>{await rpc('finish_anniversary_mail',{p_id:id,p_status:status,p_provider_id:provider||null})},
   send:async mail=>{
-    const transport=nodemailer.createTransport({host:'smtp.gmail.com',port:465,secure:true,auth:{user:username,pass:Deno.env.get('SMTP_PASSWORD')!},connectionTimeout:10000,greetingTimeout:10000,socketTimeout:15000,disableFileAccess:true,disableUrlAccess:true});
-    try{const result=await transport.sendMail({from:{name:'기업의 날',address:username},...mail});if(!result.accepted?.length)throw Error('not accepted');return result.messageId}finally{transport.close()}
+    const client=transport();
+    try{const result=await client.sendMail({from:{name:'기업의 날',address:username},...mail});if(!result.accepted?.length)throw Error('not accepted');return result.messageId}catch(error){console.error('SMTP delivery failure',smtpDiagnostic(error));throw error}finally{client.close()}
   }
 });
 Deno.serve(async request=>{try{return await handler(request)}catch{return new Response(JSON.stringify({error:'메일 서비스를 잠시 이용할 수 없습니다.'}),{status:503,headers:{'Content-Type':'application/json','Access-Control-Allow-Origin':site,'Cache-Control':'no-store'}})}});

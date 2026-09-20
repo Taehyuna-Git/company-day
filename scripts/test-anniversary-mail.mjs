@@ -45,9 +45,17 @@ const request=(body,headers={})=>new Request(site,{method:'POST',headers:{Origin
 assert.equal((await handler(request({action:'test'},{Origin:'https://evil.example'}))).status,403);
 assert.equal((await handler(request({action:'test'},{Authorization:'Bearer forged'}))).status,401);
 assert.equal((await handler(request({action:'dispatch'}))).status,401);assert.equal(reserved,0);
+let checked=0;
+const diagnostic=createHandler({...deps,checkSmtp:async()=>{checked++;return {ok:true}}});
+assert.equal((await diagnostic(request({action:'check-smtp'}))).status,401);
+assert.equal(checked,0);
+assert.deepEqual(await (await diagnostic(request({action:'check-smtp'},{'x-job-token':'s'.repeat(72)}))).json(),{ok:true});
+assert.equal(checked,1);assert.equal(reserved,0);assert.equal(sent,0,'connection check never sends mail');
 assert.equal((await handler(request({action:'test',email:'evil@example.com',user_id:b}))).status,200);assert.equal(sent,1);assert.equal(finished[0][1],'sent');
 assert.ok(makeMessage(sample,site).html.includes('&lt;img'));assert.ok(!makeMessage(sample,site).html.includes('<img'));
 const failed=createHandler({...deps,send:async()=>{throw Error('timeout')}});
 assert.equal((await failed(request({action:'test'}))).status,502);assert.equal(finished.at(-1)[1],'uncertain');
+const authFailed=createHandler({...deps,send:async()=>{throw Object.assign(Error('private SMTP response'),{code:'EAUTH'})}});
+const authResult=await authFailed(request({action:'test'}));assert.equal(authResult.status,502);assert.equal(finished.at(-1)[1],'failed');assert.ok((await authResult.json()).error.includes('발송 계정 연결'));assert.equal(sent,1);
 const skipped=createHandler({...deps,revalidate:async()=>null});await skipped(request({action:'test'}));assert.equal(sent,1);assert.equal(finished.at(-1)[1],'skipped');
 console.log('PASS: opt-in, KST digest, deduplication, verified recipients, limits, RLS, account deletion, dates, JWT/origin checks, escaped email content, SMTP ambiguity and opt-out recheck.');

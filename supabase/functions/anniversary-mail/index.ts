@@ -6,6 +6,11 @@ const site='https://company-day-kr.taehyuna-github.workers.dev';
 const admin=createClient(Deno.env.get('SUPABASE_URL')!,Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,{auth:{persistSession:false,autoRefreshToken:false}});
 const username='taehyuna.github@gmail.com';
 const configured=()=>Boolean(Deno.env.get('SMTP_PASSWORD'));
+const transport=()=>nodemailer.createTransport({host:'smtp.gmail.com',port:465,secure:true,auth:{user:username,pass:Deno.env.get('SMTP_PASSWORD')!.replace(/\s/g,'')},connectionTimeout:10000,greetingTimeout:10000,socketTimeout:15000,disableFileAccess:true,disableUrlAccess:true});
+function smtpDiagnostic(error:unknown){
+  const e=error as {code?:string;command?:string;responseCode?:number;response?:string};
+  return {code:['EAUTH','ESOCKET','ECONNECTION','ETIMEDOUT','EDNS','EENVELOPE','EMESSAGE','ESTREAM'].includes(e?.code||'')?e.code:'UNKNOWN',command:['CONN','AUTH PLAIN','AUTH LOGIN','MAIL FROM','RCPT TO','DATA'].includes(e?.command||'')?e.command:'OTHER',responseCode:Number.isInteger(e?.responseCode)?e.responseCode:null,enhancedCode:typeof e?.response==='string'?e.response.match(/\b[245]\.\d{1,3}\.\d{1,3}\b/)?.[0]||null:null};
+}
 const rpc=async(name:string,args:Record<string,unknown>={})=>{const {data,error}=await admin.rpc(name,args);if(error)throw Error(error.message);return data};
 const enabled=async()=>{const {data,error}=await admin.from('anniversary_mail_settings').select('enabled').eq('id',true).single();if(error)throw Error('settings');return data.enabled};
 async function revalidate(job:Job):Promise<Job|null>{
@@ -24,12 +29,13 @@ async function revalidate(job:Job):Promise<Job|null>{
 const handler=createHandler({site,configured,enabled,
   verifyUser:async token=>{const {data,error}=await admin.auth.getUser(token);return !error&&data.user?.email_confirmed_at?data.user.id:null},
   verifyScheduler:async token=>Boolean(await rpc('check_anniversary_scheduler',{p_token:token})),
+  checkSmtp:async()=>{const client=transport();try{await client.verify();return {ok:true}}catch(error){return {ok:false,...smtpDiagnostic(error)}}finally{client.close()}},
   reserve:async user=>await rpc('reserve_anniversary_mail',{p_test_user:user}),
   revalidate,
   finish:async(id,status,provider)=>{await rpc('finish_anniversary_mail',{p_id:id,p_status:status,p_provider_id:provider||null})},
   send:async mail=>{
-    const transport=nodemailer.createTransport({host:'smtp.gmail.com',port:465,secure:true,auth:{user:username,pass:Deno.env.get('SMTP_PASSWORD')!},connectionTimeout:10000,greetingTimeout:10000,socketTimeout:15000,disableFileAccess:true,disableUrlAccess:true});
-    try{const result=await transport.sendMail({from:{name:'기업의 날',address:username},...mail});if(!result.accepted?.length)throw Error('not accepted');return result.messageId}finally{transport.close()}
+    const client=transport();
+    try{const result=await client.sendMail({from:{name:'기업의 날',address:username},...mail});if(!result.accepted?.length)throw Error('not accepted');return result.messageId}catch(error){console.error('SMTP delivery failure',smtpDiagnostic(error));throw error}finally{client.close()}
   }
 });
 Deno.serve(async request=>{try{return await handler(request)}catch{return new Response(JSON.stringify({error:'메일 서비스를 잠시 이용할 수 없습니다.'}),{status:503,headers:{'Content-Type':'application/json','Access-Control-Allow-Origin':site,'Cache-Control':'no-store'}})}});
