@@ -9,7 +9,8 @@
 - 기업 둘러보기는 접속할 때 3곳을 무작위로 고르고, 기념주년은 현재 날짜로 계산합니다.
 - Supabase가 이메일·소셜 로그인과 계정별 관심 기업, 그룹, 알림 설정을 저장합니다. 새 D1 데이터베이스는 필요하지 않습니다.
 - Google 제공자는 Supabase에 연결됐습니다. 카카오는 앱 설정이 남았습니다.
-- 수신 이메일 변경의 별도 인증 발송, 기념일·뉴스 자동 발송은 아직 연결되지 않았습니다.
+- 알림 이메일 변경 인증과 기념일 자동 발송은 Supabase Edge Function의 Gmail SMTP를 사용합니다. 뉴스 이메일은 아직 연결되지 않았습니다.
+- Cloudflare의 계정 API에는 `PUBLIC_SITE_URL`, `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`가 필요합니다. 서버 비밀키와 SMTP 비밀번호는 Supabase에만 둡니다.
 
 ## 빌드와 배포
 

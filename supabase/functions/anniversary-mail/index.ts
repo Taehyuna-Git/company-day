@@ -1,6 +1,7 @@
 import {createClient} from 'npm:@supabase/supabase-js@2.116.0';
 import nodemailer from 'npm:nodemailer@9';
-import {createHandler,type Job} from './core.ts';
+import {createHandler,type Job,type Mail} from './core.ts';
+import {createVerificationHandler} from './verification.ts';
 
 const site='https://company-day-kr.taehyuna-github.workers.dev';
 const admin=createClient(Deno.env.get('SUPABASE_URL')!,Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,{auth:{persistSession:false,autoRefreshToken:false}});
@@ -26,16 +27,21 @@ async function revalidate(job:Job):Promise<Job|null>{
   const items=job.payload.items.filter(i=>follows.data?.some(f=>f.company_id===i.id&&(job.kind==='test'||f.anniversary_enabled))&&(job.kind==='test'||prefs.data?.lead_days.includes(i.days)));
   return job.kind==='anniversary'&&!items.length?null:{...job,payload:{...job.payload,items}};
 }
-const handler=createHandler({site,configured,enabled,
-  verifyUser:async token=>{const {data,error}=await admin.auth.getUser(token);return !error&&data.user?.email_confirmed_at?data.user.id:null},
+const verifyUser=async(token:string)=>{const {data,error}=await admin.auth.getUser(token);return !error&&data.user?.email_confirmed_at?data.user.id:null};
+const send=async(mail:Mail)=>{
+  const client=transport();
+  try{const result=await client.sendMail({from:{name:'기업의 날',address:username},...mail});if(!result.accepted?.length)throw Error('not accepted');return result.messageId}catch(error){console.error('SMTP delivery failure',smtpDiagnostic(error));throw error}finally{client.close()}
+};
+const verificationHandler=createVerificationHandler({site,configured,verifyUser,send,
+  reserve:async(user,email,hash,id)=>{await rpc('request_notification_email',{p_user_id:user,p_email:email,p_token_hash:hash,p_request_id:id})},
+  confirm:async(user,hash)=>{await rpc('confirm_notification_email',{p_user_id:user,p_token_hash:hash})},
+  finish:async(id,status,provider)=>{const {error}=await admin.from('email_delivery_logs').update({status,provider_id:provider||null}).eq('id',id);if(error)throw Error('delivery log')}
+});
+const handler=createHandler({site,configured,enabled,verifyUser,send,
   verifyScheduler:async token=>Boolean(await rpc('check_anniversary_scheduler',{p_token:token})),
   checkSmtp:async()=>{const client=transport();try{await client.verify();return {ok:true}}catch(error){return {ok:false,...smtpDiagnostic(error)}}finally{client.close()}},
   reserve:async user=>await rpc('reserve_anniversary_mail',{p_test_user:user}),
   revalidate,
-  finish:async(id,status,provider)=>{await rpc('finish_anniversary_mail',{p_id:id,p_status:status,p_provider_id:provider||null})},
-  send:async mail=>{
-    const client=transport();
-    try{const result=await client.sendMail({from:{name:'기업의 날',address:username},...mail});if(!result.accepted?.length)throw Error('not accepted');return result.messageId}catch(error){console.error('SMTP delivery failure',smtpDiagnostic(error));throw error}finally{client.close()}
-  }
+  finish:async(id,status,provider)=>{await rpc('finish_anniversary_mail',{p_id:id,p_status:status,p_provider_id:provider||null})}
 });
-Deno.serve(async request=>{try{return await handler(request)}catch{return new Response(JSON.stringify({error:'메일 서비스를 잠시 이용할 수 없습니다.'}),{status:503,headers:{'Content-Type':'application/json','Access-Control-Allow-Origin':site,'Cache-Control':'no-store'}})}});
+Deno.serve(async request=>{try{return await (new URL(request.url).pathname.includes('/email/')?verificationHandler:handler)(request)}catch{return new Response(JSON.stringify({error:'메일 서비스를 잠시 이용할 수 없습니다.'}),{status:503,headers:{'Content-Type':'application/json','Access-Control-Allow-Origin':site,'Cache-Control':'no-store'}})}});

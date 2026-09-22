@@ -45,7 +45,7 @@ ZIP 파일 자체를 저장소에 올리지 마세요. 압축 안의 app, compon
 - 로그인한 계정의 관심 기업에 한해 홈 기념일 표시, 올해 n주년 및 5년 단위 배지
 - Supabase에서 활성화한 Google·카카오 제공자는 로그인 화면에 자동 표시됩니다. 각 제공자의 앱 설정과 비밀키 연결이 필요합니다.
 - 창립기념일 자동 이메일과 테스트 메일 운영: 인증된 수신 주소·수신 동의·D-Day·한국 시간 설정 적용, 하루 한 통으로 묶음 발송. 공식 기념일이 확인된 기업만 대상입니다.
-- 별도 알림 이메일 변경 인증 API와 뉴스 자동 발송은 추가 연결이 필요합니다. 기념일 메일 운영 상태는 [ANNIVERSARY-MAIL.md](ANNIVERSARY-MAIL.md)를 참고하세요.
+- 알림 이메일 변경·인증: Gmail 인증 링크로 소유권을 확인한 뒤 새 주소 적용, 기존 주소는 인증 전까지 유지. 뉴스 자동 발송은 추가 연결이 필요합니다. 메일 운영 상태는 [ANNIVERSARY-MAIL.md](ANNIVERSARY-MAIL.md)를 참고하세요.
 - Sites 전용 ChatGPT 로그인은 독립 Cloudflare 배포에서 제공하지 않습니다.
 
 추가 배포 설명: [CLOUDFLARE.md](CLOUDFLARE.md). 데이터 출처: [DATA-SOURCES.md](DATA-SOURCES.md).
