@@ -14,7 +14,7 @@
     "preview:portable": "node portable/serve.mjs",
     "test": "node portable/test.mjs && node cloudflare/test.mjs && npm run test:accounts && node scripts/test-news.mjs && node scripts/test-anniversary-mail.mjs",
     "build:mail": "node scripts/build-anniversary-mail.mjs",
-    "test:accounts": "node scripts/test-accounts-db.mjs && node scripts/test-account-api.mjs && node scripts/test-email-verification.mjs",
+    "test:accounts": "node scripts/test-accounts-db.mjs && node scripts/test-account-api.mjs && node scripts/test-email-verification.mjs && node scripts/test-account-runtime.mjs",
     "dev": "node cloudflare/preview.mjs",
     "build": "node cloudflare/build.mjs",
     "start": "node cloudflare/preview.mjs",

@@ -14,8 +14,10 @@ export async function accountApi(request:Request,env:AccountEnv):Promise<Respons
   if(body.length>4096)return response({error:'요청이 너무 큽니다.'},413);
   try{
     const result=await fetch(env.SUPABASE_URL+'/functions/v1/anniversary-mail/email/'+url.pathname.split('/').pop(),{
-      method:'POST',headers:{'Content-Type':'application/json',Origin:env.PUBLIC_SITE_URL,Authorization:authorization,apikey:env.SUPABASE_PUBLISHABLE_KEY},body,signal:AbortSignal.timeout(55000),redirect:'error'
+      method:'POST',headers:{'Content-Type':'application/json',Origin:env.PUBLIC_SITE_URL,Authorization:authorization,apikey:env.SUPABASE_PUBLISHABLE_KEY},body,signal:AbortSignal.timeout(55000),redirect:'manual'
     });
+    // Workers supports manual redirects. Never forward a login token to a redirect destination.
+    if(result.status>=300&&result.status<400)return response({error:'인증 서버 연결 주소를 확인 중입니다. 잠시 후 다시 이용해 주세요.'},502);
     return new Response(await result.text(),{status:result.status,headers});
   }catch{return response({error:'처리 결과를 확인하지 못했습니다. 메일 요청이었다면 받은 편지함을 먼저 확인해 주세요. 자동으로 재발송하지 않습니다.'},502)}
 }

@@ -14,8 +14,9 @@ try{
   assert.equal(calls[0].url,'https://example.supabase.co/functions/v1/anniversary-mail/email/request');
   assert.equal(calls[0].init.headers.Authorization,'Bearer test-session');
   assert.equal(calls[0].init.headers.Origin,origin);
-  assert.equal(calls[0].init.redirect,'error');
+  assert.equal(calls[0].init.redirect,'manual');
   assert.equal((await worker.fetch(request('confirm',{token:'a'.repeat(64)}),env)).status,200);
+  globalThis.fetch=async()=>new Response(null,{status:302,headers:{Location:'https://untrusted.example'}});const redirected=await worker.fetch(request('confirm'),env);assert.equal(redirected.status,502);assert.equal(redirected.headers.get('Location'),null);
   globalThis.fetch=async()=>Response.json({error:'invalid token'},{status:401});assert.equal((await worker.fetch(request('confirm'),env)).status,401);
   globalThis.fetch=async()=>{throw Error('timeout')};const ambiguous=await worker.fetch(request('request',{email:'new@example.com'}),env);assert.equal(ambiguous.status,502);assert.match((await ambiguous.json()).error,/자동으로 재발송하지/);
   console.log('PASS: account proxy origin/auth/size/route guards, forwards JWT, rejects redirects, preserves errors and never retries.');
