@@ -7,6 +7,11 @@
   "compatibility_date": "2026-06-01",
   "workers_dev": true,
   "preview_urls": false,
+  "vars": {
+    "PUBLIC_SITE_URL": "https://company-day-kr.taehyuna-github.workers.dev",
+    "SUPABASE_URL": "https://gnnrlkxplhwyqufoapuv.supabase.co",
+    "SUPABASE_PUBLISHABLE_KEY": "sb_publishable_KO-k2T6ajYwGgEA1fsdH9g__7lOKXXs"
+  },
   "assets": {
     "directory": "./dist/cloudflare/public",
     "binding": "ASSETS",
