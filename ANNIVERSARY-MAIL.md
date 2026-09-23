@@ -45,3 +45,10 @@ Cron 인증값은 DB의 Supabase Vault에 생성·저장됩니다. 브라우저�
 
 참고: [Supabase SMTP 예제](https://github.com/supabase/supabase/blob/master/examples/edge-functions/supabase/functions/send-email-smtp/index.ts), [Cron으로 함수 호출](https://supabase.com/docs/guides/functions/schedule-functions).
 
+
+## 알림 이메일 인증 운영 확인 (2026-09-23)
+
+- 알림 이메일 변경 화면과 Gmail 인증 함수 모두 운영 사이트에 배포했습니다.
+- Cloudflare 공개 연결 값 3개를 wrangler.cloudflare.json에 저장해 다음 자동 배포에서도 유지합니다. 비밀값은 포함하지 않습니다.
+- Cloudflare 실행 엔진에서 redirect:error 요청 생성이 실패하는 문제를 재현하고 manual + 3xx 차단으로 수정했습니다. scripts/test-account-runtime.mjs는 실제 Workers 엔진으로 요청 전달을 검사합니다.
+
