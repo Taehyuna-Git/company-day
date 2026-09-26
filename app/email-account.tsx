@@ -6,15 +6,18 @@ import {accountConfig} from '../lib/account-config';
 import {sitePath} from '../portable/site-path';
 import {MailDelivery} from './mail-delivery';
 import {pendingEmailToken,clearEmailToken} from '../lib/email-verification';
+import {EmailVerificationResult} from './email-verification-result';
 type AccountUser={id:string;name:string;email:string};
-type Value={user:AccountUser|null;loading:boolean;session:Session|null;needsAction:boolean;recovery:boolean;verificationToken:string;authError:string;refresh:()=>void;clearVerification:()=>void};
-const Account=createContext<Value>({user:null,loading:true,session:null,needsAction:false,recovery:false,verificationToken:'',authError:'',refresh:()=>{},clearVerification:()=>{}});
+type Value={user:AccountUser|null;loading:boolean;session:Session|null;needsAction:boolean;recovery:boolean;verificationToken:string;verificationFlow:boolean;authError:string;refresh:()=>void;clearVerification:()=>void};
+const Account=createContext<Value>({user:null,loading:true,session:null,needsAction:false,recovery:false,verificationToken:'',verificationFlow:false,authError:'',refresh:()=>{},clearVerification:()=>{}});
 export const useAccount=()=>useContext(Account);
 export function AccountProvider({children}:{children:ReactNode}){
   const [session,setSession]=useState<Session|null>(null),[loading,setLoading]=useState(true),[recovery,setRecovery]=useState(false),[token,setToken]=useState(''),[needsAction,setNeedsAction]=useState(false),[attempt,setAttempt]=useState(0);
   const [authError,setAuthError]=useState('');
+  const [verificationFlow,setVerificationFlow]=useState(false);
   useEffect(()=>{
     const query=new URLSearchParams(location.search),fragment=new URLSearchParams(location.hash.slice(1));const verification=pendingEmailToken(sessionStorage,location.hash);
+    if(verification||query.get('account')==='verify-email'){setVerificationFlow(true);setNeedsAction(true)}
     if(verification){setToken(verification);setNeedsAction(true);if(fragment.has('verify-email'))history.replaceState(null,'',location.pathname+location.search)}
     if(query.get('account')||query.get('error')||fragment.get('error')){setNeedsAction(true);if(query.get('account')==='recovery')setRecovery(true)}
     const callbackError=query.get('error')||fragment.get('error');
@@ -32,11 +35,11 @@ export function AccountProvider({children}:{children:ReactNode}){
     return()=>{active=false};
   },[session?.user.id]);
   const user=session?.user?{id:session.user.id,email:session.user.email||'',name:session.user.email?.split('@')[0]||'회원'}:null;
-  return <Account.Provider value={{user,session,loading,recovery,verificationToken:token,needsAction,authError,refresh:()=>setAttempt(v=>v+1),clearVerification:()=>{clearEmailToken(sessionStorage);setToken('')}}}>{children}</Account.Provider>;
+  return <Account.Provider value={{user,session,loading,recovery,verificationToken:token,verificationFlow,needsAction,authError,refresh:()=>setAttempt(v=>v+1),clearVerification:()=>{clearEmailToken(sessionStorage);setToken('');setVerificationFlow(false);const url=new URL(location.href);if(url.searchParams.get('account')==='verify-email'){url.searchParams.delete('account');history.replaceState(null,'',url.pathname+url.search)}}}}>{children}</Account.Provider>;
 }
 function errorMessage(error:unknown){const code=(error as {code?:string})?.code;return code==='invalid_credentials'?'이메일 또는 비밀번호를 확인해 주세요.':code==='email_not_confirmed'?'받은 편지함에서 이메일 인증을 완료해 주세요.':code==='over_email_send_rate_limit'?'메일 요청이 많습니다. 잠시 후 다시 시도해 주세요.':'요청을 처리하지 못했습니다. 입력 정보와 서비스 연결을 확인해 주세요.'}
 export function AccountContent({panel='account'}:{panel?:'favorites'|'account'}){
-  const {user,loading,session,recovery,verificationToken,authError}=useAccount();
+  const {user,loading,session,recovery,verificationToken,verificationFlow,authError}=useAccount();
   const [mode,setMode]=useState<'login'|'signup'|'reset'>('login'),[email,setEmail]=useState(''),[password,setPassword]=useState(''),[busy,setBusy]=useState(false),[message,setMessage]=useState(''),[failure,setFailure]=useState(false),[resetDone,setResetDone]=useState(false);
   const client=getAccountClient();
   const [providers,setProviders]=useState<{google?:boolean;kakao?:boolean}>({});
@@ -56,15 +59,15 @@ export function AccountContent({panel='account'}:{panel?:'favorites'|'account'})
       setPassword('');
     }catch(error){setFailure(true);setMessage(errorMessage(error))}finally{setBusy(false)}
   }
+  if(verificationFlow)return <EmailVerificationResult token={verificationToken}/>;
   if(loading)return <p role="status">로그인 상태를 확인하고 있어요.</p>;
   if(!client)return <div className="account-content">{accountConfig.siteUrl&&typeof location!=='undefined'&&location.hostname.endsWith('.github.io')?<><p>회원 기능은 새 기업의 날 사이트에서 이용할 수 있어요.</p><a className="oauth" href={accountConfig.siteUrl+'/?account=login'}>새 사이트에서 로그인 ↗</a></>:<p>이메일 로그인과 알림 설정을 준비하고 있습니다.</p>}<p className="notice">기업 검색과 캘린더 추가는 지금 바로 이용할 수 있어요.</p></div>;
-  if(user&&!(recovery&&!resetDone))return <Settings key={user.id+panel} panel={panel} user={user} accessToken={session!.access_token} verificationToken={verificationToken}/>;
+  if(user&&!(recovery&&!resetDone))return <Settings key={user.id+panel} panel={panel} user={user}/>;
   const changing=Boolean(recovery&&user&&!resetDone);
   return <div className="account-content">
     {authError&&!message&&<p className="account-error" role="alert">{authError}</p>}
     {!changing&&mode==='login'&&(providers.google||providers.kakao)&&<div className="account-social">{providers.google&&<button className="oauth" disabled={busy} onClick={()=>void social('google')}>Google로 계속하기</button>}{providers.kakao&&<button className="oauth kakao" disabled={busy} onClick={()=>void social('kakao')}>카카오로 계속하기</button>}</div>}
     {!changing&&<div className="account-tabs" aria-label="계정 메뉴">{(['login','signup','reset'] as const).map(value=><button key={value} aria-pressed={mode===value} disabled={busy} onClick={()=>{setMode(value);setMessage('');setPassword('')}}>{value==='login'?'로그인':value==='signup'?'회원가입':'비밀번호 찾기'}</button>)}</div>}
-    {verificationToken&&!user&&<p className="notice">수신 이메일 변경을 요청한 계정으로 로그인해 주세요.</p>}
     <form className="account-form" onSubmit={authenticate}>
       {!changing&&<label>이메일<input type="email" required autoComplete="email" maxLength={254} value={email} onChange={e=>setEmail(e.target.value)} disabled={busy}/></label>}
       {(changing||mode!=='reset')&&<label>{changing?'새 비밀번호':'비밀번호'}<input type="password" required minLength={mode==='signup'||changing?12:1} maxLength={128} autoComplete={mode==='signup'||changing?'new-password':'current-password'} value={password} onChange={e=>setPassword(e.target.value)} disabled={busy}/></label>}
@@ -76,13 +79,12 @@ export function AccountContent({panel='account'}:{panel?:'favorites'|'account'})
     <details className="notice"><summary>개인정보 이용 안내</summary><p>기업의 날은 회원 인증을 위해 이메일을, 개인 설정을 위해 닉네임·관심 기업·그룹·알림 수신 주소를 저장합니다. 인증과 데이터 저장에는 Supabase를 사용하며 데이터베이스는 일본 도쿄에 있습니다. 인증 메일은 Gmail 발신 계정을 통해 보냅니다. 기념일·뉴스 메일은 별도 신청 시에만 발송합니다. 계정 삭제 시 개인 설정과 관심 기업도 삭제됩니다.</p></details>
   </div>;
 }
-function Settings({user,accessToken,verificationToken,panel}:{user:AccountUser;accessToken:string;verificationToken:string;panel:'favorites'|'account'}){
+function Settings({user,panel}:{user:AccountUser;panel:'favorites'|'account'}){
   const client=getAccountClient()!;
-  const {clearVerification}=useAccount();
   const [pendingExpires,setPendingExpires]=useState('');
   const [nickname,setNickname]=useState(''),[savedNickname,setSavedNickname]=useState(''),[editingNickname,setEditingNickname]=useState(false);
   const [deleteEmail,setDeleteEmail]=useState(''),[showDelete,setShowDelete]=useState(false);
-  const [recipient,setRecipient]=useState(''),[newEmail,setNewEmail]=useState(''),[pending,setPending]=useState(''),[anniversary,setAnniversary]=useState(false),[news,setNews]=useState(false),[days,setDays]=useState([0,1,3]),[hour,setHour]=useState(9),[busy,setBusy]=useState(false),[ready,setReady]=useState(false),[message,setMessage]=useState(''),[failure,setFailure]=useState(false),[confirmed,setConfirmed]=useState(false);
+  const [recipient,setRecipient]=useState(''),[newEmail,setNewEmail]=useState(''),[pending,setPending]=useState(''),[anniversary,setAnniversary]=useState(false),[news,setNews]=useState(false),[days,setDays]=useState([0,1,3]),[hour,setHour]=useState(9),[busy,setBusy]=useState(false),[ready,setReady]=useState(false),[message,setMessage]=useState(''),[failure,setFailure]=useState(false);
   async function load(){
     const results=await Promise.all([client.from('profiles').select('display_name').eq('user_id',user.id).single(),client.from('notification_preferences').select('anniversary_enabled,news_enabled,lead_days,send_hour').eq('user_id',user.id).single(),client.from('notification_emails').select('email').eq('user_id',user.id).maybeSingle(),client.from('email_verification_requests').select('email,expires_at').eq('user_id',user.id).maybeSingle()]);
     if(results.some(r=>r.error))throw Error('설정을 불러오지 못했습니다.');
@@ -94,7 +96,6 @@ function Settings({user,accessToken,verificationToken,panel}:{user:AccountUser;a
   async function perform(action:()=>Promise<void>,success:string){if(busy)return;setBusy(true);setMessage('');setFailure(false);try{await action();setMessage(success)}catch(error){setFailure(true);setMessage(error instanceof Error?error.message:'처리하지 못했습니다.')}finally{setBusy(false)}}
   async function api(path:string,body:object){const {data:{session:current}}=await client.auth.getSession();if(!current)throw Error('다시 로그인해 주세요.');const r=await fetch('/api/account/email/'+path,{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+current.access_token},body:JSON.stringify(body),cache:'no-store'});const data=await r.json() as {error?:string};if(!r.ok)throw Error(data.error||'요청에 실패했습니다.')}
   return <div className="account-content">{panel==='account'&&<p className="account-email">로그인 이메일 · {user.email}</p>}
-    {panel==='account'&&verificationToken&&!confirmed&&<div className="account-verification"><p>메일로 받은 링크를 확인했습니다. 변경을 요청한 계정으로 로그인되어 있는지 확인하고 인증을 완료해 주세요.</p>{pending&&<p>변경할 알림 이메일 · <strong>{pending}</strong></p>}<button className="oauth" disabled={busy} onClick={()=>perform(async()=>{await api('confirm',{token:verificationToken});setConfirmed(true);clearVerification();setNewEmail('');await load()},'알림 이메일을 변경했습니다. 앞으로 이 주소로 알림을 보내 드려요.')}>이메일 인증 완료</button></div>}
     {!ready?(failure?<button disabled={busy} onClick={()=>perform(load,'계정 설정을 불러왔습니다.')}>다시 불러오기</button>:<p role="status">계정 설정을 불러오고 있어요.</p>):<>
     {panel==='account'&&<div className="nickname-settings">
       {!savedNickname?<p>처음 오셨네요. 사이트에서 사용할 닉네임을 정해 주세요.</p>:<div className="nickname-row"><small>닉네임 · <strong>{savedNickname}</strong></small><button disabled={busy} onClick={()=>{setNickname(savedNickname);setEditingNickname(v=>!v)}}>{editingNickname?'닫기':'닉네임 변경'}</button></div>}
@@ -107,7 +108,7 @@ function Settings({user,accessToken,verificationToken,panel}:{user:AccountUser;a
       <p className="notice">기념일 알림을 끄고 저장하면 이후 자동 발송이 중지됩니다.</p><button className="oauth" disabled={busy||days.length===0}>설정 저장</button>
     </form>}
     {panel==='favorites'&&<MailDelivery/>}
-    {panel==='account'&&<><p>현재 알림 이메일<br/><strong>{recipient||'인증된 수신 주소 없음'}</strong></p><p className="notice">기념일 알림을 받을 주소입니다. 로그인 이메일은 바뀌지 않아요.</p>{pending&&<div className="account-verification"><p>인증 대기 · <strong>{pending}</strong></p><p className="notice">받은 메일의 링크를 눌러 인증을 완료해 주세요.<br/>유효 시간: {new Date(pendingExpires).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})}까지 · 한국 시간</p><button disabled={busy} onClick={()=>perform(load,'현재 알림 이메일을 다시 확인했습니다.')}>인증 상태 새로고침</button></div>}
+    {panel==='account'&&<><p>현재 알림 이메일<br/><strong>{recipient||'인증된 수신 주소 없음'}</strong></p><p className="notice">기념일 알림을 받을 주소입니다. 로그인 이메일은 바뀌지 않아요.</p>{pending&&<div className="account-verification"><p>인증 대기 · <strong>{pending}</strong></p><p className="notice">받은 메일의 링크를 눌러 인증을 완료해 주세요.<br/>유효 시간: {new Date(pendingExpires).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})}까지 · 한국 시간</p><div className="email-pending-actions"><button disabled={busy} onClick={()=>perform(load,'현재 알림 이메일을 다시 확인했습니다.')}>인증 상태 새로고침</button><button disabled={busy} onClick={()=>perform(async()=>{await api('cancel',{});setNewEmail('');await load()},'이메일 변경 요청을 취소했습니다. 기존 알림 이메일을 계속 사용합니다.')}>변경 요청 취소</button></div></div>}
     <form className="account-form" onSubmit={e=>{e.preventDefault();perform(async()=>{try{await api('request',{email:newEmail.trim()})}finally{await load()}},'인증 메일을 보냈습니다. 받은 편지함과 스팸함을 확인해 주세요. 인증 전까지 기존 주소가 유지됩니다.')}}><label>새 알림 이메일<input type="email" autoComplete="email" required maxLength={254} value={newEmail} placeholder="알림 받을 이메일 주소" onChange={e=>setNewEmail(e.target.value)} disabled={busy}/></label><button className="oauth" disabled={busy||!newEmail.trim()}>{busy?'처리 중…':'이 주소로 인증 메일 보내기'}</button><small>인증 링크는 30분간 유효 · 1분 간격, 하루 최대 5회<br/>재발송하면 가장 최근에 받은 링크만 사용할 수 있어요.</small></form></>}
     </>}
     {message&&<p className={failure?'account-error':'account-success'} role={failure?'alert':'status'}>{message}</p>}

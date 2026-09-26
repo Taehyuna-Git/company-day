@@ -9,8 +9,8 @@ import {Search,ArrowUpRight,CalendarDays,Bookmark,Building2} from 'lucide-react'
 import {companies,matches,Company,catalogMeta} from '@/lib/companies';
 import {Dialog,DialogContent,DialogTitle,DialogDescription} from '@/components/ui/dialog';
 export function Login({open,onOpenChange,panel='favorites'}:{open:boolean;onOpenChange:(v:boolean)=>void;panel?:'favorites'|'account'}){
- const {user}=useAccount();
- return <Dialog open={open} onOpenChange={onOpenChange}><DialogContent className="login-dialog"><DialogTitle>{user?(panel==='favorites'?'저장한 기업 · 알림 설정':'계정 관리'):'기업의 날에 로그인'}</DialogTitle><DialogDescription>{user?(panel==='favorites'?'챙겨볼 기업을 모으고 알림 시간을 설정하세요.':'알림 이메일과 로그인 계정을 관리하세요.'):'사용할 계정으로 로그인해 주세요.'}</DialogDescription>{user&&panel==='favorites'&&<MyCompanies/>}<AccountContent panel={panel}/></DialogContent></Dialog>
+ const {user,verificationFlow,clearVerification}=useAccount();
+ return <Dialog open={open} onOpenChange={value=>{if(!value&&verificationFlow)clearVerification();onOpenChange(value)}}><DialogContent className="login-dialog"><DialogTitle>{verificationFlow?'알림 이메일 인증':user?(panel==='favorites'?'저장한 기업 · 알림 설정':'계정 관리'):'기업의 날에 로그인'}</DialogTitle><DialogDescription>{verificationFlow?'메일에서 열어 주신 인증 결과를 안내해 드려요.':user?(panel==='favorites'?'챙겨볼 기업을 모으고 알림 시간을 설정하세요.':'알림 이메일과 로그인 계정을 관리하세요.'):'사용할 계정으로 로그인해 주세요.'}</DialogDescription>{user&&!verificationFlow&&panel==='favorites'&&<MyCompanies/>}<AccountContent panel={panel}/></DialogContent></Dialog>
 }
 export function Header(){
  const {user,loading,needsAction}=useAccount();const[login,setLogin]=useState(false),[panel,setPanel]=useState<'favorites'|'account'>('account');

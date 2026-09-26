@@ -4,10 +4,11 @@ import ts from 'typescript';
 async function module(file){const code=ts.transpileModule(await fs.readFile(file,'utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText;return import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'))}
 const {createVerificationHandler,hashToken}=await module('supabase/functions/anniversary-mail/verification.ts');
 const site='https://companyday.example',uid='owner';
-let reserves=[],mails=[],finishes=[],confirms=[],failure='',configured=true,verified=true;
+let reserves=[],mails=[],finishes=[],confirms=[],cancels=[],failure='',configured=true,verified=true;
 const handler=createVerificationHandler({site,configured:()=>configured,verifyUser:async t=>t==='session'&&verified?uid:null,
   reserve:async(...args)=>{if(failure==='cooldown')throw Error('cooldown');reserves.push(args)},
-  confirm:async(...args)=>{if(failure==='expired')throw Error('invalid_or_expired_token');confirms.push(args)},
+  confirm:async(...args)=>{if(failure==='expired')return 'expired';confirms.push(args);return 'verified'},
+  cancel:async user=>{cancels.push(user)},
   finish:async(...args)=>{if(failure==='log')throw Error('log unavailable');finishes.push(args)},
   send:async mail=>{mails.push(mail);if(failure==='smtp')throw Error('lost ack');if(failure==='auth')throw Object.assign(Error(),{code:'EAUTH'});return 'provider'}
 });
@@ -25,8 +26,11 @@ assert.equal(reserves[0][0],uid);assert.equal(reserves[0][1],'new@example.com');
 const link=new URL(mails[0].text.match(/https:\/\/\S+/)[0]),token=new URLSearchParams(link.hash.slice(1)).get('verify-email');
 assert.equal(link.origin,site);assert.match(token,/^[a-f0-9]{64}$/);assert.equal(reserves[0][2],await hashToken(token));assert.notEqual(reserves[0][2],token);
 assert.equal(finishes[0][1],'sent');assert.equal(confirms.length,0,'opening/sending link must not change recipient');
-assert.equal((await handler(req('confirm',{token,user_id:'intruder'}))).status,200);assert.deepEqual(confirms[0],[uid,await hashToken(token)]);
-failure='expired';assert.equal((await handler(req('confirm',{token}))).status,400);
+assert.equal((await handler(req('confirm',{token,user_id:'intruder'},{Authorization:''}))).status,200);assert.deepEqual(confirms[0],[await hashToken(token)]);
+assert.equal((await handler(req('confirm',{token},{Origin:'https://evil.example',Authorization:''}))).status,403);
+assert.equal((await handler(req('cancel',{user_id:'intruder'}))).status,200);assert.deepEqual(cancels,[uid]);
+assert.equal((await handler(req('cancel',{}, {Authorization:''}))).status,401);
+failure='expired';assert.equal((await handler(req('confirm',{token},{Authorization:''}))).status,410);
 failure='cooldown';const count=mails.length;assert.equal((await handler(req('request',{email:'new@example.com'}))).status,429);assert.equal(mails.length,count);
 failure='auth';assert.equal((await handler(req('request',{email:'new@example.com'}))).status,502);assert.equal(finishes.at(-1)[1],'failed');
 failure='smtp';const completed=finishes.length;assert.equal((await handler(req('request',{email:'new@example.com'}))).status,502);assert.equal(finishes.length,completed,'ambiguous send stays reserved');

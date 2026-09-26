@@ -34,7 +34,8 @@ const send=async(mail:Mail)=>{
 };
 const verificationHandler=createVerificationHandler({site,configured,verifyUser,send,
   reserve:async(user,email,hash,id)=>{await rpc('request_notification_email',{p_user_id:user,p_email:email,p_token_hash:hash,p_request_id:id})},
-  confirm:async(user,hash)=>{await rpc('confirm_notification_email',{p_user_id:user,p_token_hash:hash})},
+  confirm:async hash=>await rpc('confirm_notification_email_link',{p_token_hash:hash}),
+  cancel:async user=>{await rpc('cancel_notification_email',{p_user_id:user})},
   finish:async(id,status,provider)=>{const {error}=await admin.from('email_delivery_logs').update({status,provider_id:provider||null}).eq('id',id);if(error)throw Error('delivery log')}
 });
 const handler=createHandler({site,configured,enabled,verifyUser,send,
