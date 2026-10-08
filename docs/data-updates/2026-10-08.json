@@ -1,0 +1,268 @@
+{
+  "date": "2026-10-08",
+  "sourceFile": "증권거래소_상장등록기업_연락처_정리본.xlsx",
+  "sourceSHA256": "7322126a2872a528807359a2ddbf5507c3384e43d2fc18608802bb67bff38c09",
+  "matching": "종목코드와 정규화 기업명 모두 일치; 우선주 및 과거 회사명의 정보는 다른 기업으로 전용하지 않음",
+  "updates": [
+    {
+      "stockCode": "900290",
+      "name": "GRT",
+      "field": "founded",
+      "value": "2012-09-11",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M56",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900290&cn="
+    },
+    {
+      "stockCode": "052220",
+      "name": "iMBC",
+      "field": "founded",
+      "value": "2000-03-11",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M248",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=052220&cn="
+    },
+    {
+      "stockCode": "017900",
+      "name": "광전자",
+      "field": "founded",
+      "value": "1984-07-31",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M292",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=017900&cn="
+    },
+    {
+      "stockCode": "900070",
+      "name": "글로벌에스엠",
+      "field": "founded",
+      "value": "2008-08-28",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M316",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900070&cn="
+    },
+    {
+      "stockCode": "950130",
+      "name": "엑세스바이오",
+      "field": "founded",
+      "value": "2002-09-27",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M1393",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=950130&cn="
+    },
+    {
+      "stockCode": "900300",
+      "name": "오가닉티코스메틱",
+      "field": "founded",
+      "value": "2012-11-27",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M1464",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900300&cn="
+    },
+    {
+      "stockCode": "215360",
+      "name": "우리산업",
+      "field": "founded",
+      "value": "2015-04-01",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M1517",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=215360&cn="
+    },
+    {
+      "stockCode": "950140",
+      "name": "잉글우드랩",
+      "field": "founded",
+      "value": "2015-08-20",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M1766",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=950140&cn="
+    },
+    {
+      "stockCode": "274090",
+      "name": "켄코아에어로스페이스",
+      "field": "founded",
+      "value": "2013-04-08",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M1941",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=274090&cn="
+    },
+    {
+      "stockCode": "950160",
+      "name": "코오롱티슈진",
+      "field": "founded",
+      "value": "1999-06-09",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M1991",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=950160&cn="
+    },
+    {
+      "stockCode": "900250",
+      "name": "크리스탈신소재",
+      "field": "founded",
+      "value": "2012-02-23",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M2023",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900250&cn="
+    },
+    {
+      "stockCode": "054450",
+      "name": "텔레칩스",
+      "field": "founded",
+      "value": "1999-10-29",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M2069",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=054450&cn="
+    },
+    {
+      "stockCode": "237820",
+      "name": "플레이디",
+      "field": "founded",
+      "value": "2010-03-12",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M2172",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=237820&cn="
+    },
+    {
+      "stockCode": "031980",
+      "name": "피에스케이홀딩스",
+      "field": "founded",
+      "value": "1990-06-11",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M2182",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=031980&cn="
+    },
+    {
+      "stockCode": "900270",
+      "name": "헝셩그룹",
+      "field": "founded",
+      "value": "1995-11-14",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "M2377",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900270&cn="
+    },
+    {
+      "stockCode": "900290",
+      "name": "GRT",
+      "field": "address",
+      "value": "Room 01, 21/F, Prosper Commercial Building, 9 Yin Chong Street, Kowloon, Hong Kong",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "AL56",
+      "source": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900290&cn="
+    },
+    {
+      "stockCode": "073190",
+      "name": "듀오백",
+      "field": "ceo",
+      "value": "정관영",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "AC613",
+      "source": "https://duoback.co.kr/"
+    },
+    {
+      "stockCode": "030190",
+      "name": "NICE평가정보",
+      "field": "website",
+      "value": "http://www.niceinfo.co.kr",
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "AD164",
+      "source": "https://www.niceinfo.co.kr/"
+    },
+    {
+      "stockCode": "065770",
+      "name": "CS",
+      "field": "publicContacts",
+      "value": {
+        "label": "회사 문의",
+        "email": "sales@cs-holdings.com",
+        "source": "https://cs-holdings.co.kr/?page_id=575"
+      },
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "AK29",
+      "source": "https://cs-holdings.co.kr/?page_id=575"
+    },
+    {
+      "stockCode": "078930",
+      "name": "GS",
+      "field": "publicContacts",
+      "value": {
+        "label": "IR 문의",
+        "email": "gsinfo@gs.co.kr",
+        "phone": "02-2005-8143",
+        "source": "https://www.gs.co.kr/ko/investors/stock-info/gs"
+      },
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "AK57",
+      "source": "https://www.gs.co.kr/ko/investors/stock-info/gs"
+    },
+    {
+      "stockCode": "083450",
+      "name": "GST",
+      "field": "publicContacts",
+      "value": {
+        "label": "본사 문의",
+        "email": "sales@gst-in.com",
+        "source": "https://www.gst-in.com/m12.php"
+      },
+      "sheet": "KRX_전종목_기본정보",
+      "cell": "AK58",
+      "source": "https://www.gst-in.com/m12.php"
+    }
+  ],
+  "held": [
+    {
+      "row": 12,
+      "stockCode": "282330",
+      "name": "BGF리테일",
+      "field": "email",
+      "reason": "공식 출처 및 문의 용도 미확인"
+    },
+    {
+      "row": 42,
+      "stockCode": "241520",
+      "name": "DSC인베스트먼트",
+      "field": "email",
+      "reason": "공식 출처 및 문의 용도 미확인"
+    },
+    {
+      "row": 56,
+      "stockCode": "900290",
+      "name": "GRT",
+      "field": "phone",
+      "reason": "11790: 전화번호 형식이 아닌 오류값"
+    },
+    {
+      "row": 57,
+      "stockCode": "078930",
+      "name": "GS",
+      "field": "phone",
+      "reason": "대표전화로 사용하지 않고 IR 문의에 별도 반영"
+    },
+    {
+      "row": 246,
+      "stockCode": "040300",
+      "name": "YTN",
+      "field": "ceo",
+      "reason": "파일의 정찬형은 과거 대표자: 현 대표자 확정 보류"
+    },
+    {
+      "row": 345,
+      "stockCode": "121600",
+      "name": "나노신소재",
+      "field": "founded",
+      "reason": "파일의 2011-02-09가 상장일과 동일: 설립일 근거 필요"
+    },
+    {
+      "row": 1296,
+      "stockCode": "030960",
+      "name": "양지사",
+      "field": "founded",
+      "reason": "파일 1979-01-15 / 기업개요 1980-01-16: 원문 확인 필요"
+    },
+    {
+      "row": 707,
+      "stockCode": "012700",
+      "name": "리드코프",
+      "field": "founded",
+      "reason": "파일의 1977-09-19에 대한 원문 재확인 필요"
+    }
+  ]
+}

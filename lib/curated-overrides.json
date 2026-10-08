@@ -4,7 +4,12 @@
     "source": "https://global.samsungdisplay.com/30222/",
     "sourceVerifiedAt": "2026-09-08",
     "address": "경기도 용인시 기흥구 삼성로 1",
-    "fieldSources": [{"label":"본사 주소","url":"https://news.samsungdisplay.com/"}]
+    "fieldSources": [
+      {
+        "label": "본사 주소",
+        "url": "https://news.samsungdisplay.com/"
+      }
+    ]
   },
   "017670": {
     "anniversary": "1984-03-29",
@@ -33,37 +38,238 @@
     "sourceVerifiedAt": "2026-09-08"
   },
   "247540": {
-    "anniversary":"2016-05-01",
-    "source":"https://ecoprobm.co.kr/download/2022_에코프로비엠_지속가능경영보고서.pdf",
-    "sourceVerifiedAt":"2026-09-08"
+    "anniversary": "2016-05-01",
+    "source": "https://ecoprobm.co.kr/download/2022_에코프로비엠_지속가능경영보고서.pdf",
+    "sourceVerifiedAt": "2026-09-08"
   },
   "005800": {
-    "anniversary":"1954-10-21",
-    "source":"https://www.shinyoungwacoal.co.kr/shiny-history-all/?tab=history",
-    "sourceVerifiedAt":"2026-09-08"
+    "anniversary": "1954-10-21",
+    "source": "https://www.shinyoungwacoal.co.kr/shiny-history-all/?tab=history",
+    "sourceVerifiedAt": "2026-09-08"
   },
   "214180": {
-    "anniversary":"2009-03-19",
-    "source":"https://www.hectoinnovation.co.kr/company/about?mkey=17",
-    "sourceVerifiedAt":"2026-09-08"
+    "anniversary": "2009-03-19",
+    "source": "https://www.hectoinnovation.co.kr/company/about?mkey=17",
+    "sourceVerifiedAt": "2026-09-08"
   },
   "234340": {
-    "anniversary":"2000-10-09",
-    "source":"https://hectofinancial.co.kr/company",
-    "sourceVerifiedAt":"2026-09-08"
+    "anniversary": "2000-10-09",
+    "source": "https://hectofinancial.co.kr/company",
+    "sourceVerifiedAt": "2026-09-08"
   },
   "430690": {
-    "anniversary":"1992-07-01",
-    "source":"https://www.hanssak.co.kr/hanssak/company/index.php",
-    "sourceVerifiedAt":"2026-09-08"
+    "anniversary": "1992-07-01",
+    "source": "https://www.hanssak.co.kr/hanssak/company/index.php",
+    "sourceVerifiedAt": "2026-09-08"
   },
   "950170": {
-    "founded":"1994-03-17",
-    "fieldSources":[{"label":"법인 설립일","url":"https://www.groupjtc.com/korean/about/company.html"}]
+    "founded": "1994-03-17",
+    "fieldSources": [
+      {
+        "label": "법인 설립일",
+        "url": "https://www.groupjtc.com/korean/about/company.html"
+      }
+    ]
   },
   "001550": {
     "summary": "작물과 토양에 맞춘 복합비료·완효성비료를 제조하고 판매하는 기업",
-    "tags": ["단한번", "이편한S", "더존", "엔케이25"],
-    "fieldSources": [{"label":"주요 업무 · 대표 제품","url":"https://kind.krx.co.kr/external/2025/03/17/001024/20250317004311/11011.htm"}]
+    "tags": [
+      "단한번",
+      "이편한S",
+      "더존",
+      "엔케이25"
+    ],
+    "fieldSources": [
+      {
+        "label": "주요 업무 · 대표 제품",
+        "url": "https://kind.krx.co.kr/external/2025/03/17/001024/20250317004311/11011.htm"
+      }
+    ]
+  },
+  "900290": {
+    "founded": "2012-09-11",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900290&cn="
+      },
+      {
+        "label": "본사 주소 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900290&cn="
+      }
+    ],
+    "address": "Room 01, 21/F, Prosper Commercial Building, 9 Yin Chong Street, Kowloon, Hong Kong"
+  },
+  "052220": {
+    "founded": "2000-03-11",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=052220&cn="
+      }
+    ]
+  },
+  "017900": {
+    "founded": "1984-07-31",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=017900&cn="
+      }
+    ]
+  },
+  "900070": {
+    "founded": "2008-08-28",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900070&cn="
+      }
+    ]
+  },
+  "950130": {
+    "founded": "2002-09-27",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=950130&cn="
+      }
+    ]
+  },
+  "900300": {
+    "founded": "2012-11-27",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900300&cn="
+      }
+    ]
+  },
+  "215360": {
+    "founded": "2015-04-01",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=215360&cn="
+      }
+    ]
+  },
+  "950140": {
+    "founded": "2015-08-20",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=950140&cn="
+      }
+    ]
+  },
+  "274090": {
+    "founded": "2013-04-08",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=274090&cn="
+      }
+    ]
+  },
+  "950160": {
+    "founded": "1999-06-09",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=950160&cn="
+      }
+    ]
+  },
+  "900250": {
+    "founded": "2012-02-23",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900250&cn="
+      }
+    ]
+  },
+  "054450": {
+    "founded": "1999-10-29",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=054450&cn="
+      }
+    ]
+  },
+  "237820": {
+    "founded": "2010-03-12",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=237820&cn="
+      }
+    ]
+  },
+  "031980": {
+    "founded": "1990-06-11",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=031980&cn="
+      }
+    ]
+  },
+  "900270": {
+    "founded": "1995-11-14",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 · 2026-10-08 대조",
+        "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=900270&cn="
+      }
+    ]
+  },
+  "073190": {
+    "ceo": "정관영",
+    "fieldSources": [
+      {
+        "label": "대표이사 · 2026-10-08 대조",
+        "url": "https://duoback.co.kr/"
+      }
+    ]
+  },
+  "030190": {
+    "website": "http://www.niceinfo.co.kr",
+    "fieldSources": [
+      {
+        "label": "공식 웹사이트 · 2026-10-08 대조",
+        "url": "https://www.niceinfo.co.kr/"
+      }
+    ]
+  },
+  "065770": {
+    "publicContacts": [
+      {
+        "label": "회사 문의",
+        "email": "sales@cs-holdings.com",
+        "source": "https://cs-holdings.co.kr/?page_id=575"
+      }
+    ]
+  },
+  "078930": {
+    "publicContacts": [
+      {
+        "label": "IR 문의",
+        "email": "gsinfo@gs.co.kr",
+        "phone": "02-2005-8143",
+        "source": "https://www.gs.co.kr/ko/investors/stock-info/gs"
+      }
+    ]
+  },
+  "083450": {
+    "publicContacts": [
+      {
+        "label": "본사 문의",
+        "email": "sales@gst-in.com",
+        "source": "https://www.gst-in.com/m12.php"
+      }
+    ]
   }
 }
