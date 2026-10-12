@@ -13,7 +13,8 @@ insert into public.anniversary_catalog(company_id,name,anniversary) values
 ('krx-002790','아모레퍼시픽홀딩스','1945-09-05'),
 ('krx-430690','한싹','1992-07-01'),
 ('krx-234340','헥토파이낸셜','2000-10-09'),
-('krx-214180','헥토이노베이션','2009-03-19')
+('krx-214180','헥토이노베이션','2009-03-19'),
+('krx-030960','양지사','1976-09-01')
 on conflict(company_id) do update set name=excluded.name,anniversary=excluded.anniversary;
-delete from public.anniversary_catalog where company_id not in ('samsung-electronics','samsung-sdi','samsung-display','ecopro-bm','krx-068270','krx-017670','krx-005490','krx-005800','krx-000880','krx-002790','krx-430690','krx-234340','krx-214180');
+delete from public.anniversary_catalog where company_id not in ('samsung-electronics','samsung-sdi','samsung-display','ecopro-bm','krx-068270','krx-017670','krx-005490','krx-005800','krx-000880','krx-002790','krx-430690','krx-234340','krx-214180','krx-030960');
 commit;

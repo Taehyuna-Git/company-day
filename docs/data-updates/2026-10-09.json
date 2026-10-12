@@ -1,0 +1,3113 @@
+{
+  "date": "2026-10-09",
+  "sourceFile": "증권거래소_상장등록기업_연락처_정리본 20260910.xlsx",
+  "sourceSHA256": "631fedc3bb48ba9681457e48b8834e11e66a375ea86fff6f7b303b1a18370fb7",
+  "workbookComparison": "주요 입력값은 이전 파일과 동일. 추가 값은 공식 홈페이지 및 한국거래소에서 별도 확인.",
+  "matching": "종목코드와 회사명 대조. 타 법인·계열사·담당자 정보는 대표 정보로 전용하지 않음.",
+  "updates": [
+    {
+      "stockCode": "003670",
+      "name": "포스코퓨처엠",
+      "field": "phone",
+      "value": "054-290-0114",
+      "source": "https://www.poscofuturem.com/introduce/summary.do",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "006740",
+      "name": "블루산업개발",
+      "field": "phone",
+      "value": "031-660-8200",
+      "source": "http://www.khblue.com/intro/2",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "006740",
+      "name": "블루산업개발",
+      "field": "address",
+      "value": "경기도 평택시 진위면 서탄로 9",
+      "source": "http://www.khblue.com/intro/2",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "006740",
+      "name": "블루산업개발",
+      "field": "founded",
+      "value": "1970-07-18",
+      "source": "http://www.khblue.com/intro/3",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "018310",
+      "name": "삼목에스폼",
+      "field": "phone",
+      "value": "02-561-0941",
+      "source": "http://www.sammok.co.kr/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "028300",
+      "name": "HLB",
+      "field": "phone",
+      "value": "02-3453-1975",
+      "source": "https://hlbbio.co.kr/about/company/#location_top",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "028300",
+      "name": "HLB",
+      "field": "address",
+      "value": "서울특별시 강남구 논현로 662 The H타워 6층",
+      "source": "https://hlbbio.co.kr/about/company/#location_top",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "030960",
+      "name": "양지사",
+      "field": "phone",
+      "value": "031-996-0041",
+      "source": "http://www.yangjisa.com/about/location.asp",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "030960",
+      "name": "양지사",
+      "field": "address",
+      "value": "경기도 김포시 양촌읍 황금1로 131",
+      "source": "http://www.yangjisa.com/about/location.asp",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "030960",
+      "name": "양지사",
+      "field": "anniversary",
+      "value": "1976-09-01",
+      "source": "https://www.yangjisa.com/eng/about/history_museum.asp",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "030960",
+      "name": "양지사",
+      "field": "anniversaryNote",
+      "value": "공식 역사관에 명시된 창업일(1976-09-01) 기준입니다. 법인 설립일은 자료 간 차이로 확인 중입니다.",
+      "source": "https://www.yangjisa.com/eng/about/history_museum.asp",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "030960",
+      "name": "양지사",
+      "field": "source",
+      "value": "https://www.yangjisa.com/eng/about/history_museum.asp",
+      "source": "https://www.yangjisa.com/eng/about/history_museum.asp",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "032750",
+      "name": "삼진",
+      "field": "phone",
+      "value": "031-467-5800",
+      "source": "https://www.samjin.com/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "032750",
+      "name": "삼진",
+      "field": "address",
+      "value": "경기도 안양시 만안구 안양천서로 81",
+      "source": "https://www.samjin.com/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "036120",
+      "name": "서울평가정보",
+      "field": "phone",
+      "value": "1588-4753",
+      "source": "https://www.sci.co.kr/cio/history.do",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "036120",
+      "name": "서울평가정보",
+      "field": "address",
+      "value": "서울특별시 영등포구 국회대로70길 23 용산빌딩 11층",
+      "source": "https://www.sci.co.kr/cio/history.do",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "036120",
+      "name": "서울평가정보",
+      "field": "founded",
+      "value": "1992-04-23",
+      "source": "https://www.sci.co.kr/cio/history.do",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "036200",
+      "name": "유니셈",
+      "field": "phone",
+      "value": "031-379-5800",
+      "source": "http://unisem.co.kr/kor/company/business_domestic.php#container",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "036200",
+      "name": "유니셈",
+      "field": "address",
+      "value": "경기도 화성시 장지남길 10-7 (장지동)",
+      "source": "http://unisem.co.kr/kor/company/business_domestic.php#container",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "040300",
+      "name": "YTN",
+      "field": "ceo",
+      "value": "정재훈 (대표이사 직무대행)",
+      "source": "https://infor.ytn.co.kr/ir/governance.php",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "052900",
+      "name": "KX하이텍",
+      "field": "phone",
+      "value": "041-539-6114",
+      "source": "http://www.kxhitech.com/page.php?p_id=location",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "052900",
+      "name": "KX하이텍",
+      "field": "address",
+      "value": "충청남도 아산시 음봉면 연암율금로 330",
+      "source": "http://www.kxhitech.com/page.php?p_id=location",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "061970",
+      "name": "LB세미콘",
+      "field": "founded",
+      "value": "2000-02-10",
+      "source": "https://kind.krx.co.kr/external/2026/05/15/002000/20260515004431/11013.htm",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "077970",
+      "name": "STX엔진",
+      "field": "phone",
+      "value": "055-280-0114",
+      "source": "https://m.stxengine.co.kr/mkor/html/biz/parts/parts_03.aspx",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "084440",
+      "name": "유비온",
+      "field": "phone",
+      "value": "1600-0052",
+      "source": "https://www.ubion.co.kr/ubion/contact_us",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "209640",
+      "name": "와이제이링크",
+      "field": "phone",
+      "value": "053-592-1723",
+      "source": "https://www.yjlink.com/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "215360",
+      "name": "우리산업",
+      "field": "phone",
+      "value": "031-201-6500",
+      "source": "https://www.woory.com/company/aboutus",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "215360",
+      "name": "우리산업",
+      "field": "address",
+      "value": "경기도 용인시 기흥구 지삼로 89 (지곡동)",
+      "source": "https://www.woory.com/company/aboutus",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "217500",
+      "name": "러셀",
+      "field": "phone",
+      "value": "043-532-8818",
+      "source": "https://www.erussell.co.kr/52",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "217500",
+      "name": "러셀",
+      "field": "address",
+      "value": "36, Oksansandan-ro, Oksan-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, Republic of Korea, 28101",
+      "source": "https://www.erussell.co.kr/52",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "237820",
+      "name": "플레이디",
+      "field": "phone",
+      "value": "1566-3265",
+      "source": "https://www.playd.com/w/contact.html",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "237820",
+      "name": "플레이디",
+      "field": "address",
+      "value": "경기도 성남시 분당구 황새울로359번길 11, 5~6층",
+      "source": "https://www.playd.com/w/contact.html",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "274090",
+      "name": "켄코아에어로스페이스",
+      "field": "phone",
+      "value": "055-855-4130",
+      "source": "https://www.kencoa.com/sub/contact.php",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "274090",
+      "name": "켄코아에어로스페이스",
+      "field": "address",
+      "value": "172, Jongpo Sandan-ro, Yonghyun-myun, Sacheon-si, Gyeongsangnam-do, 52537",
+      "source": "https://www.kencoa.com/sub/contact.php",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "290720",
+      "name": "푸드나무",
+      "field": "phone",
+      "value": "02-3152-8088",
+      "source": "https://foodnamoo.com/location/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "387690",
+      "name": "레메디",
+      "field": "address",
+      "value": "강원특별자치도 춘천시 삭주로145번길 69-14, 2층",
+      "source": "https://www.remedihc.com/en/contact",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "424960",
+      "name": "스마트레이더시스템",
+      "field": "phone",
+      "value": "1533-0217",
+      "source": "https://www.smartradarsystem.com/kr/about/contacts.html",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "451250",
+      "name": "삐아",
+      "field": "phone",
+      "value": "080-022-0077",
+      "source": "https://www.bbiacosmetic.com/sub/sub01_05.php",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "451250",
+      "name": "삐아",
+      "field": "address",
+      "value": "인천광역시 연수구 컨벤시아대로 165, 32층 (송도동, 포스코타워-송도)",
+      "source": "https://www.bbiacosmetic.com/sub/sub01_05.php",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "460860",
+      "name": "동국제강",
+      "field": "phone",
+      "value": "02-317-1114",
+      "source": "https://www.dongkuksteel.com/ko/index",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "473980",
+      "name": "노머스",
+      "field": "phone",
+      "value": "02-6409-9888",
+      "source": "https://knowmerce.com/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "475040",
+      "name": "스트라드비젼",
+      "field": "address",
+      "value": "경상북도 포항시 남구 지곡로 394 (재)포항테크노파크 제5벤처동 308호",
+      "source": "https://stradvision.com/dh/contact",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "480370",
+      "name": "씨케이솔루션",
+      "field": "phone",
+      "value": "031-203-7770",
+      "source": "https://www.cksolution.co.kr/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "483350",
+      "name": "딜리셔스",
+      "field": "phone",
+      "value": "1661-1916",
+      "source": "https://www.dealicious.kr/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "483350",
+      "name": "딜리셔스",
+      "field": "address",
+      "value": "서울특별시 종로구 대학로 57 홍익대학교 대학로캠퍼스 5층",
+      "source": "https://www.dealicious.kr/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "950130",
+      "name": "엑세스바이오",
+      "field": "phone",
+      "value": "+1-732-873-4040",
+      "source": "https://accessbio.net/contact-us",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "950130",
+      "name": "엑세스바이오",
+      "field": "address",
+      "value": "7 Fitzgerald Avenue, Monroe Township, NJ 08831, USA",
+      "source": "https://accessbio.net/contact-us",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "950140",
+      "name": "잉글우드랩",
+      "field": "address",
+      "value": "20 Campus Rd, Totowa, NJ 07512, USA",
+      "source": "http://www.englewoodlab.com/ko/locations",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "950170",
+      "name": "JTC",
+      "field": "phone",
+      "value": "+81-3-6457-7793",
+      "source": "https://www.groupjtc.com/korean/about/company.html",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "950170",
+      "name": "JTC",
+      "field": "address",
+      "value": "일본 도쿄도 신쥬쿠구 사몬쵸 2-6 와코 빌딩 6층 (160-0017)",
+      "source": "https://www.groupjtc.com/korean/about/company.html",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "950200",
+      "name": "소마젠",
+      "field": "phone",
+      "value": "+1-301-251-1007",
+      "source": "https://www.psomagen.com/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "950210",
+      "name": "프레스티지바이오파마",
+      "field": "address",
+      "value": "21 Biopolis Road, #04-24 Nucleos, Singapore 138567",
+      "source": "https://prestigebiopharma.com/2026-contact/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "950250",
+      "name": "테라뷰",
+      "field": "address",
+      "value": "1 Enterprise, Cambridge Research Park, Cambridge CB25 9PD, United Kingdom",
+      "source": "https://teraview.com/contact/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "samsung-display",
+      "name": "삼성디스플레이",
+      "field": "ceo",
+      "value": "이청",
+      "source": "https://news.samsungdisplay.com/34461",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "373220",
+      "name": "LG에너지솔루션",
+      "field": "website",
+      "value": "https://www.lgensol.com/kr/index",
+      "source": "https://www.lgensol.com/kr/company/info-outline",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "323410",
+      "name": "카카오뱅크",
+      "field": "website",
+      "value": "https://www.kakaobank.com/",
+      "source": "https://www.kakaobank.com/view/about/corp/history",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "078930",
+      "name": "GS",
+      "field": "website",
+      "value": "https://www.gs.co.kr/ko/main",
+      "source": "https://www.gs.co.kr/ko/main",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "031980",
+      "name": "피에스케이홀딩스",
+      "field": "address",
+      "value": "경기도 성남시 수정구 금토로 75",
+      "source": "https://www.pskholding.com/",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "012700",
+      "name": "리드코프",
+      "field": "founded",
+      "value": "1977-09-19",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=01270",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "012700",
+      "name": "리드코프",
+      "field": "phone",
+      "value": "02-2126-5000",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=01270",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "012700",
+      "name": "리드코프",
+      "field": "address",
+      "value": "서울특별시 중구 청계천로 106 12층(수표동, 크리스탈스퀘어)",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=01270",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "0134X0",
+      "name": "대신밸런스제20호스팩",
+      "field": "founded",
+      "value": "2025-11-07",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=0134X",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "0134X0",
+      "name": "대신밸런스제20호스팩",
+      "field": "phone",
+      "value": "02-769-2731",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=0134X",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "0134X0",
+      "name": "대신밸런스제20호스팩",
+      "field": "address",
+      "value": "서울특별시 중구 삼일대로 343 대신파이낸스센터",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=0134X",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "0165X0",
+      "name": "메리츠제2호스팩",
+      "field": "founded",
+      "value": "2026-02-11",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=0165X",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "0165X0",
+      "name": "메리츠제2호스팩",
+      "field": "phone",
+      "value": "02-6454-3618",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=0165X",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "0165X0",
+      "name": "메리츠제2호스팩",
+      "field": "address",
+      "value": "서울특별시 영등포구 국제금융로 10 여의도동, Three IFC, 26층",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=0165X",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "017900",
+      "name": "광전자",
+      "field": "phone",
+      "value": "063-839-1111",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=01790",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "017900",
+      "name": "광전자",
+      "field": "address",
+      "value": "전라북도 익산시 약촌로8길 62-8 (어양동)",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=01790",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "018310",
+      "name": "삼목에스폼",
+      "field": "founded",
+      "value": "1985-06-07",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=01831",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "018310",
+      "name": "삼목에스폼",
+      "field": "address",
+      "value": "경기도 안성시 미양면 안성맞춤대로 474-40",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=01831",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "028300",
+      "name": "HLB",
+      "field": "founded",
+      "value": "1985-10-18",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=02830",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "031980",
+      "name": "피에스케이홀딩스",
+      "field": "phone",
+      "value": "031-660-8700",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=03198",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "032750",
+      "name": "삼진",
+      "field": "founded",
+      "value": "1976-07-15",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=03275",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "032940",
+      "name": "원익",
+      "field": "founded",
+      "value": "1983-10-31",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=03294",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "032940",
+      "name": "원익",
+      "field": "phone",
+      "value": "031-8038-9000",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=03294",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "032940",
+      "name": "원익",
+      "field": "address",
+      "value": "경기도 성남시 분당구 판교로255번길 20 원익빌딩",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=03294",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "036200",
+      "name": "유니셈",
+      "field": "founded",
+      "value": "1996-01-01",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=03620",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "046940",
+      "name": "우원개발",
+      "field": "founded",
+      "value": "1998-10-28",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=04694",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "046940",
+      "name": "우원개발",
+      "field": "phone",
+      "value": "02-3490-1996",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=04694",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "046940",
+      "name": "우원개발",
+      "field": "address",
+      "value": "서울특별시 서초구 강남대로 279 백향빌딩 8층",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=04694",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "052220",
+      "name": "iMBC",
+      "field": "phone",
+      "value": "02-2105-1100",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=05222",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "052220",
+      "name": "iMBC",
+      "field": "address",
+      "value": "서울특별시 마포구 성암로 25510층(상암동, 문화방송미디어센터)",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=05222",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "052900",
+      "name": "KX하이텍",
+      "field": "founded",
+      "value": "1997-03-05",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=05290",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "054450",
+      "name": "텔레칩스",
+      "field": "phone",
+      "value": "(02)3443-6792",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=05445",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "054450",
+      "name": "텔레칩스",
+      "field": "address",
+      "value": "경기도 성남시 수정구 금토로80번길 27 ㈜텔레칩스 판교사옥",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=05445",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "061970",
+      "name": "LB세미콘",
+      "field": "phone",
+      "value": "031-680-1600",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=06197",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "061970",
+      "name": "LB세미콘",
+      "field": "address",
+      "value": "경기도 평택시 청북면 청북산단로 138",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=06197",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "065370",
+      "name": "위세아이텍",
+      "field": "founded",
+      "value": "1990-09-27",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=06537",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "065370",
+      "name": "위세아이텍",
+      "field": "phone",
+      "value": "02-6246-1400",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=06537",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "065370",
+      "name": "위세아이텍",
+      "field": "address",
+      "value": "경기도 과천시 과천대로12길 117 과천펜타원 G동 11-13층",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=06537",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "094840",
+      "name": "슈프리마에이치큐",
+      "field": "website",
+      "value": "http://www.supremahq.com",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=09484",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "121600",
+      "name": "나노신소재",
+      "field": "founded",
+      "value": "2000-03-15",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=12160",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "121600",
+      "name": "나노신소재",
+      "field": "phone",
+      "value": "044-275-6966",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=12160",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "121600",
+      "name": "나노신소재",
+      "field": "address",
+      "value": "세종특별자치시 부강면 금호안골길 78 부용지방산업단지내",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=12160",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "147830",
+      "name": "제룡산업",
+      "field": "founded",
+      "value": "2011-11-04",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=14783",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "147830",
+      "name": "제룡산업",
+      "field": "phone",
+      "value": "02-2204-3700",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=14783",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "147830",
+      "name": "제룡산업",
+      "field": "address",
+      "value": "서울특별시 광진구 아차산로 628 (광장동)",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=14783",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "217500",
+      "name": "러셀",
+      "field": "founded",
+      "value": "2015-03-26",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=21750",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "236200",
+      "name": "슈프리마",
+      "field": "website",
+      "value": "http://www.suprema.co.kr",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=23620",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "387690",
+      "name": "레메디",
+      "field": "founded",
+      "value": "2012-07-13",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=38769",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "387690",
+      "name": "레메디",
+      "field": "phone",
+      "value": "02-6930-5891",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=38769",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "451250",
+      "name": "삐아",
+      "field": "founded",
+      "value": "2004-03-11",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=45125",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "475040",
+      "name": "스트라드비젼",
+      "field": "founded",
+      "value": "2014-09-22",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=47504",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "475040",
+      "name": "스트라드비젼",
+      "field": "phone",
+      "value": "054-274-4878",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=47504",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "483350",
+      "name": "딜리셔스",
+      "field": "founded",
+      "value": "2011-01-24",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=48335",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "487580",
+      "name": "폴레드",
+      "field": "founded",
+      "value": "2019-03-04",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=48758",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "487580",
+      "name": "폴레드",
+      "field": "phone",
+      "value": "1600-7420",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=48758",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "487580",
+      "name": "폴레드",
+      "field": "address",
+      "value": "충청남도 서산시 운산면 장생동로 523",
+      "source": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=48758",
+      "sourceType": "KRX_KIND",
+      "note": ""
+    },
+    {
+      "stockCode": "000040",
+      "name": "KR모터스",
+      "field": "publicContacts",
+      "value": {
+        "email": "webmaster@krmotors.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.krmotors.com/"
+      },
+      "source": "https://www.krmotors.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "000850",
+      "name": "화천기공",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@hwacheon.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.hwacheon.com/ko/index"
+      },
+      "source": "https://www.hwacheon.com/ko/index",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "0011A0",
+      "name": "액스비스",
+      "field": "publicContacts",
+      "value": {
+        "email": "support@axbis.ai",
+        "label": "기술 문의",
+        "source": "https://axbis.ai/"
+      },
+      "source": "https://axbis.ai/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "002170",
+      "name": "SYTS",
+      "field": "publicContacts",
+      "value": {
+        "email": "info1@syts.com",
+        "label": "본사 문의",
+        "source": "https://www.syts.com/"
+      },
+      "source": "https://www.syts.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "002170",
+      "name": "SYTS",
+      "field": "publicContacts",
+      "value": {
+        "email": "info2@syts.com",
+        "label": "군포 공장 문의",
+        "source": "https://www.syts.com/"
+      },
+      "source": "https://www.syts.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "002720",
+      "name": "국제약품",
+      "field": "publicContacts",
+      "value": {
+        "email": "webmaster@kukjepharm.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.kukjepharm.co.kr/"
+      },
+      "source": "https://www.kukjepharm.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "002820",
+      "name": "SUN&L",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@sunandl.com",
+        "label": "국내 영업",
+        "source": "https://sunandl.com/"
+      },
+      "source": "https://sunandl.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "002820",
+      "name": "SUN&L",
+      "field": "publicContacts",
+      "value": {
+        "email": "trade@sunandl.com",
+        "label": "해외 영업",
+        "source": "https://sunandl.com/"
+      },
+      "source": "https://sunandl.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "003460",
+      "name": "유화증권",
+      "field": "publicContacts",
+      "value": {
+        "email": "cs@yhs.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.yhs.co.kr/"
+      },
+      "source": "https://www.yhs.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "004920",
+      "name": "씨아이테크",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@citech.kr",
+        "label": "IR 문의",
+        "source": "https://www.citech.kr/"
+      },
+      "source": "https://www.citech.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "006740",
+      "name": "블루산업개발",
+      "field": "publicContacts",
+      "value": {
+        "email": "admin@khblue.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "http://www.khblue.com/intro/2"
+      },
+      "source": "http://www.khblue.com/intro/2",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "0082N0",
+      "name": "카나프테라퓨틱스",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@kanaphtx.com",
+        "label": "일반 문의",
+        "source": "https://www.kanaphtx.com/"
+      },
+      "source": "https://www.kanaphtx.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "0082N0",
+      "name": "카나프테라퓨틱스",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@kanaphtx.com",
+        "label": "IR 문의",
+        "source": "https://www.kanaphtx.com/"
+      },
+      "source": "https://www.kanaphtx.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "009270",
+      "name": "신원",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@shinwon.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.shinwon.com/"
+      },
+      "source": "https://www.shinwon.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "014100",
+      "name": "메디앙스",
+      "field": "publicContacts",
+      "value": {
+        "email": "recruit@medience.co.kr",
+        "label": "채용 · 인사총무팀",
+        "source": "https://www.medience.co.kr/"
+      },
+      "source": "https://www.medience.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "014280",
+      "name": "금강공업",
+      "field": "publicContacts",
+      "value": {
+        "email": "webmaster@kumkangkind.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.kumkangkind.com/"
+      },
+      "source": "https://www.kumkangkind.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "027360",
+      "name": "아주IB투자",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@ajuib.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.ajuib.co.kr/main"
+      },
+      "source": "https://www.ajuib.co.kr/main",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "030520",
+      "name": "한컴",
+      "field": "publicContacts",
+      "value": {
+        "email": "support@hancom.com",
+        "label": "고객 지원",
+        "source": "https://www.hancom.com/"
+      },
+      "source": "https://www.hancom.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "030960",
+      "name": "양지사",
+      "field": "publicContacts",
+      "value": {
+        "email": "center@yangjisa.com",
+        "label": "본사 문의",
+        "source": "http://www.yangjisa.com/about/location.asp"
+      },
+      "source": "http://www.yangjisa.com/about/location.asp",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "031980",
+      "name": "피에스케이홀딩스",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@pskholding.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.pskholding.com/"
+      },
+      "source": "https://www.pskholding.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "032750",
+      "name": "삼진",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@samjin.com",
+        "label": "제품 개발·양산 문의",
+        "source": "https://www.samjin.com/"
+      },
+      "source": "https://www.samjin.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "035620",
+      "name": "바른손이앤에이",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@barunsonena.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.barunsonena.com/"
+      },
+      "source": "https://www.barunsonena.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "036630",
+      "name": "세종텔레콤",
+      "field": "publicContacts",
+      "value": {
+        "email": "customer@sejongtelecom.net",
+        "label": "고객 문의",
+        "source": "https://www.sejongtelecom.net/"
+      },
+      "source": "https://www.sejongtelecom.net/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "037070",
+      "name": "파세코",
+      "field": "publicContacts",
+      "value": {
+        "email": "webmaster@paseco.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.paseco.co.kr/"
+      },
+      "source": "https://www.paseco.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "037440",
+      "name": "희림",
+      "field": "publicContacts",
+      "value": {
+        "email": "webmaster@heerim.com",
+        "label": "일반 문의",
+        "source": "https://www.heerim.com/en/index.php"
+      },
+      "source": "https://www.heerim.com/en/index.php",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "037440",
+      "name": "희림",
+      "field": "publicContacts",
+      "value": {
+        "email": "recruit@heerim.com",
+        "label": "채용 문의",
+        "source": "https://www.heerim.com/en/index.php"
+      },
+      "source": "https://www.heerim.com/en/index.php",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "038070",
+      "name": "서린바이오",
+      "field": "publicContacts",
+      "value": {
+        "email": "service@seoulin.co.kr",
+        "label": "장비 A/S",
+        "source": "https://www.seoulin.co.kr/"
+      },
+      "source": "https://www.seoulin.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "039830",
+      "name": "오로라",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@auroraworld.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://auroraworld.com:443/ko"
+      },
+      "source": "https://auroraworld.com:443/ko",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "041460",
+      "name": "한국전자인증",
+      "field": "publicContacts",
+      "value": {
+        "email": "biz@crosscert.com",
+        "label": "보안 솔루션 영업 문의",
+        "source": "https://www.crosscert.com/"
+      },
+      "source": "https://www.crosscert.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "041830",
+      "name": "인바디",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@inbody.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.inbody.com/"
+      },
+      "source": "https://www.inbody.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "042520",
+      "name": "한스바이오메드",
+      "field": "publicContacts",
+      "value": {
+        "email": "inquiry@hansbiomed.com",
+        "label": "사업 문의",
+        "source": "https://hansbiomed.com/"
+      },
+      "source": "https://hansbiomed.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "043360",
+      "name": "디지아이",
+      "field": "publicContacts",
+      "value": {
+        "email": "hello@dgi-net.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.dgi-net.com/"
+      },
+      "source": "https://www.dgi-net.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "044780",
+      "name": "에이치케이",
+      "field": "publicContacts",
+      "value": {
+        "email": "webmaster@hk-global.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.hk-global.com/"
+      },
+      "source": "https://www.hk-global.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "045060",
+      "name": "오공",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@okong.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.okong.com/main.php"
+      },
+      "source": "https://www.okong.com/main.php",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "045340",
+      "name": "토탈소프트",
+      "field": "publicContacts",
+      "value": {
+        "email": "inquiry@tsb.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.tsb.co.kr/"
+      },
+      "source": "https://www.tsb.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "045340",
+      "name": "토탈소프트",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@tsb.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.tsb.co.kr/"
+      },
+      "source": "https://www.tsb.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "045510",
+      "name": "정원엔시스",
+      "field": "publicContacts",
+      "value": {
+        "email": "marketing@zungwon.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.zungwon.co.kr/"
+      },
+      "source": "https://www.zungwon.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "049180",
+      "name": "셀루메드",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@cellumed.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.cellumed.co.kr/"
+      },
+      "source": "https://www.cellumed.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "052460",
+      "name": "아이크래프트",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@icraft21.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.icraft21.com/"
+      },
+      "source": "https://www.icraft21.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "058110",
+      "name": "멕아이씨에스",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@mek-ics.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.mek-ics.com/"
+      },
+      "source": "https://www.mek-ics.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "058400",
+      "name": "KNN",
+      "field": "publicContacts",
+      "value": {
+        "email": "webmaster@knn.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://news.knn.co.kr/news"
+      },
+      "source": "https://news.knn.co.kr/news",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "061090",
+      "name": "세나테크놀로지",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@sena.co.kr",
+        "label": "영업 문의",
+        "source": "https://www.sena.co.kr/"
+      },
+      "source": "https://www.sena.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "061090",
+      "name": "세나테크놀로지",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@sena.co.kr",
+        "label": "IR 문의",
+        "source": "https://www.sena.co.kr/"
+      },
+      "source": "https://www.sena.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "064400",
+      "name": "LG씨엔에스",
+      "field": "publicContacts",
+      "value": {
+        "email": "inquiry@lgcns.com",
+        "label": "뉴스레터 서비스 문의",
+        "source": "https://www.lgcns.com/kr"
+      },
+      "source": "https://www.lgcns.com/kr",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "066310",
+      "name": "큐에스아이",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@qsilaser.com",
+        "label": "IR 문의",
+        "source": "https://www.qsilaser.com/"
+      },
+      "source": "https://www.qsilaser.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "066310",
+      "name": "큐에스아이",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@qsilaser.com",
+        "label": "영업 문의",
+        "source": "https://www.qsilaser.com/"
+      },
+      "source": "https://www.qsilaser.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "077500",
+      "name": "유니퀘스트",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@uniquest.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.uniquest.co.kr/ko/"
+      },
+      "source": "https://www.uniquest.co.kr/ko/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "080520",
+      "name": "오디텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "webmaster@od-tech.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.od-tech.com/"
+      },
+      "source": "https://www.od-tech.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "080580",
+      "name": "오킨스전자",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@okins.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://okins.co.kr/"
+      },
+      "source": "https://okins.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "083650",
+      "name": "비에이치아이",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@bhi.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.bhi.co.kr/"
+      },
+      "source": "https://www.bhi.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "088130",
+      "name": "동아엘텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "master@dongaeltek.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.dongaeltek.co.kr/"
+      },
+      "source": "https://www.dongaeltek.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "088340",
+      "name": "유라클",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@uracle.co.kr",
+        "label": "제품 도입 문의",
+        "source": "https://www.uracle.co.kr/"
+      },
+      "source": "https://www.uracle.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "089790",
+      "name": "제이티",
+      "field": "publicContacts",
+      "value": {
+        "email": "admin@jtcorp.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.jtcorp.co.kr/"
+      },
+      "source": "https://www.jtcorp.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "094940",
+      "name": "푸른로보틱스",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@puloon.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.puloon.co.kr/"
+      },
+      "source": "https://www.puloon.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "099320",
+      "name": "쎄트렉아이",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@satreci.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.satreci.com/"
+      },
+      "source": "https://www.satreci.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "105840",
+      "name": "우진",
+      "field": "publicContacts",
+      "value": {
+        "email": "webmaster@woojininc.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.woojininc.com/"
+      },
+      "source": "https://www.woojininc.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "106080",
+      "name": "케이이엠텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "admin@kem-tech.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.kem-tech.co.kr/"
+      },
+      "source": "https://www.kem-tech.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "108230",
+      "name": "톱텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "marketing@toptec.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://toptec.co.kr/"
+      },
+      "source": "https://toptec.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "108860",
+      "name": "셀바스AI",
+      "field": "publicContacts",
+      "value": {
+        "email": "support@selvasai.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.selvasai.com/"
+      },
+      "source": "https://www.selvasai.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "109670",
+      "name": "씨싸이트",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@c-site.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.c-site.co.kr/"
+      },
+      "source": "https://www.c-site.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "110020",
+      "name": "전진바이오팜",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@jjbio.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.jjbio.co.kr/"
+      },
+      "source": "https://www.jjbio.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "111380",
+      "name": "동인기연",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@dong-in.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.dong-in.com/"
+      },
+      "source": "https://www.dong-in.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "123420",
+      "name": "위메이드플레이",
+      "field": "publicContacts",
+      "value": {
+        "email": "help@wemadeplay.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://corp.wemadeplay.com/"
+      },
+      "source": "https://corp.wemadeplay.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "123570",
+      "name": "이엠넷",
+      "field": "publicContacts",
+      "value": {
+        "email": "webmaster@emnet.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.emnet.co.kr/"
+      },
+      "source": "https://www.emnet.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "143240",
+      "name": "사람인",
+      "field": "publicContacts",
+      "value": {
+        "email": "help@saramin.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://m.saramin.co.kr/"
+      },
+      "source": "https://m.saramin.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "148780",
+      "name": "비큐AI",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@becuai.com",
+        "label": "제휴 문의",
+        "source": "https://becuai.com/"
+      },
+      "source": "https://becuai.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "153890",
+      "name": "져스텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@justek.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.justek.com/"
+      },
+      "source": "https://www.justek.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "158430",
+      "name": "아톤",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@atoncorp.com",
+        "label": "일반 문의",
+        "source": "https://www.atoncorp.com/"
+      },
+      "source": "https://www.atoncorp.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "158430",
+      "name": "아톤",
+      "field": "publicContacts",
+      "value": {
+        "email": "hr@atoncorp.com",
+        "label": "채용 문의",
+        "source": "https://www.atoncorp.com/"
+      },
+      "source": "https://www.atoncorp.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "159010",
+      "name": "아스플로",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@asflow.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://asflow.com/"
+      },
+      "source": "https://asflow.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "160550",
+      "name": "NEW",
+      "field": "publicContacts",
+      "value": {
+        "email": "webmaster@its-new.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.its-new.co.kr/"
+      },
+      "source": "https://www.its-new.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "163280",
+      "name": "에어레인",
+      "field": "publicContacts",
+      "value": {
+        "email": "inquiry@airrane.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.airrane.com/"
+      },
+      "source": "https://www.airrane.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "168360",
+      "name": "펨트론",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@pemtron.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.pemtron.com/"
+      },
+      "source": "https://www.pemtron.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "177900",
+      "name": "쓰리에이로직스",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@3alogics.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.3alogics.com/"
+      },
+      "source": "https://www.3alogics.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "192080",
+      "name": "더블유게임즈",
+      "field": "publicContacts",
+      "value": {
+        "email": "support@doubleugames.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.doubleugames.com/main/main.html"
+      },
+      "source": "https://www.doubleugames.com/main/main.html",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "192080",
+      "name": "더블유게임즈",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@doubleugames.com",
+        "label": "IR 문의",
+        "source": "https://www.doubleugames.com/main/main.html"
+      },
+      "source": "https://www.doubleugames.com/main/main.html",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "199480",
+      "name": "뱅크웨어글로벌",
+      "field": "publicContacts",
+      "value": {
+        "email": "admin@bankwareglobal.com",
+        "label": "웹사이트 이용 불편 문의",
+        "source": "https://bankwareglobal.com/"
+      },
+      "source": "https://bankwareglobal.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "203450",
+      "name": "유니온바이오메트릭스",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@unionbiometrics.com",
+        "label": "영업 문의",
+        "source": "https://unionbiometrics.com/"
+      },
+      "source": "https://unionbiometrics.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "203450",
+      "name": "유니온바이오메트릭스",
+      "field": "publicContacts",
+      "value": {
+        "email": "support@unionbiometrics.com",
+        "label": "A/S·기술 지원",
+        "source": "https://unionbiometrics.com/"
+      },
+      "source": "https://unionbiometrics.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "203450",
+      "name": "유니온바이오메트릭스",
+      "field": "publicContacts",
+      "value": {
+        "email": "pr@unionbiometrics.com",
+        "label": "홍보·마케팅",
+        "source": "https://unionbiometrics.com/"
+      },
+      "source": "https://unionbiometrics.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "203450",
+      "name": "유니온바이오메트릭스",
+      "field": "publicContacts",
+      "value": {
+        "email": "hr@unionbiometrics.com",
+        "label": "HR 문의",
+        "source": "https://unionbiometrics.com/"
+      },
+      "source": "https://unionbiometrics.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "206400",
+      "name": "베노티앤알",
+      "field": "publicContacts",
+      "value": {
+        "email": "help@benotnr.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.benotnr.com/"
+      },
+      "source": "https://www.benotnr.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "208370",
+      "name": "셀바스헬스케어",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@selvashealthcare.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "http://www.selvashealthcare.com/en/company/"
+      },
+      "source": "http://www.selvashealthcare.com/en/company/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "214370",
+      "name": "케어젠",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@caregen.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "http://www.caregen.co.kr/"
+      },
+      "source": "http://www.caregen.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "214430",
+      "name": "아이쓰리시스템",
+      "field": "publicContacts",
+      "value": {
+        "email": "marketing@i3system.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://i3system.com/"
+      },
+      "source": "https://i3system.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "215380",
+      "name": "콜마바이오텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@kolmarbiotech.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://kolmarbiotech.com/"
+      },
+      "source": "https://kolmarbiotech.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "217330",
+      "name": "싸이토젠",
+      "field": "publicContacts",
+      "value": {
+        "email": "customer@cytogenlab.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://cytogenlab.com/"
+      },
+      "source": "https://cytogenlab.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "219750",
+      "name": "한국비티비",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@btbkorea.kr",
+        "label": "바이오 사업본부",
+        "source": "https://btbkorea.kr/"
+      },
+      "source": "https://btbkorea.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "220260",
+      "name": "켐트로스",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@chemtros.com",
+        "label": "고객 문의",
+        "source": "https://chemtros.com/"
+      },
+      "source": "https://chemtros.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "220260",
+      "name": "켐트로스",
+      "field": "publicContacts",
+      "value": {
+        "email": "hr@chemtros.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://chemtros.com/"
+      },
+      "source": "https://chemtros.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "222420",
+      "name": "쎄노텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@cenotec.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.cenotec.com/?lang=KR"
+      },
+      "source": "https://www.cenotec.com/?lang=KR",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "226400",
+      "name": "오스테오닉",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@osteonic.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.osteonic.com/"
+      },
+      "source": "https://www.osteonic.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "226590",
+      "name": "엠디바이스",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@mdevice.co.kr",
+        "label": "제휴 문의",
+        "source": "https://mdevice.co.kr/"
+      },
+      "source": "https://mdevice.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "228760",
+      "name": "지노믹트리",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@genomictree.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://genomictree.com/"
+      },
+      "source": "https://genomictree.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "237820",
+      "name": "플레이디",
+      "field": "publicContacts",
+      "value": {
+        "email": "master@playd.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.playd.com/w/index.html"
+      },
+      "source": "https://www.playd.com/w/index.html",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "238200",
+      "name": "비피도",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@bifido.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.bifido.com/"
+      },
+      "source": "https://www.bifido.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "247660",
+      "name": "나노씨엠에스",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@nanocms.co.kr",
+        "label": "고객 상담",
+        "source": "https://www.nanocms.co.kr/"
+      },
+      "source": "https://www.nanocms.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "258830",
+      "name": "세종메디칼",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@sejongmedical.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.sejongmedical.com/"
+      },
+      "source": "https://www.sejongmedical.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "285490",
+      "name": "노바텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@mynovatech.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://mynovatech.com/"
+      },
+      "source": "https://mynovatech.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "288620",
+      "name": "에스프리즘",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@s-prism.energy",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://s-prism.energy/"
+      },
+      "source": "https://s-prism.energy/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "289080",
+      "name": "SV인베스트먼트",
+      "field": "publicContacts",
+      "value": {
+        "email": "master@svinvest.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.svinvest.com/"
+      },
+      "source": "https://www.svinvest.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "290720",
+      "name": "푸드나무",
+      "field": "publicContacts",
+      "value": {
+        "email": "hello@foodnamoo.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://foodnamoo.com/"
+      },
+      "source": "https://foodnamoo.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "291230",
+      "name": "컴투스엔",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@com2usn.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://com2usn.com/"
+      },
+      "source": "https://com2usn.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "300120",
+      "name": "라온피플",
+      "field": "publicContacts",
+      "value": {
+        "email": "service@laonpeople.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://laonpeople.com/"
+      },
+      "source": "https://laonpeople.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "301300",
+      "name": "바이브컴퍼니",
+      "field": "publicContacts",
+      "value": {
+        "email": "biz@vaiv.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.vaiv.kr/"
+      },
+      "source": "https://www.vaiv.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "305090",
+      "name": "마이크로디지탈",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@md-best.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.md-best.com/kr/"
+      },
+      "source": "https://www.md-best.com/kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "311390",
+      "name": "네오크레마",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@cremar.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://cremar.co.kr/"
+      },
+      "source": "https://cremar.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "318410",
+      "name": "비비씨",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@bestbristle.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://bestbristle.com/"
+      },
+      "source": "https://bestbristle.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "321370",
+      "name": "센서뷰",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@sensor-view.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.sensor-view.com/"
+      },
+      "source": "https://www.sensor-view.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "322510",
+      "name": "제이엘케이",
+      "field": "publicContacts",
+      "value": {
+        "email": "support@jlkgroup.com",
+        "label": "제휴·일반 상담",
+        "source": "https://www.jlkgroup.com/"
+      },
+      "source": "https://www.jlkgroup.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "322510",
+      "name": "제이엘케이",
+      "field": "publicContacts",
+      "value": {
+        "email": "hr@jlkgroup.com",
+        "label": "채용 문의",
+        "source": "https://www.jlkgroup.com/"
+      },
+      "source": "https://www.jlkgroup.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "323350",
+      "name": "다원넥스뷰",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@nexview.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.nexview.co.kr/"
+      },
+      "source": "https://www.nexview.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "332290",
+      "name": "누보",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@nousbo.com",
+        "label": "IR 문의",
+        "source": "https://www.nousbo.com/"
+      },
+      "source": "https://www.nousbo.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "332370",
+      "name": "아이디피",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@idp-corp.com",
+        "label": "본사 문의",
+        "source": "https://www.idp-corp.com/index_kor/"
+      },
+      "source": "https://www.idp-corp.com/index_kor/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "338220",
+      "name": "뷰노",
+      "field": "publicContacts",
+      "value": {
+        "email": "hello@vuno.co",
+        "label": "기타 문의",
+        "source": "https://www.vuno.co/"
+      },
+      "source": "https://www.vuno.co/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "340810",
+      "name": "시선AI",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@secern.ai",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://secern.ai/"
+      },
+      "source": "https://secern.ai/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "347700",
+      "name": "스피어",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@spherecorp.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://spherecorp.kr/"
+      },
+      "source": "https://spherecorp.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "347850",
+      "name": "디앤디파마텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@ddpharmatech.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.ddpharmatech.com/"
+      },
+      "source": "https://www.ddpharmatech.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "348150",
+      "name": "고바이오랩",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@kobiolabs.com",
+        "label": "IR 문의",
+        "source": "https://kobiolabs.com/"
+      },
+      "source": "https://kobiolabs.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "348210",
+      "name": "넥스틴",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@nextinsol.com",
+        "label": "IR 문의",
+        "source": "https://www.nextinsol.com/en/"
+      },
+      "source": "https://www.nextinsol.com/en/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "348340",
+      "name": "뉴로메카",
+      "field": "publicContacts",
+      "value": {
+        "email": "pr@neuromeka.com",
+        "label": "마케팅·홍보",
+        "source": "https://www.neuromeka.com/"
+      },
+      "source": "https://www.neuromeka.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "352090",
+      "name": "스톰테크",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@stormtec.co.kr",
+        "label": "국내 영업",
+        "source": "https://www.stormtec.co.kr/ko/"
+      },
+      "source": "https://www.stormtec.co.kr/ko/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "352910",
+      "name": "오비고",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@obigo.com",
+        "label": "영업 문의",
+        "source": "https://obigo.com/"
+      },
+      "source": "https://obigo.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "353590",
+      "name": "오토앤",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@auton.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.auton.kr/"
+      },
+      "source": "https://www.auton.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "355390",
+      "name": "크라우드웍스",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@crowdworks.ai",
+        "label": "사업 제휴",
+        "source": "https://www.crowdworks.ai/"
+      },
+      "source": "https://www.crowdworks.ai/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "355390",
+      "name": "크라우드웍스",
+      "field": "publicContacts",
+      "value": {
+        "email": "support@crowdworks.ai",
+        "label": "고객센터",
+        "source": "https://www.crowdworks.ai/"
+      },
+      "source": "https://www.crowdworks.ai/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "355390",
+      "name": "크라우드웍스",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@crowdworks.ai",
+        "label": "IR 문의",
+        "source": "https://www.crowdworks.ai/"
+      },
+      "source": "https://www.crowdworks.ai/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "357880",
+      "name": "SKAI",
+      "field": "publicContacts",
+      "value": {
+        "email": "inquiry@skaiworldwide.com",
+        "label": "대표 이메일",
+        "source": "https://skaiworldwide.com/ko"
+      },
+      "source": "https://skaiworldwide.com/ko",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "357880",
+      "name": "SKAI",
+      "field": "email",
+      "value": "inquiry@skaiworldwide.com",
+      "source": "https://skaiworldwide.com/ko",
+      "sourceType": "official_website",
+      "note": ""
+    },
+    {
+      "stockCode": "365340",
+      "name": "성일하이텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@sungeelht.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.sungeelht.com/"
+      },
+      "source": "https://www.sungeelht.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "368600",
+      "name": "아이씨에이치",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@ch-ich.com",
+        "label": "제품 문의",
+        "source": "https://www.ch-ich.com/"
+      },
+      "source": "https://www.ch-ich.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "368600",
+      "name": "아이씨에이치",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@ch-ich.com",
+        "label": "IR 문의",
+        "source": "https://www.ch-ich.com/"
+      },
+      "source": "https://www.ch-ich.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "372170",
+      "name": "윤성에프앤씨",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@ysfc.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.ysfc.co.kr/"
+      },
+      "source": "https://www.ysfc.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "387690",
+      "name": "레메디",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@remedihc.com",
+        "label": "영업팀",
+        "source": "https://www.remedihc.com/en",
+        "phone": "02-6930-5891"
+      },
+      "source": "https://www.remedihc.com/en",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "387690",
+      "name": "레메디",
+      "field": "publicContacts",
+      "value": {
+        "email": "cs@remedihc.com",
+        "label": "고객 지원팀",
+        "source": "https://www.remedihc.com/en",
+        "phone": "070-4610-2436"
+      },
+      "source": "https://www.remedihc.com/en",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "389470",
+      "name": "인벤티지랩",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@inventagelab.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://inventagelab.com/en"
+      },
+      "source": "https://inventagelab.com/en",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "389680",
+      "name": "유디엠텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "admin@udmtek.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.udmtek.com/kor/main"
+      },
+      "source": "https://www.udmtek.com/kor/main",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "398120",
+      "name": "에스지헬스케어",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@sghealthcare.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://sghealthcare.com/user/mainPage.do"
+      },
+      "source": "https://sghealthcare.com/user/mainPage.do",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "398120",
+      "name": "에스지헬스케어",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@sghealthcare.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://sghealthcare.com/user/mainPage.do"
+      },
+      "source": "https://sghealthcare.com/user/mainPage.do",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "408470",
+      "name": "한패스",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@hanpass.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.hanpass.com/en"
+      },
+      "source": "https://www.hanpass.com/en",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "411080",
+      "name": "샌즈랩",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@sandslab.io",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.sandslab.io/ko"
+      },
+      "source": "https://www.sandslab.io/ko",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "417010",
+      "name": "나노팀",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@nanotim.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.nanotim.co.kr/"
+      },
+      "source": "https://www.nanotim.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "417030",
+      "name": "니어스랩",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@nearthlab.com",
+        "label": "IR 문의",
+        "source": "https://www.nearthlab.com/en"
+      },
+      "source": "https://www.nearthlab.com/en",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "419080",
+      "name": "엔젯",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@enjet.co.kr",
+        "label": "영업팀",
+        "source": "https://enjet.co.kr/"
+      },
+      "source": "https://enjet.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "429270",
+      "name": "시지트로닉스",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@sigetronics.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://sigetronics.com/"
+      },
+      "source": "https://sigetronics.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "430690",
+      "name": "한싹",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@hanssak.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.hanssak.co.kr/"
+      },
+      "source": "https://www.hanssak.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "438700",
+      "name": "버넥트",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@virnect.com",
+        "label": "구매·제휴 문의",
+        "source": "https://virnect.com/ko"
+      },
+      "source": "https://virnect.com/ko",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "441270",
+      "name": "파인엠텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@finemtec.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.finemtec.com/"
+      },
+      "source": "https://www.finemtec.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "443250",
+      "name": "레뷰코퍼레이션",
+      "field": "publicContacts",
+      "value": {
+        "email": "help@revu.net",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://corp.revu.net/"
+      },
+      "source": "https://corp.revu.net/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "451760",
+      "name": "컨텍",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@contec.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://kr.contec.kr/"
+      },
+      "source": "https://kr.contec.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "452300",
+      "name": "캡스톤파트너스",
+      "field": "publicContacts",
+      "value": {
+        "email": "master@cspartners.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://cspartners.co.kr/"
+      },
+      "source": "https://cspartners.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "452300",
+      "name": "캡스톤파트너스",
+      "field": "publicContacts",
+      "value": {
+        "email": "biz@cspartners.co.kr",
+        "label": "투자 문의",
+        "source": "https://cspartners.co.kr/"
+      },
+      "source": "https://cspartners.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "455900",
+      "name": "엔젤로보틱스",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@angel-robotics.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.angel-robotics.com/ko"
+      },
+      "source": "https://www.angel-robotics.com/ko",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "458650",
+      "name": "성우",
+      "field": "publicContacts",
+      "value": {
+        "email": "master@e-sungwoo.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.e-sungwoo.co.kr/"
+      },
+      "source": "https://www.e-sungwoo.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "459100",
+      "name": "위츠",
+      "field": "publicContacts",
+      "value": {
+        "email": "hr@ewits.co.kr",
+        "label": "일반·채용 문의",
+        "source": "https://ewits.co.kr/kr/"
+      },
+      "source": "https://ewits.co.kr/kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "461030",
+      "name": "아이엠비디엑스",
+      "field": "publicContacts",
+      "value": {
+        "email": "support@imbdx.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.imbdx.com/"
+      },
+      "source": "https://www.imbdx.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "461030",
+      "name": "아이엠비디엑스",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@imbdx.com",
+        "label": "IR 문의",
+        "source": "https://www.imbdx.com/"
+      },
+      "source": "https://www.imbdx.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "464080",
+      "name": "에스오에스랩",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@soslab.co",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://soslab.co/"
+      },
+      "source": "https://soslab.co/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "465480",
+      "name": "인스피언",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@inspien.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.inspien.co.kr/"
+      },
+      "source": "https://www.inspien.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "475040",
+      "name": "스트라드비젼",
+      "field": "publicContacts",
+      "value": {
+        "email": "contact@stradvision.com",
+        "label": "일반 문의",
+        "source": "https://stradvision.com/"
+      },
+      "source": "https://stradvision.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "475040",
+      "name": "스트라드비젼",
+      "field": "publicContacts",
+      "value": {
+        "email": "recruiting@stradvision.com",
+        "label": "채용 문의",
+        "source": "https://stradvision.com/dh/contact"
+      },
+      "source": "https://stradvision.com/dh/contact",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "475400",
+      "name": "씨메스로보틱스",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@cmesrobotics.ai",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.cmesrobotics.ai/"
+      },
+      "source": "https://www.cmesrobotics.ai/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "475400",
+      "name": "씨메스로보틱스",
+      "field": "publicContacts",
+      "value": {
+        "email": "marketing@cmesrobotics.ai",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.cmesrobotics.ai/"
+      },
+      "source": "https://www.cmesrobotics.ai/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "475430",
+      "name": "키스트론",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@kistron.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.kistron.com/"
+      },
+      "source": "https://www.kistron.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "475560",
+      "name": "더본코리아",
+      "field": "publicContacts",
+      "value": {
+        "email": "ir@theborn.co.kr",
+        "label": "IR·공시 문의",
+        "source": "https://www.theborn.co.kr/"
+      },
+      "source": "https://www.theborn.co.kr/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "475960",
+      "name": "토모큐브",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@tomocube.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.tomocube.com/"
+      },
+      "source": "https://www.tomocube.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "476040",
+      "name": "오가노이드사이언스",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@organoidrx.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://organoidrx.com/"
+      },
+      "source": "https://organoidrx.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "487400",
+      "name": "케이앤에스아이앤씨",
+      "field": "publicContacts",
+      "value": {
+        "email": "sales@kns-kr.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://kns-kr.com/english"
+      },
+      "source": "https://kns-kr.com/english",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "950130",
+      "name": "엑세스바이오",
+      "field": "publicContacts",
+      "value": {
+        "email": "info@accessbio.net",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "http://accessbio.net/"
+      },
+      "source": "http://accessbio.net/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "950200",
+      "name": "소마젠",
+      "field": "publicContacts",
+      "value": {
+        "email": "inquiry@psomagen.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.psomagen.com/"
+      },
+      "source": "https://www.psomagen.com/",
+      "sourceType": "official_website"
+    },
+    {
+      "stockCode": "950250",
+      "name": "테라뷰",
+      "field": "publicContacts",
+      "value": {
+        "email": "enquiries@teraview.com",
+        "label": "본사 문의",
+        "source": "https://teraview.com/contact/"
+      },
+      "source": "https://teraview.com/contact/",
+      "sourceType": "official_website"
+    }
+  ],
+  "held": [
+    {
+      "stockCode": "030960",
+      "name": "양지사",
+      "field": "founded",
+      "reason": "KRX 법인 설립일 1979-01-15와 공식 역사관 법인 전환일 1980-01-16이 달라 보류. 창업일 1976-09-01은 공식 역사관 확인."
+    },
+    {
+      "stockCode": "282330",
+      "name": "BGF리테일",
+      "field": "email",
+      "reason": "첨부 파일 이메일의 공식 출처를 확인하지 못해 기존 보류 유지."
+    },
+    {
+      "stockCode": "241520",
+      "name": "DSC인베스트먼트",
+      "field": "email",
+      "reason": "첨부 파일 이메일의 공식 출처를 확인하지 못해 기존 보류 유지."
+    },
+    {
+      "stockCode": "121600",
+      "name": "나노신소재",
+      "field": "anniversary",
+      "reason": "파일 날짜 2011-02-09는 상장일이므로 창립기념일로 사용하지 않음. 법인 설립일 2000-03-15는 KRX로 확인해 반영."
+    },
+    {
+      "stockCode": "067000",
+      "name": "조이시티",
+      "field": "email",
+      "reason": "원문 문자 인코딩 오류로 문의 용도 확인 보류"
+    }
+  ],
+  "summary": {
+    "companiesUpdated": 188,
+    "fieldCounts": {
+      "phone": 42,
+      "address": 35,
+      "founded": 22,
+      "anniversary": 1,
+      "anniversaryNote": 1,
+      "source": 1,
+      "ceo": 2,
+      "website": 5,
+      "publicContacts": 170,
+      "email": 1
+    },
+    "missingFieldCounts": {
+      "ceo": 0,
+      "phone": 46,
+      "address": 16,
+      "email": 2651,
+      "website": 161,
+      "founded": 15,
+      "anniversary": 2638
+    },
+    "companiesWithoutAnyEmail": 2419,
+    "companyCount": 2652
+  },
+  "validation": "2652개 기업의 ID·종목코드 및 기존 유효 값 보존 확인. 날짜 형식, 이메일 형식, 출처 URL 확인.",
+  "anniversarySync": {
+    "appliedAt": "2026-10-12",
+    "companyId": "krx-030960",
+    "anniversary": "1976-09-01",
+    "result": "Supabase returning row confirmed"
+  },
+  "deployment": {
+    "date": "2026-10-12",
+    "provider": "Cloudflare Workers",
+    "version": "9c0b9e96-d1e0-42b5-a413-7dff3a2994d7",
+    "url": "https://company-day-kr.taehyuna-github.workers.dev",
+    "validation": "TypeScript, Pages build, website/search/calendar, account DB/API/runtime and mail checks passed. Yangjisa live page and Supabase row confirmed."
+  }
+}

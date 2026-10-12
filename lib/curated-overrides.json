@@ -8,8 +8,13 @@
       {
         "label": "본사 주소",
         "url": "https://news.samsungdisplay.com/"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://news.samsungdisplay.com/34461"
       }
-    ]
+    ],
+    "ceo": "이청"
   },
   "017670": {
     "anniversary": "1984-03-29",
@@ -60,7 +65,14 @@
   "430690": {
     "anniversary": "1992-07-01",
     "source": "https://www.hanssak.co.kr/hanssak/company/index.php",
-    "sourceVerifiedAt": "2026-09-08"
+    "sourceVerifiedAt": "2026-09-08",
+    "publicContacts": [
+      {
+        "email": "sales@hanssak.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.hanssak.co.kr/"
+      }
+    ]
   },
   "950170": {
     "founded": "1994-03-17",
@@ -69,7 +81,9 @@
         "label": "법인 설립일",
         "url": "https://www.groupjtc.com/korean/about/company.html"
       }
-    ]
+    ],
+    "phone": "+81-3-6457-7793",
+    "address": "일본 도쿄도 신쥬쿠구 사몬쵸 2-6 와코 빌딩 6층 (160-0017)"
   },
   "001550": {
     "summary": "작물과 토양에 맞춘 복합비료·완효성비료를 제조하고 판매하는 기업",
@@ -106,8 +120,14 @@
       {
         "label": "법인 설립일 · 2026-10-08 대조",
         "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=052220&cn="
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=05222"
       }
-    ]
+    ],
+    "phone": "02-2105-1100",
+    "address": "서울특별시 마포구 성암로 25510층(상암동, 문화방송미디어센터)"
   },
   "017900": {
     "founded": "1984-07-31",
@@ -115,8 +135,14 @@
       {
         "label": "법인 설립일 · 2026-10-08 대조",
         "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=017900&cn="
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=01790"
       }
-    ]
+    ],
+    "phone": "063-839-1111",
+    "address": "전라북도 익산시 약촌로8길 62-8 (어양동)"
   },
   "900070": {
     "founded": "2008-08-28",
@@ -133,6 +159,19 @@
       {
         "label": "법인 설립일 · 2026-10-08 대조",
         "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=950130&cn="
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://accessbio.net/contact-us"
+      }
+    ],
+    "phone": "+1-732-873-4040",
+    "address": "7 Fitzgerald Avenue, Monroe Township, NJ 08831, USA",
+    "publicContacts": [
+      {
+        "email": "info@accessbio.net",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "http://accessbio.net/"
       }
     ]
   },
@@ -151,8 +190,14 @@
       {
         "label": "법인 설립일 · 2026-10-08 대조",
         "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=215360&cn="
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.woory.com/company/aboutus"
       }
-    ]
+    ],
+    "phone": "031-201-6500",
+    "address": "경기도 용인시 기흥구 지삼로 89 (지곡동)"
   },
   "950140": {
     "founded": "2015-08-20",
@@ -160,8 +205,13 @@
       {
         "label": "법인 설립일 · 2026-10-08 대조",
         "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=950140&cn="
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "http://www.englewoodlab.com/ko/locations"
       }
-    ]
+    ],
+    "address": "20 Campus Rd, Totowa, NJ 07512, USA"
   },
   "274090": {
     "founded": "2013-04-08",
@@ -169,8 +219,14 @@
       {
         "label": "법인 설립일 · 2026-10-08 대조",
         "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=274090&cn="
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.kencoa.com/sub/contact.php"
       }
-    ]
+    ],
+    "phone": "055-855-4130",
+    "address": "172, Jongpo Sandan-ro, Yonghyun-myun, Sacheon-si, Gyeongsangnam-do, 52537"
   },
   "950160": {
     "founded": "1999-06-09",
@@ -196,8 +252,14 @@
       {
         "label": "법인 설립일 · 2026-10-08 대조",
         "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=054450&cn="
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=05445"
       }
-    ]
+    ],
+    "phone": "(02)3443-6792",
+    "address": "경기도 성남시 수정구 금토로80번길 27 ㈜텔레칩스 판교사옥"
   },
   "237820": {
     "founded": "2010-03-12",
@@ -205,6 +267,19 @@
       {
         "label": "법인 설립일 · 2026-10-08 대조",
         "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=237820&cn="
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.playd.com/w/contact.html"
+      }
+    ],
+    "phone": "1566-3265",
+    "address": "경기도 성남시 분당구 황새울로359번길 11, 5~6층",
+    "publicContacts": [
+      {
+        "email": "master@playd.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.playd.com/w/index.html"
       }
     ]
   },
@@ -214,6 +289,23 @@
       {
         "label": "법인 설립일 · 2026-10-08 대조",
         "url": "https://comp.wisereport.co.kr/company/c1020001.aspx?cmp_cd=031980&cn="
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.pskholding.com/"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=03198"
+      }
+    ],
+    "address": "경기도 성남시 수정구 금토로 75",
+    "phone": "031-660-8700",
+    "publicContacts": [
+      {
+        "email": "info@pskholding.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.pskholding.com/"
       }
     ]
   },
@@ -261,6 +353,13 @@
         "phone": "02-2005-8143",
         "source": "https://www.gs.co.kr/ko/investors/stock-info/gs"
       }
+    ],
+    "website": "https://www.gs.co.kr/ko/main",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.gs.co.kr/ko/main"
+      }
     ]
   },
   "083450": {
@@ -269,6 +368,1897 @@
         "label": "본사 문의",
         "email": "sales@gst-in.com",
         "source": "https://www.gst-in.com/m12.php"
+      }
+    ]
+  },
+  "003670": {
+    "phone": "054-290-0114",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.poscofuturem.com/introduce/summary.do"
+      }
+    ]
+  },
+  "006740": {
+    "phone": "031-660-8200",
+    "address": "경기도 평택시 진위면 서탄로 9",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "http://www.khblue.com/intro/2"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "http://www.khblue.com/intro/3"
+      }
+    ],
+    "founded": "1970-07-18",
+    "publicContacts": [
+      {
+        "email": "admin@khblue.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "http://www.khblue.com/intro/2"
+      }
+    ]
+  },
+  "018310": {
+    "phone": "02-561-0941",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "http://www.sammok.co.kr/"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=01831"
+      }
+    ],
+    "founded": "1985-06-07",
+    "address": "경기도 안성시 미양면 안성맞춤대로 474-40"
+  },
+  "028300": {
+    "phone": "02-3453-1975",
+    "address": "서울특별시 강남구 논현로 662 The H타워 6층",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://hlbbio.co.kr/about/company/#location_top"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=02830"
+      }
+    ],
+    "founded": "1985-10-18"
+  },
+  "030960": {
+    "phone": "031-996-0041",
+    "address": "경기도 김포시 양촌읍 황금1로 131",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "http://www.yangjisa.com/about/location.asp"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.yangjisa.com/eng/about/history_museum.asp"
+      }
+    ],
+    "anniversary": "1976-09-01",
+    "anniversaryNote": "공식 역사관에 명시된 창업일(1976-09-01) 기준입니다. 법인 설립일은 자료 간 차이로 확인 중입니다.",
+    "source": "https://www.yangjisa.com/eng/about/history_museum.asp",
+    "publicContacts": [
+      {
+        "email": "center@yangjisa.com",
+        "label": "본사 문의",
+        "source": "http://www.yangjisa.com/about/location.asp"
+      }
+    ],
+    "sourceVerifiedAt": "2026-10-09"
+  },
+  "032750": {
+    "phone": "031-467-5800",
+    "address": "경기도 안양시 만안구 안양천서로 81",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.samjin.com/"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=03275"
+      }
+    ],
+    "founded": "1976-07-15",
+    "publicContacts": [
+      {
+        "email": "info@samjin.com",
+        "label": "제품 개발·양산 문의",
+        "source": "https://www.samjin.com/"
+      }
+    ]
+  },
+  "036120": {
+    "phone": "1588-4753",
+    "address": "서울특별시 영등포구 국회대로70길 23 용산빌딩 11층",
+    "founded": "1992-04-23",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.sci.co.kr/cio/history.do"
+      }
+    ]
+  },
+  "036200": {
+    "phone": "031-379-5800",
+    "address": "경기도 화성시 장지남길 10-7 (장지동)",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "http://unisem.co.kr/kor/company/business_domestic.php#container"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=03620"
+      }
+    ],
+    "founded": "1996-01-01"
+  },
+  "040300": {
+    "ceo": "정재훈 (대표이사 직무대행)",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://infor.ytn.co.kr/ir/governance.php"
+      }
+    ]
+  },
+  "052900": {
+    "phone": "041-539-6114",
+    "address": "충청남도 아산시 음봉면 연암율금로 330",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "http://www.kxhitech.com/page.php?p_id=location"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=05290"
+      }
+    ],
+    "founded": "1997-03-05"
+  },
+  "061970": {
+    "founded": "2000-02-10",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/external/2026/05/15/002000/20260515004431/11013.htm"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=06197"
+      }
+    ],
+    "phone": "031-680-1600",
+    "address": "경기도 평택시 청북면 청북산단로 138"
+  },
+  "077970": {
+    "phone": "055-280-0114",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://m.stxengine.co.kr/mkor/html/biz/parts/parts_03.aspx"
+      }
+    ]
+  },
+  "084440": {
+    "phone": "1600-0052",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.ubion.co.kr/ubion/contact_us"
+      }
+    ]
+  },
+  "209640": {
+    "phone": "053-592-1723",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.yjlink.com/"
+      }
+    ]
+  },
+  "217500": {
+    "phone": "043-532-8818",
+    "address": "36, Oksansandan-ro, Oksan-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, Republic of Korea, 28101",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.erussell.co.kr/52"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=21750"
+      }
+    ],
+    "founded": "2015-03-26"
+  },
+  "290720": {
+    "phone": "02-3152-8088",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://foodnamoo.com/location/"
+      }
+    ],
+    "publicContacts": [
+      {
+        "email": "hello@foodnamoo.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://foodnamoo.com/"
+      }
+    ]
+  },
+  "387690": {
+    "address": "강원특별자치도 춘천시 삭주로145번길 69-14, 2층",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.remedihc.com/en/contact"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=38769"
+      }
+    ],
+    "founded": "2012-07-13",
+    "phone": "02-6930-5891",
+    "publicContacts": [
+      {
+        "email": "sales@remedihc.com",
+        "label": "영업팀",
+        "source": "https://www.remedihc.com/en",
+        "phone": "02-6930-5891"
+      },
+      {
+        "email": "cs@remedihc.com",
+        "label": "고객 지원팀",
+        "source": "https://www.remedihc.com/en",
+        "phone": "070-4610-2436"
+      }
+    ]
+  },
+  "424960": {
+    "phone": "1533-0217",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.smartradarsystem.com/kr/about/contacts.html"
+      }
+    ]
+  },
+  "451250": {
+    "phone": "080-022-0077",
+    "address": "인천광역시 연수구 컨벤시아대로 165, 32층 (송도동, 포스코타워-송도)",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.bbiacosmetic.com/sub/sub01_05.php"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=45125"
+      }
+    ],
+    "founded": "2004-03-11"
+  },
+  "460860": {
+    "phone": "02-317-1114",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.dongkuksteel.com/ko/index"
+      }
+    ]
+  },
+  "473980": {
+    "phone": "02-6409-9888",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://knowmerce.com/"
+      }
+    ]
+  },
+  "475040": {
+    "address": "경상북도 포항시 남구 지곡로 394 (재)포항테크노파크 제5벤처동 308호",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://stradvision.com/dh/contact"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=47504"
+      }
+    ],
+    "founded": "2014-09-22",
+    "phone": "054-274-4878",
+    "publicContacts": [
+      {
+        "email": "contact@stradvision.com",
+        "label": "일반 문의",
+        "source": "https://stradvision.com/"
+      },
+      {
+        "email": "recruiting@stradvision.com",
+        "label": "채용 문의",
+        "source": "https://stradvision.com/dh/contact"
+      }
+    ]
+  },
+  "480370": {
+    "phone": "031-203-7770",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.cksolution.co.kr/"
+      }
+    ]
+  },
+  "483350": {
+    "phone": "1661-1916",
+    "address": "서울특별시 종로구 대학로 57 홍익대학교 대학로캠퍼스 5층",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.dealicious.kr/"
+      },
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=48335"
+      }
+    ],
+    "founded": "2011-01-24"
+  },
+  "950200": {
+    "phone": "+1-301-251-1007",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.psomagen.com/"
+      }
+    ],
+    "publicContacts": [
+      {
+        "email": "inquiry@psomagen.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.psomagen.com/"
+      }
+    ]
+  },
+  "950210": {
+    "address": "21 Biopolis Road, #04-24 Nucleos, Singapore 138567",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://prestigebiopharma.com/2026-contact/"
+      }
+    ]
+  },
+  "950250": {
+    "address": "1 Enterprise, Cambridge Research Park, Cambridge CB25 9PD, United Kingdom",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://teraview.com/contact/"
+      }
+    ],
+    "publicContacts": [
+      {
+        "email": "enquiries@teraview.com",
+        "label": "본사 문의",
+        "source": "https://teraview.com/contact/"
+      }
+    ]
+  },
+  "373220": {
+    "website": "https://www.lgensol.com/kr/index",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.lgensol.com/kr/company/info-outline"
+      }
+    ]
+  },
+  "323410": {
+    "website": "https://www.kakaobank.com/",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://www.kakaobank.com/view/about/corp/history"
+      }
+    ]
+  },
+  "012700": {
+    "founded": "1977-09-19",
+    "phone": "02-2126-5000",
+    "address": "서울특별시 중구 청계천로 106 12층(수표동, 크리스탈스퀘어)",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=01270"
+      }
+    ]
+  },
+  "0134X0": {
+    "founded": "2025-11-07",
+    "phone": "02-769-2731",
+    "address": "서울특별시 중구 삼일대로 343 대신파이낸스센터",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=0134X"
+      }
+    ]
+  },
+  "0165X0": {
+    "founded": "2026-02-11",
+    "phone": "02-6454-3618",
+    "address": "서울특별시 영등포구 국제금융로 10 여의도동, Three IFC, 26층",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=0165X"
+      }
+    ]
+  },
+  "032940": {
+    "founded": "1983-10-31",
+    "phone": "031-8038-9000",
+    "address": "경기도 성남시 분당구 판교로255번길 20 원익빌딩",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=03294"
+      }
+    ]
+  },
+  "046940": {
+    "founded": "1998-10-28",
+    "phone": "02-3490-1996",
+    "address": "서울특별시 서초구 강남대로 279 백향빌딩 8층",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=04694"
+      }
+    ]
+  },
+  "065370": {
+    "founded": "1990-09-27",
+    "phone": "02-6246-1400",
+    "address": "경기도 과천시 과천대로12길 117 과천펜타원 G동 11-13층",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=06537"
+      }
+    ]
+  },
+  "094840": {
+    "website": "http://www.supremahq.com",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=09484"
+      }
+    ]
+  },
+  "121600": {
+    "founded": "2000-03-15",
+    "phone": "044-275-6966",
+    "address": "세종특별자치시 부강면 금호안골길 78 부용지방산업단지내",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=12160"
+      }
+    ]
+  },
+  "147830": {
+    "founded": "2011-11-04",
+    "phone": "02-2204-3700",
+    "address": "서울특별시 광진구 아차산로 628 (광장동)",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=14783"
+      }
+    ]
+  },
+  "236200": {
+    "website": "http://www.suprema.co.kr",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=23620"
+      }
+    ]
+  },
+  "487580": {
+    "founded": "2019-03-04",
+    "phone": "1600-7420",
+    "address": "충청남도 서산시 운산면 장생동로 523",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?method=searchTotalInfo&isurCd=48758"
+      }
+    ]
+  },
+  "000040": {
+    "publicContacts": [
+      {
+        "email": "webmaster@krmotors.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.krmotors.com/"
+      }
+    ]
+  },
+  "000850": {
+    "publicContacts": [
+      {
+        "email": "info@hwacheon.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.hwacheon.com/ko/index"
+      }
+    ]
+  },
+  "0011A0": {
+    "publicContacts": [
+      {
+        "email": "support@axbis.ai",
+        "label": "기술 문의",
+        "source": "https://axbis.ai/"
+      }
+    ]
+  },
+  "002170": {
+    "publicContacts": [
+      {
+        "email": "info1@syts.com",
+        "label": "본사 문의",
+        "source": "https://www.syts.com/"
+      },
+      {
+        "email": "info2@syts.com",
+        "label": "군포 공장 문의",
+        "source": "https://www.syts.com/"
+      }
+    ]
+  },
+  "002720": {
+    "publicContacts": [
+      {
+        "email": "webmaster@kukjepharm.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.kukjepharm.co.kr/"
+      }
+    ]
+  },
+  "002820": {
+    "publicContacts": [
+      {
+        "email": "sales@sunandl.com",
+        "label": "국내 영업",
+        "source": "https://sunandl.com/"
+      },
+      {
+        "email": "trade@sunandl.com",
+        "label": "해외 영업",
+        "source": "https://sunandl.com/"
+      }
+    ]
+  },
+  "003460": {
+    "publicContacts": [
+      {
+        "email": "cs@yhs.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.yhs.co.kr/"
+      }
+    ]
+  },
+  "004920": {
+    "publicContacts": [
+      {
+        "email": "ir@citech.kr",
+        "label": "IR 문의",
+        "source": "https://www.citech.kr/"
+      }
+    ]
+  },
+  "0082N0": {
+    "publicContacts": [
+      {
+        "email": "info@kanaphtx.com",
+        "label": "일반 문의",
+        "source": "https://www.kanaphtx.com/"
+      },
+      {
+        "email": "ir@kanaphtx.com",
+        "label": "IR 문의",
+        "source": "https://www.kanaphtx.com/"
+      }
+    ]
+  },
+  "009270": {
+    "publicContacts": [
+      {
+        "email": "info@shinwon.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.shinwon.com/"
+      }
+    ]
+  },
+  "014100": {
+    "publicContacts": [
+      {
+        "email": "recruit@medience.co.kr",
+        "label": "채용 · 인사총무팀",
+        "source": "https://www.medience.co.kr/"
+      }
+    ]
+  },
+  "014280": {
+    "publicContacts": [
+      {
+        "email": "webmaster@kumkangkind.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.kumkangkind.com/"
+      }
+    ]
+  },
+  "027360": {
+    "publicContacts": [
+      {
+        "email": "info@ajuib.com",
+        "label": "공개 문의 이메일",
+        "source": "https://www.ajuib.co.kr/main"
+      },
+      {
+        "email": "info@ajuib.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.ajuib.co.kr/main"
+      }
+    ]
+  },
+  "030520": {
+    "publicContacts": [
+      {
+        "email": "support@hancom.com",
+        "label": "고객 지원",
+        "source": "https://www.hancom.com/"
+      }
+    ]
+  },
+  "035620": {
+    "publicContacts": [
+      {
+        "email": "contact@barunsonena.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.barunsonena.com/"
+      }
+    ]
+  },
+  "036630": {
+    "publicContacts": [
+      {
+        "email": "customer@sejongtelecom.net",
+        "label": "고객 문의",
+        "source": "https://www.sejongtelecom.net/"
+      }
+    ]
+  },
+  "037070": {
+    "publicContacts": [
+      {
+        "email": "webmaster@paseco.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.paseco.co.kr/"
+      }
+    ]
+  },
+  "037440": {
+    "publicContacts": [
+      {
+        "email": "webmaster@heerim.com",
+        "label": "일반 문의",
+        "source": "https://www.heerim.com/en/index.php"
+      },
+      {
+        "email": "recruit@heerim.com",
+        "label": "채용 문의",
+        "source": "https://www.heerim.com/en/index.php"
+      }
+    ]
+  },
+  "038070": {
+    "publicContacts": [
+      {
+        "email": "sales@seoulin.co.kr",
+        "label": "영업 문의",
+        "source": "https://www.seoulin.co.kr/"
+      },
+      {
+        "email": "cs@seoulin.co.kr",
+        "label": "공개 문의 이메일",
+        "source": "https://www.seoulin.co.kr/"
+      },
+      {
+        "email": "service@seoulin.co.kr",
+        "label": "장비 A/S",
+        "source": "https://www.seoulin.co.kr/"
+      }
+    ]
+  },
+  "039830": {
+    "publicContacts": [
+      {
+        "email": "info@auroraworld.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://auroraworld.com:443/ko"
+      }
+    ]
+  },
+  "041460": {
+    "publicContacts": [
+      {
+        "email": "biz@crosscert.com",
+        "label": "보안 솔루션 영업 문의",
+        "source": "https://www.crosscert.com/"
+      }
+    ]
+  },
+  "041830": {
+    "publicContacts": [
+      {
+        "email": "info@inbody.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.inbody.com/"
+      }
+    ]
+  },
+  "042520": {
+    "publicContacts": [
+      {
+        "email": "inquiry@hansbiomed.com",
+        "label": "사업 문의",
+        "source": "https://hansbiomed.com/"
+      }
+    ]
+  },
+  "043360": {
+    "publicContacts": [
+      {
+        "email": "hello@dgi-net.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.dgi-net.com/"
+      }
+    ]
+  },
+  "044780": {
+    "publicContacts": [
+      {
+        "email": "webmaster@hk-global.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.hk-global.com/"
+      }
+    ]
+  },
+  "045060": {
+    "publicContacts": [
+      {
+        "email": "sales@okong.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.okong.com/main.php"
+      }
+    ]
+  },
+  "045340": {
+    "publicContacts": [
+      {
+        "email": "inquiry@tsb.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.tsb.co.kr/"
+      },
+      {
+        "email": "sales@tsb.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.tsb.co.kr/"
+      }
+    ]
+  },
+  "045510": {
+    "publicContacts": [
+      {
+        "email": "marketing@zungwon.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.zungwon.co.kr/"
+      }
+    ]
+  },
+  "049180": {
+    "publicContacts": [
+      {
+        "email": "info@cellumed.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.cellumed.co.kr/"
+      }
+    ]
+  },
+  "052460": {
+    "publicContacts": [
+      {
+        "email": "contact@icraft21.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.icraft21.com/"
+      }
+    ]
+  },
+  "058110": {
+    "publicContacts": [
+      {
+        "email": "sales@mek-ics.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.mek-ics.com/"
+      }
+    ]
+  },
+  "058400": {
+    "publicContacts": [
+      {
+        "email": "webmaster@knn.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://news.knn.co.kr/news"
+      }
+    ]
+  },
+  "061090": {
+    "publicContacts": [
+      {
+        "email": "sales@sena.co.kr",
+        "label": "영업 문의",
+        "source": "https://www.sena.co.kr/"
+      },
+      {
+        "email": "ir@sena.co.kr",
+        "label": "IR 문의",
+        "source": "https://www.sena.co.kr/"
+      }
+    ]
+  },
+  "064400": {
+    "publicContacts": [
+      {
+        "email": "inquiry@lgcns.com",
+        "label": "뉴스레터 서비스 문의",
+        "source": "https://www.lgcns.com/kr"
+      }
+    ]
+  },
+  "066310": {
+    "publicContacts": [
+      {
+        "email": "ir@qsilaser.com",
+        "label": "IR 문의",
+        "source": "https://www.qsilaser.com/"
+      },
+      {
+        "email": "sales@qsilaser.com",
+        "label": "영업 문의",
+        "source": "https://www.qsilaser.com/"
+      }
+    ]
+  },
+  "077500": {
+    "publicContacts": [
+      {
+        "email": "contact@uniquest.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.uniquest.co.kr/ko/"
+      }
+    ]
+  },
+  "080520": {
+    "publicContacts": [
+      {
+        "email": "webmaster@od-tech.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.od-tech.com/"
+      }
+    ]
+  },
+  "080580": {
+    "publicContacts": [
+      {
+        "email": "contact@okins.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://okins.co.kr/"
+      }
+    ]
+  },
+  "083650": {
+    "publicContacts": [
+      {
+        "email": "info@bhi.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.bhi.co.kr/"
+      }
+    ]
+  },
+  "088130": {
+    "publicContacts": [
+      {
+        "email": "master@dongaeltek.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.dongaeltek.co.kr/"
+      }
+    ]
+  },
+  "088340": {
+    "publicContacts": [
+      {
+        "email": "sales@uracle.co.kr",
+        "label": "제품 도입 문의",
+        "source": "https://www.uracle.co.kr/"
+      }
+    ]
+  },
+  "089790": {
+    "publicContacts": [
+      {
+        "email": "admin@jtcorp.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.jtcorp.co.kr/"
+      }
+    ]
+  },
+  "094940": {
+    "publicContacts": [
+      {
+        "email": "sales@puloon.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.puloon.co.kr/"
+      }
+    ]
+  },
+  "099320": {
+    "publicContacts": [
+      {
+        "email": "info@satreci.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.satreci.com/"
+      }
+    ]
+  },
+  "105840": {
+    "publicContacts": [
+      {
+        "email": "webmaster@woojininc.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.woojininc.com/"
+      }
+    ]
+  },
+  "106080": {
+    "publicContacts": [
+      {
+        "email": "admin@kem-tech.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.kem-tech.co.kr/"
+      }
+    ]
+  },
+  "108230": {
+    "publicContacts": [
+      {
+        "email": "marketing@toptec.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://toptec.co.kr/"
+      }
+    ]
+  },
+  "108860": {
+    "publicContacts": [
+      {
+        "email": "support@selvasai.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.selvasai.com/"
+      }
+    ]
+  },
+  "109670": {
+    "publicContacts": [
+      {
+        "email": "contact@c-site.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.c-site.co.kr/"
+      }
+    ]
+  },
+  "110020": {
+    "publicContacts": [
+      {
+        "email": "info@jjbio.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.jjbio.co.kr/"
+      }
+    ]
+  },
+  "111380": {
+    "publicContacts": [
+      {
+        "email": "info@dong-in.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.dong-in.com/"
+      }
+    ]
+  },
+  "123420": {
+    "publicContacts": [
+      {
+        "email": "help@wemadeplay.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://corp.wemadeplay.com/"
+      }
+    ]
+  },
+  "123570": {
+    "publicContacts": [
+      {
+        "email": "webmaster@emnet.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.emnet.co.kr/"
+      }
+    ]
+  },
+  "143240": {
+    "publicContacts": [
+      {
+        "email": "help@saramin.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://m.saramin.co.kr/"
+      }
+    ]
+  },
+  "148780": {
+    "publicContacts": [
+      {
+        "email": "sales@becuai.com",
+        "label": "제휴 문의",
+        "source": "https://becuai.com/"
+      }
+    ]
+  },
+  "153890": {
+    "publicContacts": [
+      {
+        "email": "info@justek.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.justek.com/"
+      }
+    ]
+  },
+  "158430": {
+    "publicContacts": [
+      {
+        "email": "contact@atoncorp.com",
+        "label": "일반 문의",
+        "source": "https://www.atoncorp.com/"
+      },
+      {
+        "email": "hr@atoncorp.com",
+        "label": "채용 문의",
+        "source": "https://www.atoncorp.com/"
+      }
+    ]
+  },
+  "159010": {
+    "publicContacts": [
+      {
+        "email": "sales@asflow.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://asflow.com/"
+      }
+    ]
+  },
+  "160550": {
+    "publicContacts": [
+      {
+        "email": "webmaster@its-new.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.its-new.co.kr/"
+      }
+    ]
+  },
+  "163280": {
+    "publicContacts": [
+      {
+        "email": "inquiry@airrane.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.airrane.com/"
+      }
+    ]
+  },
+  "168360": {
+    "publicContacts": [
+      {
+        "email": "sales@pemtron.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.pemtron.com/"
+      }
+    ]
+  },
+  "177900": {
+    "publicContacts": [
+      {
+        "email": "info@3alogics.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.3alogics.com/"
+      }
+    ]
+  },
+  "192080": {
+    "publicContacts": [
+      {
+        "email": "support@doubleugames.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.doubleugames.com/main/main.html"
+      },
+      {
+        "email": "ir@doubleugames.com",
+        "label": "IR 문의",
+        "source": "https://www.doubleugames.com/main/main.html"
+      }
+    ]
+  },
+  "199480": {
+    "publicContacts": [
+      {
+        "email": "admin@bankwareglobal.com",
+        "label": "웹사이트 이용 불편 문의",
+        "source": "https://bankwareglobal.com/"
+      }
+    ]
+  },
+  "203450": {
+    "publicContacts": [
+      {
+        "email": "sales@unionbiometrics.com",
+        "label": "영업 문의",
+        "source": "https://unionbiometrics.com/"
+      },
+      {
+        "email": "support@unionbiometrics.com",
+        "label": "A/S·기술 지원",
+        "source": "https://unionbiometrics.com/"
+      },
+      {
+        "email": "pr@unionbiometrics.com",
+        "label": "홍보·마케팅",
+        "source": "https://unionbiometrics.com/"
+      },
+      {
+        "email": "hr@unionbiometrics.com",
+        "label": "HR 문의",
+        "source": "https://unionbiometrics.com/"
+      }
+    ]
+  },
+  "206400": {
+    "publicContacts": [
+      {
+        "email": "help@benotnr.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.benotnr.com/"
+      }
+    ]
+  },
+  "208370": {
+    "publicContacts": [
+      {
+        "email": "info@selvashealthcare.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "http://www.selvashealthcare.com/en/company/"
+      }
+    ]
+  },
+  "214370": {
+    "publicContacts": [
+      {
+        "email": "sales@caregen.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "http://www.caregen.co.kr/"
+      }
+    ]
+  },
+  "214430": {
+    "publicContacts": [
+      {
+        "email": "marketing@i3system.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://i3system.com/"
+      }
+    ]
+  },
+  "215380": {
+    "publicContacts": [
+      {
+        "email": "info@kolmarbiotech.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://kolmarbiotech.com/"
+      }
+    ]
+  },
+  "217330": {
+    "publicContacts": [
+      {
+        "email": "customer@cytogenlab.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://cytogenlab.com/"
+      }
+    ]
+  },
+  "219750": {
+    "publicContacts": [
+      {
+        "email": "info@btbkorea.kr",
+        "label": "바이오 사업본부",
+        "source": "https://btbkorea.kr/"
+      }
+    ]
+  },
+  "220260": {
+    "publicContacts": [
+      {
+        "email": "info@chemtros.com",
+        "label": "고객 문의",
+        "source": "https://chemtros.com/"
+      },
+      {
+        "email": "hr@chemtros.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://chemtros.com/"
+      }
+    ]
+  },
+  "222420": {
+    "publicContacts": [
+      {
+        "email": "sales@cenotec.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.cenotec.com/?lang=KR"
+      }
+    ]
+  },
+  "226400": {
+    "publicContacts": [
+      {
+        "email": "info@osteonic.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.osteonic.com/"
+      }
+    ]
+  },
+  "226590": {
+    "publicContacts": [
+      {
+        "email": "sales@mdevice.co.kr",
+        "label": "제휴 문의",
+        "source": "https://mdevice.co.kr/"
+      }
+    ]
+  },
+  "228760": {
+    "publicContacts": [
+      {
+        "email": "info@genomictree.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://genomictree.com/"
+      }
+    ]
+  },
+  "238200": {
+    "publicContacts": [
+      {
+        "email": "sales@bifido.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.bifido.com/"
+      }
+    ]
+  },
+  "247660": {
+    "publicContacts": [
+      {
+        "email": "info@nanocms.co.kr",
+        "label": "고객 상담",
+        "source": "https://www.nanocms.co.kr/"
+      }
+    ]
+  },
+  "258830": {
+    "publicContacts": [
+      {
+        "email": "info@sejongmedical.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.sejongmedical.com/"
+      }
+    ]
+  },
+  "285490": {
+    "publicContacts": [
+      {
+        "email": "info@mynovatech.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://mynovatech.com/"
+      }
+    ]
+  },
+  "288620": {
+    "publicContacts": [
+      {
+        "email": "sales@s-prism.energy",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://s-prism.energy/"
+      }
+    ]
+  },
+  "289080": {
+    "publicContacts": [
+      {
+        "email": "master@svinvest.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.svinvest.com/"
+      }
+    ]
+  },
+  "291230": {
+    "publicContacts": [
+      {
+        "email": "info@com2usn.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://com2usn.com/"
+      }
+    ]
+  },
+  "300120": {
+    "publicContacts": [
+      {
+        "email": "service@laonpeople.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://laonpeople.com/"
+      }
+    ]
+  },
+  "301300": {
+    "publicContacts": [
+      {
+        "email": "biz@vaiv.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.vaiv.kr/"
+      }
+    ]
+  },
+  "305090": {
+    "publicContacts": [
+      {
+        "email": "sales@md-best.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.md-best.com/kr/"
+      }
+    ]
+  },
+  "311390": {
+    "publicContacts": [
+      {
+        "email": "contact@cremar.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://cremar.co.kr/"
+      }
+    ]
+  },
+  "318410": {
+    "publicContacts": [
+      {
+        "email": "info@bestbristle.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://bestbristle.com/"
+      }
+    ]
+  },
+  "321370": {
+    "publicContacts": [
+      {
+        "email": "sales@sensor-view.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.sensor-view.com/"
+      }
+    ]
+  },
+  "322510": {
+    "publicContacts": [
+      {
+        "email": "support@jlkgroup.com",
+        "label": "제휴·일반 상담",
+        "source": "https://www.jlkgroup.com/"
+      },
+      {
+        "email": "hr@jlkgroup.com",
+        "label": "채용 문의",
+        "source": "https://www.jlkgroup.com/"
+      }
+    ]
+  },
+  "323350": {
+    "publicContacts": [
+      {
+        "email": "sales@nexview.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.nexview.co.kr/"
+      }
+    ]
+  },
+  "332290": {
+    "publicContacts": [
+      {
+        "email": "ir@nousbo.com",
+        "label": "IR 문의",
+        "source": "https://www.nousbo.com/"
+      }
+    ]
+  },
+  "332370": {
+    "publicContacts": [
+      {
+        "email": "sales@idp-corp.com",
+        "label": "본사 문의",
+        "source": "https://www.idp-corp.com/index_kor/"
+      }
+    ]
+  },
+  "338220": {
+    "publicContacts": [
+      {
+        "email": "sales@vuno.co",
+        "label": "영업 문의",
+        "source": "https://www.vuno.co/"
+      },
+      {
+        "email": "ir@vuno.co",
+        "label": "IR 문의",
+        "source": "https://www.vuno.co/"
+      },
+      {
+        "email": "hello@vuno.co",
+        "label": "기타 문의",
+        "source": "https://www.vuno.co/"
+      }
+    ]
+  },
+  "340810": {
+    "publicContacts": [
+      {
+        "email": "contact@secern.ai",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://secern.ai/"
+      }
+    ]
+  },
+  "347700": {
+    "publicContacts": [
+      {
+        "email": "info@spherecorp.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://spherecorp.kr/"
+      }
+    ]
+  },
+  "347850": {
+    "publicContacts": [
+      {
+        "email": "info@ddpharmatech.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.ddpharmatech.com/"
+      }
+    ]
+  },
+  "348150": {
+    "publicContacts": [
+      {
+        "email": "ir@kobiolabs.com",
+        "label": "IR 문의",
+        "source": "https://kobiolabs.com/"
+      }
+    ]
+  },
+  "348210": {
+    "publicContacts": [
+      {
+        "email": "ir@nextinsol.com",
+        "label": "IR 문의",
+        "source": "https://www.nextinsol.com/en/"
+      }
+    ]
+  },
+  "348340": {
+    "publicContacts": [
+      {
+        "email": "sales@neuromeka.com",
+        "label": "영업 문의",
+        "source": "https://www.neuromeka.com/"
+      },
+      {
+        "email": "pr@neuromeka.com",
+        "label": "마케팅·홍보",
+        "source": "https://www.neuromeka.com/"
+      }
+    ]
+  },
+  "352090": {
+    "publicContacts": [
+      {
+        "email": "sales@stormtec.co.kr",
+        "label": "국내 영업",
+        "source": "https://www.stormtec.co.kr/ko/"
+      }
+    ]
+  },
+  "352910": {
+    "publicContacts": [
+      {
+        "email": "sales@obigo.com",
+        "label": "영업 문의",
+        "source": "https://obigo.com/"
+      }
+    ]
+  },
+  "353590": {
+    "publicContacts": [
+      {
+        "email": "info@auton.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.auton.kr/"
+      }
+    ]
+  },
+  "355390": {
+    "publicContacts": [
+      {
+        "email": "contact@crowdworks.ai",
+        "label": "사업 제휴",
+        "source": "https://www.crowdworks.ai/"
+      },
+      {
+        "email": "support@crowdworks.ai",
+        "label": "고객센터",
+        "source": "https://www.crowdworks.ai/"
+      },
+      {
+        "email": "ir@crowdworks.ai",
+        "label": "IR 문의",
+        "source": "https://www.crowdworks.ai/"
+      }
+    ]
+  },
+  "357880": {
+    "publicContacts": [
+      {
+        "email": "inquiry@skaiworldwide.com",
+        "label": "대표 이메일",
+        "source": "https://skaiworldwide.com/ko"
+      }
+    ],
+    "email": "inquiry@skaiworldwide.com",
+    "fieldSources": [
+      {
+        "label": "기업 기본 정보 · 2026-10-09 확인",
+        "url": "https://skaiworldwide.com/ko"
+      }
+    ]
+  },
+  "365340": {
+    "publicContacts": [
+      {
+        "email": "info@sungeelht.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.sungeelht.com/"
+      }
+    ]
+  },
+  "368600": {
+    "publicContacts": [
+      {
+        "email": "sales@ch-ich.com",
+        "label": "제품 문의",
+        "source": "https://www.ch-ich.com/"
+      },
+      {
+        "email": "ir@ch-ich.com",
+        "label": "IR 문의",
+        "source": "https://www.ch-ich.com/"
+      }
+    ]
+  },
+  "372170": {
+    "publicContacts": [
+      {
+        "email": "info@ysfc.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.ysfc.co.kr/"
+      }
+    ]
+  },
+  "389470": {
+    "publicContacts": [
+      {
+        "email": "contact@inventagelab.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://inventagelab.com/en"
+      }
+    ]
+  },
+  "389680": {
+    "publicContacts": [
+      {
+        "email": "admin@udmtek.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.udmtek.com/kor/main"
+      }
+    ]
+  },
+  "398120": {
+    "publicContacts": [
+      {
+        "email": "sales@sghealthcare.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://sghealthcare.com/user/mainPage.do"
+      },
+      {
+        "email": "info@sghealthcare.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://sghealthcare.com/user/mainPage.do"
+      }
+    ]
+  },
+  "408470": {
+    "publicContacts": [
+      {
+        "email": "contact@hanpass.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.hanpass.com/en"
+      }
+    ]
+  },
+  "411080": {
+    "publicContacts": [
+      {
+        "email": "contact@sandslab.io",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.sandslab.io/ko"
+      }
+    ]
+  },
+  "417010": {
+    "publicContacts": [
+      {
+        "email": "sales@nanotim.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.nanotim.co.kr/"
+      }
+    ]
+  },
+  "417030": {
+    "publicContacts": [
+      {
+        "email": "ir@nearthlab.com",
+        "label": "IR 문의",
+        "source": "https://www.nearthlab.com/en"
+      }
+    ]
+  },
+  "419080": {
+    "publicContacts": [
+      {
+        "email": "sales@enjet.co.kr",
+        "label": "영업팀",
+        "source": "https://enjet.co.kr/"
+      }
+    ]
+  },
+  "429270": {
+    "publicContacts": [
+      {
+        "email": "sales@sigetronics.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://sigetronics.com/"
+      }
+    ]
+  },
+  "438700": {
+    "publicContacts": [
+      {
+        "email": "contact@virnect.com",
+        "label": "구매·제휴 문의",
+        "source": "https://virnect.com/ko"
+      }
+    ]
+  },
+  "441270": {
+    "publicContacts": [
+      {
+        "email": "sales@finemtec.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.finemtec.com/"
+      }
+    ]
+  },
+  "443250": {
+    "publicContacts": [
+      {
+        "email": "help@revu.net",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://corp.revu.net/"
+      }
+    ]
+  },
+  "451760": {
+    "publicContacts": [
+      {
+        "email": "info@contec.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://kr.contec.kr/"
+      }
+    ]
+  },
+  "452300": {
+    "publicContacts": [
+      {
+        "email": "master@cspartners.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://cspartners.co.kr/"
+      },
+      {
+        "email": "biz@cspartners.co.kr",
+        "label": "투자 문의",
+        "source": "https://cspartners.co.kr/"
+      }
+    ]
+  },
+  "455900": {
+    "publicContacts": [
+      {
+        "email": "contact@angel-robotics.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.angel-robotics.com/ko"
+      }
+    ]
+  },
+  "458650": {
+    "publicContacts": [
+      {
+        "email": "master@e-sungwoo.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.e-sungwoo.co.kr/"
+      }
+    ]
+  },
+  "459100": {
+    "publicContacts": [
+      {
+        "email": "hr@ewits.co.kr",
+        "label": "일반·채용 문의",
+        "source": "https://ewits.co.kr/kr/"
+      }
+    ]
+  },
+  "461030": {
+    "publicContacts": [
+      {
+        "email": "support@imbdx.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.imbdx.com/"
+      },
+      {
+        "email": "ir@imbdx.com",
+        "label": "IR 문의",
+        "source": "https://www.imbdx.com/"
+      }
+    ]
+  },
+  "464080": {
+    "publicContacts": [
+      {
+        "email": "contact@soslab.co",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://soslab.co/"
+      }
+    ]
+  },
+  "465480": {
+    "publicContacts": [
+      {
+        "email": "sales@inspien.co.kr",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.inspien.co.kr/"
+      }
+    ]
+  },
+  "475400": {
+    "publicContacts": [
+      {
+        "email": "sales@cmesrobotics.ai",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.cmesrobotics.ai/"
+      },
+      {
+        "email": "marketing@cmesrobotics.ai",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.cmesrobotics.ai/"
+      }
+    ]
+  },
+  "475430": {
+    "publicContacts": [
+      {
+        "email": "info@kistron.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.kistron.com/"
+      }
+    ]
+  },
+  "475560": {
+    "publicContacts": [
+      {
+        "email": "cs@theborn.co.kr",
+        "label": "공개 문의 이메일",
+        "source": "https://www.theborn.co.kr/"
+      },
+      {
+        "email": "ir@theborn.co.kr",
+        "label": "IR·공시 문의",
+        "source": "https://www.theborn.co.kr/"
+      }
+    ]
+  },
+  "475960": {
+    "publicContacts": [
+      {
+        "email": "info@tomocube.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://www.tomocube.com/"
+      }
+    ]
+  },
+  "476040": {
+    "publicContacts": [
+      {
+        "email": "info@organoidrx.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://organoidrx.com/"
+      }
+    ]
+  },
+  "487400": {
+    "publicContacts": [
+      {
+        "email": "sales@kns-kr.com",
+        "label": "공식 홈페이지 공개 이메일",
+        "source": "https://kns-kr.com/english"
       }
     ]
   }

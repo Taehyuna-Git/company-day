@@ -112,7 +112,8 @@ insert into public.anniversary_catalog(company_id,name,anniversary) values
 ('krx-002790','아모레퍼시픽홀딩스','1945-09-05'),
 ('krx-430690','한싹','1992-07-01'),
 ('krx-234340','헥토파이낸셜','2000-10-09'),
-('krx-214180','헥토이노베이션','2009-03-19')
+('krx-214180','헥토이노베이션','2009-03-19'),
+('krx-030960','양지사','1976-09-01')
 on conflict(company_id) do update set name=excluded.name,anniversary=excluded.anniversary;
 
 

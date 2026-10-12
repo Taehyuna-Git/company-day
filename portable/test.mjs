@@ -30,7 +30,7 @@ for(const [route,file,type] of [['/style.css','portable/generated/style.txt','te
 const homeHtml=await (await worker.fetch(new Request('https://example.com/'))).text();
 const chobiHtml=await (await worker.fetch(new Request('https://example.com/companies/krx-001550'))).text();
 assert.ok(chobiHtml.includes('올해 설립주년')&&chobiHtml.includes('법인 설립일 기준'));
-assert.ok(chobiHtml.includes('공식 창립기념일 미확인'));
+assert.ok(chobiHtml.includes('<dt>창립기념일</dt><dd>정보 수집 중</dd>'));
 assert.equal((await worker.fetch(new Request('https://example.com/api/calendar/samsung-display'))).status,200);
 assert.ok(!homeHtml.includes('anniversary-panel'),'Anonymous homepage must not show followed anniversaries');
 assert.equal((homeHtml.match(/class="company-card"/g)||[]).length,3,'Home should show only three companies');
