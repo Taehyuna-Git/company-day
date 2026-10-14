@@ -1,17 +1,18 @@
-export type Item={id:string;name:string;date:string;days:number;age:number};
+export type Item={id:string;name:string;date:string;days:number;age:number;basis?:'official'|'incorporation'};
 export type Job={id:string;user_id:string;recipient:string;kind:'test'|'anniversary';payload:{date:string;items:Item[]}};
 export type Mail={to:string;subject:string;text:string;html:string;messageId:string};
 const escape=(s:string)=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
+const itemLabel=(i:Item)=>i.basis==='incorporation'?'설립기념일 · 법인 설립일 기준':'창립기념일';
 export function makeMessage(job:Job,site:string):Mail{
   const test=job.kind==='test',items=job.payload.items;
-  const title=test?'[기업의 날] 테스트 메일입니다':`[기업의 날] ${items.length}개 기업의 다가오는 창립기념일`;
-  const intro=test?'이 메일이 도착했다면 기념일 알림을 받을 준비가 되었습니다. 아래는 저장한 기업 중 공식 기념일이 확인된 기업입니다.':'설정하신 D-Day에 해당하는 기업들의 창립기념일을 알려드립니다.';
-  const lines=items.map(i=>`${i.name} · ${i.date} · ${i.age}주년 · ${i.days===0?'오늘':i.days+'일 후'}\n${site}/companies/${encodeURIComponent(i.id)}`);
-  const empty='공식 창립기념일이 확인된 저장 기업이 아직 없어도 테스트 메일은 받을 수 있습니다.';
-  const footer=`알림 설정 변경·중지: ${site}/?account=notifications\n공식 창립기념일 기준이며, 한국 시간으로 발송합니다.`;
+  const title=test?'[기업의 날] 테스트 메일입니다':`[기업의 날] ${items.length}개 기업의 다가오는 기념일`;
+  const intro=test?'이 메일이 도착했다면 기념일 알림을 받을 준비가 되었습니다. 아래는 저장한 기업 중 날짜가 확인된 기업입니다.':'설정하신 D-Day에 해당하는 기업들의 기념일을 알려드립니다.';
+  const lines=items.map(i=>`${i.name} · ${itemLabel(i)} · ${i.date} · ${i.age}주년 · ${i.days===0?'오늘':i.days+'일 후'}\n${site}/companies/${encodeURIComponent(i.id)}`);
+  const empty='날짜가 확인된 저장 기업이 아직 없어도 테스트 메일은 받을 수 있습니다.';
+  const footer=`알림 설정 변경·중지: ${site}/?account=notifications\n창립기념일과 법인 설립일 기준 설립기념일을 구분하며, 한국 시간으로 발송합니다.`;
   return {to:job.recipient,subject:title,messageId:`<${job.id}@companyday.mail>`,
     text:[intro,...(lines.length?lines:[empty]),footer].join('\n\n'),
-    html:`<div style="max-width:620px;margin:auto;padding:24px;background:#fafaf6;color:#344b40;font-family:Arial,sans-serif;line-height:1.7"><h1 style="font-size:22px">기업의 날</h1><p>${escape(intro)}</p>${items.length?items.map(i=>`<div style="padding:16px;margin:12px 0;border-radius:12px;background:${i.age>0&&i.age%5===0?'#fff0cf':'#edf4e9'}"><strong>${escape(i.name)}</strong> · ${i.age}주년${i.age>0&&i.age%5===0?' 🎉':''}<br>${escape(i.date)} · <b>${i.days===0?'D-DAY':'D-'+i.days}</b><br><a href="${site}/companies/${encodeURIComponent(i.id)}">기업 정보 보기</a></div>`).join(''):`<p>${empty}</p>`}<p style="font-size:12px"><a href="${site}/?account=notifications">알림 설정 변경·중지</a><br>공식 창립기념일 기준 · 한국 시간</p></div>`};
+    html:`<div style="max-width:620px;margin:auto;padding:24px;background:#fafaf6;color:#344b40;font-family:Arial,sans-serif;line-height:1.7"><h1 style="font-size:22px">기업의 날</h1><p>${escape(intro)}</p>${items.length?items.map(i=>`<div style="padding:16px;margin:12px 0;border-radius:12px;background:${i.age>0&&i.age%5===0?'#fff0cf':'#edf4e9'}"><strong>${escape(i.name)}</strong> · ${escape(itemLabel(i))} · ${i.age}주년${i.age>0&&i.age%5===0?' 🎉':''}<br>${escape(i.date)} · <b>${i.days===0?'D-DAY':'D-'+i.days}</b><br><a href="${site}/companies/${encodeURIComponent(i.id)}">기업 정보 보기</a></div>`).join(''):`<p>${empty}</p>`}<p style="font-size:12px"><a href="${site}/?account=notifications">알림 설정 변경·중지</a><br>기념일별 날짜 기준 표시 · 한국 시간</p></div>`};
 }
 type Deps={site:string;configured:()=>boolean;enabled:()=>Promise<boolean>;verifyUser:(token:string)=>Promise<string|null>;verifyScheduler:(token:string)=>Promise<boolean>;checkSmtp?:()=>Promise<unknown>;reserve:(user:string|null)=>Promise<Job|null>;revalidate:(job:Job)=>Promise<Job|null>;finish:(id:string,status:string,provider?:string)=>Promise<void>;send:(mail:Mail)=>Promise<string>};
 export function createHandler(d:Deps){

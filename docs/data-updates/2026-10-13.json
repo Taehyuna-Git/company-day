@@ -1,0 +1,2401 @@
+{
+  "checkedAt": "2026-10-13",
+  "method": "Official website and KRX disclosures; exact catalog stock-code matching; no inferred representative emails. Prior Oct9 and Oct12 candidate caches manually reviewed.",
+  "anniversaryPolicy": "Official founding dates take priority. Otherwise show incorporation-based establishment anniversaries with explicit labels, preserving the original anniversary field.",
+  "changes": [
+    {
+      "code": "001260",
+      "name": "남광토건",
+      "field": "anniversary",
+      "before": null,
+      "after": "1947-07-07",
+      "source": "https://www.namkwang.co.kr/histories"
+    },
+    {
+      "code": "001260",
+      "name": "남광토건",
+      "field": "source",
+      "before": null,
+      "after": "https://www.namkwang.co.kr/histories",
+      "source": "https://www.namkwang.co.kr/histories"
+    },
+    {
+      "code": "001260",
+      "name": "남광토건",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.namkwang.co.kr/histories"
+    },
+    {
+      "code": "001260",
+      "name": "남광토건",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://www.namkwang.co.kr/histories"
+    },
+    {
+      "code": "002290",
+      "name": "삼일기업공사",
+      "field": "anniversary",
+      "before": null,
+      "after": "1958-02-05",
+      "source": "https://samilenter.com/company/history"
+    },
+    {
+      "code": "002290",
+      "name": "삼일기업공사",
+      "field": "source",
+      "before": null,
+      "after": "https://samilenter.com/company/history",
+      "source": "https://samilenter.com/company/history"
+    },
+    {
+      "code": "002290",
+      "name": "삼일기업공사",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://samilenter.com/company/history"
+    },
+    {
+      "code": "002290",
+      "name": "삼일기업공사",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://samilenter.com/company/history"
+    },
+    {
+      "code": "004020",
+      "name": "현대제철",
+      "field": "anniversary",
+      "before": null,
+      "after": "1953-06-10",
+      "source": "https://www.hyundai-steel.com/kr/company/history"
+    },
+    {
+      "code": "004020",
+      "name": "현대제철",
+      "field": "source",
+      "before": null,
+      "after": "https://www.hyundai-steel.com/kr/company/history",
+      "source": "https://www.hyundai-steel.com/kr/company/history"
+    },
+    {
+      "code": "004020",
+      "name": "현대제철",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.hyundai-steel.com/kr/company/history"
+    },
+    {
+      "code": "004020",
+      "name": "현대제철",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://www.hyundai-steel.com/kr/company/history"
+    },
+    {
+      "code": "033320",
+      "name": "제이씨현시스템",
+      "field": "anniversary",
+      "before": null,
+      "after": "1984-02-14",
+      "source": "https://www.jchyun.com/company/about"
+    },
+    {
+      "code": "033320",
+      "name": "제이씨현시스템",
+      "field": "source",
+      "before": null,
+      "after": "https://www.jchyun.com/company/about",
+      "source": "https://www.jchyun.com/company/about"
+    },
+    {
+      "code": "033320",
+      "name": "제이씨현시스템",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.jchyun.com/company/about"
+    },
+    {
+      "code": "033320",
+      "name": "제이씨현시스템",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+      "source": "https://www.jchyun.com/company/about"
+    },
+    {
+      "code": "076610",
+      "name": "해성옵틱스",
+      "field": "anniversary",
+      "before": null,
+      "after": "1988-02-10",
+      "source": "https://www.hso.co.kr/company/aboutus"
+    },
+    {
+      "code": "076610",
+      "name": "해성옵틱스",
+      "field": "source",
+      "before": null,
+      "after": "https://www.hso.co.kr/company/aboutus",
+      "source": "https://www.hso.co.kr/company/aboutus"
+    },
+    {
+      "code": "076610",
+      "name": "해성옵틱스",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.hso.co.kr/company/aboutus"
+    },
+    {
+      "code": "076610",
+      "name": "해성옵틱스",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+      "source": "https://www.hso.co.kr/company/aboutus"
+    },
+    {
+      "code": "079190",
+      "name": "케스피온",
+      "field": "anniversary",
+      "before": null,
+      "after": "1998-06-01",
+      "source": "https://www.kespion.co.kr/theme/mild01/subpage/company/introduction.php"
+    },
+    {
+      "code": "079190",
+      "name": "케스피온",
+      "field": "source",
+      "before": null,
+      "after": "https://www.kespion.co.kr/theme/mild01/subpage/company/introduction.php",
+      "source": "https://www.kespion.co.kr/theme/mild01/subpage/company/introduction.php"
+    },
+    {
+      "code": "079190",
+      "name": "케스피온",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.kespion.co.kr/theme/mild01/subpage/company/introduction.php"
+    },
+    {
+      "code": "079190",
+      "name": "케스피온",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://www.kespion.co.kr/theme/mild01/subpage/company/introduction.php"
+    },
+    {
+      "code": "137080",
+      "name": "나래나노텍",
+      "field": "anniversary",
+      "before": null,
+      "after": "1990-01-01",
+      "source": "https://www.naraenano.co.kr/kr/company/intro.php"
+    },
+    {
+      "code": "137080",
+      "name": "나래나노텍",
+      "field": "source",
+      "before": null,
+      "after": "https://www.naraenano.co.kr/kr/company/intro.php",
+      "source": "https://www.naraenano.co.kr/kr/company/intro.php"
+    },
+    {
+      "code": "137080",
+      "name": "나래나노텍",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.naraenano.co.kr/kr/company/intro.php"
+    },
+    {
+      "code": "137080",
+      "name": "나래나노텍",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+      "source": "https://www.naraenano.co.kr/kr/company/intro.php"
+    },
+    {
+      "code": "192440",
+      "name": "슈피겐코리아",
+      "field": "anniversary",
+      "before": null,
+      "after": "2004-05-17",
+      "source": "https://www.spigenkorea.co.kr/about/overview.php"
+    },
+    {
+      "code": "192440",
+      "name": "슈피겐코리아",
+      "field": "source",
+      "before": null,
+      "after": "https://www.spigenkorea.co.kr/about/overview.php",
+      "source": "https://www.spigenkorea.co.kr/about/overview.php"
+    },
+    {
+      "code": "192440",
+      "name": "슈피겐코리아",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.spigenkorea.co.kr/about/overview.php"
+    },
+    {
+      "code": "192440",
+      "name": "슈피겐코리아",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+      "source": "https://www.spigenkorea.co.kr/about/overview.php"
+    },
+    {
+      "code": "241710",
+      "name": "코스메카코리아",
+      "field": "anniversary",
+      "before": null,
+      "after": "2000-05-12",
+      "source": "https://www.cosmecca.com/ko/home"
+    },
+    {
+      "code": "241710",
+      "name": "코스메카코리아",
+      "field": "source",
+      "before": null,
+      "after": "https://www.cosmecca.com/ko/home",
+      "source": "https://www.cosmecca.com/ko/home"
+    },
+    {
+      "code": "241710",
+      "name": "코스메카코리아",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.cosmecca.com/ko/home"
+    },
+    {
+      "code": "241710",
+      "name": "코스메카코리아",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://www.cosmecca.com/ko/home"
+    },
+    {
+      "code": "271830",
+      "name": "팸텍",
+      "field": "anniversary",
+      "before": null,
+      "after": "2003-10-05",
+      "source": "https://pamtek.com/"
+    },
+    {
+      "code": "271830",
+      "name": "팸텍",
+      "field": "source",
+      "before": null,
+      "after": "https://pamtek.com/",
+      "source": "https://pamtek.com/"
+    },
+    {
+      "code": "271830",
+      "name": "팸텍",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://pamtek.com/"
+    },
+    {
+      "code": "271830",
+      "name": "팸텍",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://pamtek.com/"
+    },
+    {
+      "code": "314930",
+      "name": "바이오다인",
+      "field": "anniversary",
+      "before": null,
+      "after": "2009-09-11",
+      "source": "https://www.biodyne.asia/overview"
+    },
+    {
+      "code": "314930",
+      "name": "바이오다인",
+      "field": "source",
+      "before": null,
+      "after": "https://www.biodyne.asia/overview",
+      "source": "https://www.biodyne.asia/overview"
+    },
+    {
+      "code": "314930",
+      "name": "바이오다인",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.biodyne.asia/overview"
+    },
+    {
+      "code": "314930",
+      "name": "바이오다인",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://www.biodyne.asia/overview"
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "field": "anniversary",
+      "before": null,
+      "after": "1972-03-23",
+      "source": "https://hd-hhi.com/kr/company/overview/company-overview"
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "field": "source",
+      "before": null,
+      "after": "https://hd-hhi.com/kr/company/overview/company-overview",
+      "source": "https://hd-hhi.com/kr/company/overview/company-overview"
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://hd-hhi.com/kr/company/overview/company-overview"
+    },
+    {
+      "code": "329180",
+      "name": "HD현대중공업",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+      "source": "https://hd-hhi.com/kr/company/overview/company-overview"
+    },
+    {
+      "code": "372170",
+      "name": "윤성에프앤씨",
+      "field": "anniversary",
+      "before": null,
+      "after": "1986-08-01",
+      "source": "https://www.ysfc.co.kr/"
+    },
+    {
+      "code": "372170",
+      "name": "윤성에프앤씨",
+      "field": "source",
+      "before": null,
+      "after": "https://www.ysfc.co.kr/",
+      "source": "https://www.ysfc.co.kr/"
+    },
+    {
+      "code": "372170",
+      "name": "윤성에프앤씨",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.ysfc.co.kr/"
+    },
+    {
+      "code": "372170",
+      "name": "윤성에프앤씨",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://www.ysfc.co.kr/"
+    },
+    {
+      "code": "383220",
+      "name": "F&F",
+      "field": "anniversary",
+      "before": null,
+      "after": "1992-08-27",
+      "source": "https://www.fnf.co.kr/about/identity"
+    },
+    {
+      "code": "383220",
+      "name": "F&F",
+      "field": "source",
+      "before": null,
+      "after": "https://www.fnf.co.kr/about/identity",
+      "source": "https://www.fnf.co.kr/about/identity"
+    },
+    {
+      "code": "383220",
+      "name": "F&F",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.fnf.co.kr/about/identity"
+    },
+    {
+      "code": "383220",
+      "name": "F&F",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+      "source": "https://www.fnf.co.kr/about/identity"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "field": "anniversary",
+      "before": null,
+      "after": "1983-10-10",
+      "source": "https://news.skhynix.co.kr/skhynix-40th-anniversary-talk/"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "field": "source",
+      "before": null,
+      "after": "https://news.skhynix.co.kr/skhynix-40th-anniversary-talk/",
+      "source": "https://news.skhynix.co.kr/skhynix-40th-anniversary-talk/"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://news.skhynix.co.kr/skhynix-40th-anniversary-talk/"
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://news.skhynix.co.kr/skhynix-40th-anniversary-talk/"
+    },
+    {
+      "code": "000720",
+      "name": "현대건설",
+      "field": "anniversary",
+      "before": null,
+      "after": "1947-05-25",
+      "source": "https://www1.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=1481&NewsType=JOURNAL"
+    },
+    {
+      "code": "000720",
+      "name": "현대건설",
+      "field": "source",
+      "before": null,
+      "after": "https://www1.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=1481&NewsType=JOURNAL",
+      "source": "https://www1.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=1481&NewsType=JOURNAL"
+    },
+    {
+      "code": "000720",
+      "name": "현대건설",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www1.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=1481&NewsType=JOURNAL"
+    },
+    {
+      "code": "000720",
+      "name": "현대건설",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://www1.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=1481&NewsType=JOURNAL"
+    },
+    {
+      "code": "001750",
+      "name": "한양증권",
+      "field": "anniversary",
+      "before": null,
+      "after": "1956-03-27",
+      "source": "https://www.hygood.co.kr/contents/06/02/060205"
+    },
+    {
+      "code": "001750",
+      "name": "한양증권",
+      "field": "source",
+      "before": null,
+      "after": "https://www.hygood.co.kr/contents/06/02/060205",
+      "source": "https://www.hygood.co.kr/contents/06/02/060205"
+    },
+    {
+      "code": "001750",
+      "name": "한양증권",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.hygood.co.kr/contents/06/02/060205"
+    },
+    {
+      "code": "001750",
+      "name": "한양증권",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://www.hygood.co.kr/contents/06/02/060205"
+    },
+    {
+      "code": "014990",
+      "name": "인디에프",
+      "field": "anniversary",
+      "before": null,
+      "after": "1980-09-08",
+      "source": "https://www.inthef.co.kr/views/front/company/overview"
+    },
+    {
+      "code": "014990",
+      "name": "인디에프",
+      "field": "source",
+      "before": null,
+      "after": "https://www.inthef.co.kr/views/front/company/overview",
+      "source": "https://www.inthef.co.kr/views/front/company/overview"
+    },
+    {
+      "code": "014990",
+      "name": "인디에프",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.inthef.co.kr/views/front/company/overview"
+    },
+    {
+      "code": "014990",
+      "name": "인디에프",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://www.inthef.co.kr/views/front/company/overview"
+    },
+    {
+      "code": "248170",
+      "name": "샘표식품",
+      "field": "anniversary",
+      "before": null,
+      "after": "1946-08-20",
+      "source": "https://www.sempio.com/about/history"
+    },
+    {
+      "code": "248170",
+      "name": "샘표식품",
+      "field": "source",
+      "before": null,
+      "after": "https://www.sempio.com/about/history",
+      "source": "https://www.sempio.com/about/history"
+    },
+    {
+      "code": "248170",
+      "name": "샘표식품",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.sempio.com/about/history"
+    },
+    {
+      "code": "248170",
+      "name": "샘표식품",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://www.sempio.com/about/history"
+    },
+    {
+      "code": "006280",
+      "name": "녹십자",
+      "field": "anniversary",
+      "before": null,
+      "after": "1967-10-05",
+      "source": "https://www.gcbiopharma.com/kor/news_view.do?idx=3225"
+    },
+    {
+      "code": "006280",
+      "name": "녹십자",
+      "field": "source",
+      "before": null,
+      "after": "https://www.gcbiopharma.com/kor/news_view.do?idx=3225",
+      "source": "https://www.gcbiopharma.com/kor/news_view.do?idx=3225"
+    },
+    {
+      "code": "006280",
+      "name": "녹십자",
+      "field": "sourceVerifiedAt",
+      "before": null,
+      "after": "2026-10-13",
+      "source": "https://www.gcbiopharma.com/kor/news_view.do?idx=3225"
+    },
+    {
+      "code": "006280",
+      "name": "녹십자",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+      "source": "https://www.gcbiopharma.com/kor/news_view.do?idx=3225"
+    },
+    {
+      "code": "0039P0",
+      "name": "매드업",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "contact@madup.com",
+          "label": "광고·사업 문의",
+          "source": "https://madup.com/sub/contact/form.html"
+        }
+      ],
+      "source": "https://madup.com/sub/contact/form.html"
+    },
+    {
+      "code": "004020",
+      "name": "현대제철",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "ir@hyundai-steel.com",
+          "label": "투자 문의",
+          "source": "https://www.hyundai-steel.com/kr/support/contact-info"
+        }
+      ],
+      "source": "https://www.hyundai-steel.com/kr/support/contact-info"
+    },
+    {
+      "code": "004020",
+      "name": "현대제철",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "ir@hyundai-steel.com",
+          "label": "투자 문의",
+          "source": "https://www.hyundai-steel.com/kr/support/contact-info"
+        }
+      ],
+      "after": [
+        {
+          "email": "ir@hyundai-steel.com",
+          "label": "투자 문의",
+          "source": "https://www.hyundai-steel.com/kr/support/contact-info"
+        },
+        {
+          "email": "recruiting@hyundai-steel.com",
+          "label": "채용 문의",
+          "source": "https://www.hyundai-steel.com/kr/support/contact-info"
+        }
+      ],
+      "source": "https://www.hyundai-steel.com/kr/support/contact-info"
+    },
+    {
+      "code": "018880",
+      "name": "한온시스템",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "ir@hanonsystems.com",
+          "label": "투자 문의",
+          "source": "https://www.hanonsystems.com/En/Investors/Emailalert"
+        }
+      ],
+      "source": "https://www.hanonsystems.com/En/Investors/Emailalert"
+    },
+    {
+      "code": "023960",
+      "name": "에쓰씨엔지니어링",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "ir@sc-eng.com",
+          "label": "투자 문의",
+          "source": "https://www.sc-eng.com/contact"
+        }
+      ],
+      "source": "https://www.sc-eng.com/contact"
+    },
+    {
+      "code": "069410",
+      "name": "엔텔스",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "info@ntels.com",
+          "label": "일반 문의",
+          "source": "https://www.ntels.com/ko/company/contact"
+        }
+      ],
+      "source": "https://www.ntels.com/ko/company/contact"
+    },
+    {
+      "code": "069410",
+      "name": "엔텔스",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "info@ntels.com",
+          "label": "일반 문의",
+          "source": "https://www.ntels.com/ko/company/contact"
+        }
+      ],
+      "after": [
+        {
+          "email": "info@ntels.com",
+          "label": "일반 문의",
+          "source": "https://www.ntels.com/ko/company/contact"
+        },
+        {
+          "email": "sales@ntels.com",
+          "label": "영업 문의",
+          "source": "https://www.ntels.com/ko/company/contact"
+        }
+      ],
+      "source": "https://www.ntels.com/ko/company/contact"
+    },
+    {
+      "code": "069410",
+      "name": "엔텔스",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "info@ntels.com",
+          "label": "일반 문의",
+          "source": "https://www.ntels.com/ko/company/contact"
+        },
+        {
+          "email": "sales@ntels.com",
+          "label": "영업 문의",
+          "source": "https://www.ntels.com/ko/company/contact"
+        }
+      ],
+      "after": [
+        {
+          "email": "info@ntels.com",
+          "label": "일반 문의",
+          "source": "https://www.ntels.com/ko/company/contact"
+        },
+        {
+          "email": "sales@ntels.com",
+          "label": "영업 문의",
+          "source": "https://www.ntels.com/ko/company/contact"
+        },
+        {
+          "email": "ir@ntels.com",
+          "label": "투자 문의",
+          "source": "https://www.ntels.com/ko/company/contact"
+        }
+      ],
+      "source": "https://www.ntels.com/ko/company/contact"
+    },
+    {
+      "code": "070300",
+      "name": "퀀텀레일",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "admin@quantumrail.co.kr",
+          "label": "일반 문의",
+          "source": "https://www.quantumrail.co.kr/contact-us"
+        }
+      ],
+      "source": "https://www.quantumrail.co.kr/contact-us"
+    },
+    {
+      "code": "074610",
+      "name": "이엔플러스",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@en3.co.kr",
+          "label": "영업 문의",
+          "source": "https://www.en3.co.kr/ko/inquirynew"
+        }
+      ],
+      "source": "https://www.en3.co.kr/ko/inquirynew"
+    },
+    {
+      "code": "078000",
+      "name": "텔코웨어",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@telcoware.com",
+          "label": "영업 문의",
+          "source": "https://www.telcoware.com/doc/company.php/contact"
+        }
+      ],
+      "source": "https://www.telcoware.com/doc/company.php/contact"
+    },
+    {
+      "code": "078000",
+      "name": "텔코웨어",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "sales@telcoware.com",
+          "label": "영업 문의",
+          "source": "https://www.telcoware.com/doc/company.php/contact"
+        }
+      ],
+      "after": [
+        {
+          "email": "sales@telcoware.com",
+          "label": "영업 문의",
+          "source": "https://www.telcoware.com/doc/company.php/contact"
+        },
+        {
+          "email": "recruit@telcoware.com",
+          "label": "채용 문의",
+          "source": "https://www.telcoware.com/doc/company.php/contact"
+        }
+      ],
+      "source": "https://www.telcoware.com/doc/company.php/contact"
+    },
+    {
+      "code": "093240",
+      "name": "형지엘리트",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "webmaster@hyungji-elite.com",
+          "label": "홈페이지 문의",
+          "source": "https://www.hyungji-elite.com/?p=21"
+        }
+      ],
+      "source": "https://www.hyungji-elite.com/?p=21"
+    },
+    {
+      "code": "095270",
+      "name": "웨이브일렉트로",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "webmaster@wavetc.com",
+          "label": "기업·투자 문의",
+          "source": "https://wavetc.com/comp-2/comp_tel/"
+        }
+      ],
+      "source": "https://wavetc.com/comp-2/comp_tel/"
+    },
+    {
+      "code": "095270",
+      "name": "웨이브일렉트로",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "webmaster@wavetc.com",
+          "label": "기업·투자 문의",
+          "source": "https://wavetc.com/comp-2/comp_tel/"
+        }
+      ],
+      "after": [
+        {
+          "email": "webmaster@wavetc.com",
+          "label": "기업·투자 문의",
+          "source": "https://wavetc.com/comp-2/comp_tel/"
+        },
+        {
+          "email": "recruit@wavetc.com",
+          "label": "채용 문의",
+          "source": "https://wavetc.com/comp-2/comp_tel/"
+        }
+      ],
+      "source": "https://wavetc.com/comp-2/comp_tel/"
+    },
+    {
+      "code": "095270",
+      "name": "웨이브일렉트로",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "webmaster@wavetc.com",
+          "label": "기업·투자 문의",
+          "source": "https://wavetc.com/comp-2/comp_tel/"
+        },
+        {
+          "email": "recruit@wavetc.com",
+          "label": "채용 문의",
+          "source": "https://wavetc.com/comp-2/comp_tel/"
+        }
+      ],
+      "after": [
+        {
+          "email": "webmaster@wavetc.com",
+          "label": "기업·투자 문의",
+          "source": "https://wavetc.com/comp-2/comp_tel/"
+        },
+        {
+          "email": "recruit@wavetc.com",
+          "label": "채용 문의",
+          "source": "https://wavetc.com/comp-2/comp_tel/"
+        },
+        {
+          "email": "sales@wavetc.com",
+          "label": "통신제품 문의",
+          "source": "https://wavetc.com/comp-2/comp_tel/"
+        }
+      ],
+      "source": "https://wavetc.com/comp-2/comp_tel/"
+    },
+    {
+      "code": "099750",
+      "name": "이지케어텍",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "pr@ezcaretech.com",
+          "label": "홍보 문의",
+          "source": "https://www.ezcaretech.com/contact/"
+        }
+      ],
+      "source": "https://www.ezcaretech.com/contact/"
+    },
+    {
+      "code": "099750",
+      "name": "이지케어텍",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "pr@ezcaretech.com",
+          "label": "홍보 문의",
+          "source": "https://www.ezcaretech.com/contact/"
+        }
+      ],
+      "after": [
+        {
+          "email": "pr@ezcaretech.com",
+          "label": "홍보 문의",
+          "source": "https://www.ezcaretech.com/contact/"
+        },
+        {
+          "email": "recruit@ezcaretech.com",
+          "label": "채용 문의",
+          "source": "https://www.ezcaretech.com/contact/"
+        }
+      ],
+      "source": "https://www.ezcaretech.com/contact/"
+    },
+    {
+      "code": "099750",
+      "name": "이지케어텍",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "pr@ezcaretech.com",
+          "label": "홍보 문의",
+          "source": "https://www.ezcaretech.com/contact/"
+        },
+        {
+          "email": "recruit@ezcaretech.com",
+          "label": "채용 문의",
+          "source": "https://www.ezcaretech.com/contact/"
+        }
+      ],
+      "after": [
+        {
+          "email": "pr@ezcaretech.com",
+          "label": "홍보 문의",
+          "source": "https://www.ezcaretech.com/contact/"
+        },
+        {
+          "email": "recruit@ezcaretech.com",
+          "label": "채용 문의",
+          "source": "https://www.ezcaretech.com/contact/"
+        },
+        {
+          "email": "biz@ezcaretech.com",
+          "label": "의료정보시스템 문의",
+          "source": "https://www.ezcaretech.com/contact/"
+        }
+      ],
+      "source": "https://www.ezcaretech.com/contact/"
+    },
+    {
+      "code": "109820",
+      "name": "진매트릭스",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "sales@genematrix.net",
+          "label": "영업 문의",
+          "source": "https://www.genematrix.net/"
+        }
+      ],
+      "after": [
+        {
+          "email": "sales@genematrix.net",
+          "label": "영업 문의",
+          "source": "https://www.genematrix.net/"
+        },
+        {
+          "email": "support@genematrix.net",
+          "label": "학술 문의",
+          "source": "https://www.genematrix.net/m33.php"
+        }
+      ],
+      "source": "https://www.genematrix.net/m33.php"
+    },
+    {
+      "code": "123860",
+      "name": "아나패스",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "ir@anapass.com",
+          "label": "홍보·투자 문의",
+          "source": "https://www.anapass.com/?act=info.page&pcode=sub1_1"
+        }
+      ],
+      "source": "https://www.anapass.com/?act=info.page&pcode=sub1_1"
+    },
+    {
+      "code": "123860",
+      "name": "아나패스",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "ir@anapass.com",
+          "label": "홍보·투자 문의",
+          "source": "https://www.anapass.com/?act=info.page&pcode=sub1_1"
+        }
+      ],
+      "after": [
+        {
+          "email": "ir@anapass.com",
+          "label": "홍보·투자 문의",
+          "source": "https://www.anapass.com/?act=info.page&pcode=sub1_1"
+        },
+        {
+          "email": "marketing@anapass.com",
+          "label": "제품·기술지원",
+          "source": "https://www.anapass.com/?act=info.page&pcode=sub1_1"
+        }
+      ],
+      "source": "https://www.anapass.com/?act=info.page&pcode=sub1_1"
+    },
+    {
+      "code": "127710",
+      "name": "아시아경제",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "marketing@asiae.co.kr",
+          "label": "온라인 광고·기사 제휴",
+          "source": "https://www.asiae.co.kr/company/ad-join/"
+        }
+      ],
+      "source": "https://www.asiae.co.kr/company/ad-join/"
+    },
+    {
+      "code": "145170",
+      "name": "노브랜드",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "info@nobland.com",
+          "label": "기타 안내·문의",
+          "source": "https://www.nobland.com/n_nobland/about.asp?p_mbs=03-01"
+        }
+      ],
+      "source": "https://www.nobland.com/n_nobland/about.asp?p_mbs=03-01"
+    },
+    {
+      "code": "183300",
+      "name": "코미코",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "webmaster@komico.com",
+          "label": "홈페이지 관리자",
+          "source": "https://www.komico.com/kr/index.php"
+        }
+      ],
+      "source": "https://www.komico.com/kr/index.php"
+    },
+    {
+      "code": "188260",
+      "name": "세니젠",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "info@sanigen.kr",
+          "label": "본사 문의",
+          "source": "https://sanigen.kr/html/dh/intropage/"
+        }
+      ],
+      "source": "https://sanigen.kr/html/dh/intropage/"
+    },
+    {
+      "code": "189690",
+      "name": "포시에스",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@forcs.com",
+          "label": "제품구매·유지보수",
+          "source": "https://kr.forcs.com/contact/"
+        }
+      ],
+      "source": "https://kr.forcs.com/contact/"
+    },
+    {
+      "code": "194480",
+      "name": "데브시스터즈",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "help_cookierunbraverse@devsisters.com",
+          "label": "공개 문의 이메일",
+          "source": "https://www.devsisters.com/"
+        }
+      ],
+      "after": [
+        {
+          "email": "help_cookierunbraverse@devsisters.com",
+          "label": "공개 문의 이메일",
+          "source": "https://www.devsisters.com/"
+        },
+        {
+          "email": "biz@devsisters.com",
+          "label": "제휴 문의",
+          "source": "https://www.devsisters.com/contact"
+        }
+      ],
+      "source": "https://www.devsisters.com/contact"
+    },
+    {
+      "code": "194480",
+      "name": "데브시스터즈",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "help_cookierunbraverse@devsisters.com",
+          "label": "공개 문의 이메일",
+          "source": "https://www.devsisters.com/"
+        },
+        {
+          "email": "biz@devsisters.com",
+          "label": "제휴 문의",
+          "source": "https://www.devsisters.com/contact"
+        }
+      ],
+      "after": [
+        {
+          "email": "help_cookierunbraverse@devsisters.com",
+          "label": "공개 문의 이메일",
+          "source": "https://www.devsisters.com/"
+        },
+        {
+          "email": "biz@devsisters.com",
+          "label": "제휴 문의",
+          "source": "https://www.devsisters.com/contact"
+        },
+        {
+          "email": "pr@devsisters.com",
+          "label": "홍보 문의",
+          "source": "https://www.devsisters.com/contact"
+        }
+      ],
+      "source": "https://www.devsisters.com/contact"
+    },
+    {
+      "code": "194480",
+      "name": "데브시스터즈",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "help_cookierunbraverse@devsisters.com",
+          "label": "공개 문의 이메일",
+          "source": "https://www.devsisters.com/"
+        },
+        {
+          "email": "biz@devsisters.com",
+          "label": "제휴 문의",
+          "source": "https://www.devsisters.com/contact"
+        },
+        {
+          "email": "pr@devsisters.com",
+          "label": "홍보 문의",
+          "source": "https://www.devsisters.com/contact"
+        }
+      ],
+      "after": [
+        {
+          "email": "help_cookierunbraverse@devsisters.com",
+          "label": "공개 문의 이메일",
+          "source": "https://www.devsisters.com/"
+        },
+        {
+          "email": "biz@devsisters.com",
+          "label": "제휴 문의",
+          "source": "https://www.devsisters.com/contact"
+        },
+        {
+          "email": "pr@devsisters.com",
+          "label": "홍보 문의",
+          "source": "https://www.devsisters.com/contact"
+        },
+        {
+          "email": "ir@devsisters.com",
+          "label": "주식 문의",
+          "source": "https://www.devsisters.com/contact"
+        }
+      ],
+      "source": "https://www.devsisters.com/contact"
+    },
+    {
+      "code": "200350",
+      "name": "아티스트스튜디오",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "info@artiststudio.co.kr",
+          "label": "일반 문의",
+          "source": "https://www.artiststudio.co.kr/contact/"
+        }
+      ],
+      "source": "https://www.artiststudio.co.kr/contact/"
+    },
+    {
+      "code": "206560",
+      "name": "덱스터",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "pr@dexterstudios.com",
+          "label": "홍보 문의",
+          "source": "https://dexterstudios.com/contact/"
+        }
+      ],
+      "source": "https://dexterstudios.com/contact/"
+    },
+    {
+      "code": "289930",
+      "name": "웨이비스",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@wavice.com",
+          "label": "영업 문의",
+          "source": "https://www.wavice.com/Contact"
+        }
+      ],
+      "source": "https://www.wavice.com/Contact"
+    },
+    {
+      "code": "291230",
+      "name": "컴투스엔",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "info@com2usn.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://com2usn.com/"
+        }
+      ],
+      "after": [
+        {
+          "email": "info@com2usn.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://com2usn.com/"
+        },
+        {
+          "email": "biz@com2usn.com",
+          "label": "협업 문의",
+          "source": "https://com2usn.com/contact"
+        }
+      ],
+      "source": "https://com2usn.com/contact"
+    },
+    {
+      "code": "291230",
+      "name": "컴투스엔",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "info@com2usn.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://com2usn.com/"
+        },
+        {
+          "email": "biz@com2usn.com",
+          "label": "협업 문의",
+          "source": "https://com2usn.com/contact"
+        }
+      ],
+      "after": [
+        {
+          "email": "info@com2usn.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://com2usn.com/"
+        },
+        {
+          "email": "biz@com2usn.com",
+          "label": "협업 문의",
+          "source": "https://com2usn.com/contact"
+        },
+        {
+          "email": "contact@com2usn.com",
+          "label": "본사 문의",
+          "source": "https://com2usn.com/contact"
+        }
+      ],
+      "source": "https://com2usn.com/contact"
+    },
+    {
+      "code": "298380",
+      "name": "에이비엘바이오",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "info@ablbio.com",
+          "label": "일반 문의",
+          "source": "https://www.ablbio.com/kr/company/contact"
+        }
+      ],
+      "source": "https://www.ablbio.com/kr/company/contact"
+    },
+    {
+      "code": "298380",
+      "name": "에이비엘바이오",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "info@ablbio.com",
+          "label": "일반 문의",
+          "source": "https://www.ablbio.com/kr/company/contact"
+        }
+      ],
+      "after": [
+        {
+          "email": "info@ablbio.com",
+          "label": "일반 문의",
+          "source": "https://www.ablbio.com/kr/company/contact"
+        },
+        {
+          "email": "recruit@ablbio.com",
+          "label": "채용 문의",
+          "source": "https://www.ablbio.com/kr/company/contact"
+        }
+      ],
+      "source": "https://www.ablbio.com/kr/company/contact"
+    },
+    {
+      "code": "298380",
+      "name": "에이비엘바이오",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "info@ablbio.com",
+          "label": "일반 문의",
+          "source": "https://www.ablbio.com/kr/company/contact"
+        },
+        {
+          "email": "recruit@ablbio.com",
+          "label": "채용 문의",
+          "source": "https://www.ablbio.com/kr/company/contact"
+        }
+      ],
+      "after": [
+        {
+          "email": "info@ablbio.com",
+          "label": "일반 문의",
+          "source": "https://www.ablbio.com/kr/company/contact"
+        },
+        {
+          "email": "recruit@ablbio.com",
+          "label": "채용 문의",
+          "source": "https://www.ablbio.com/kr/company/contact"
+        },
+        {
+          "email": "support@ablbio.com",
+          "label": "웹사이트 문의",
+          "source": "https://www.ablbio.com/kr/company/contact"
+        }
+      ],
+      "source": "https://www.ablbio.com/kr/company/contact"
+    },
+    {
+      "code": "298830",
+      "name": "슈어소프트테크",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "help@suresofttech.com",
+          "label": "기술 문의",
+          "source": "https://www.suresofttech.com/customer/inquiry.php"
+        }
+      ],
+      "source": "https://www.suresofttech.com/customer/inquiry.php"
+    },
+    {
+      "code": "298830",
+      "name": "슈어소프트테크",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "help@suresofttech.com",
+          "label": "기술 문의",
+          "source": "https://www.suresofttech.com/customer/inquiry.php"
+        }
+      ],
+      "after": [
+        {
+          "email": "help@suresofttech.com",
+          "label": "기술 문의",
+          "source": "https://www.suresofttech.com/customer/inquiry.php"
+        },
+        {
+          "email": "recruit@suresofttech.com",
+          "label": "채용·기타 문의",
+          "source": "https://www.suresofttech.com/customer/inquiry.php"
+        }
+      ],
+      "source": "https://www.suresofttech.com/customer/inquiry.php"
+    },
+    {
+      "code": "298830",
+      "name": "슈어소프트테크",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "help@suresofttech.com",
+          "label": "기술 문의",
+          "source": "https://www.suresofttech.com/customer/inquiry.php"
+        },
+        {
+          "email": "recruit@suresofttech.com",
+          "label": "채용·기타 문의",
+          "source": "https://www.suresofttech.com/customer/inquiry.php"
+        }
+      ],
+      "after": [
+        {
+          "email": "help@suresofttech.com",
+          "label": "기술 문의",
+          "source": "https://www.suresofttech.com/customer/inquiry.php"
+        },
+        {
+          "email": "recruit@suresofttech.com",
+          "label": "채용·기타 문의",
+          "source": "https://www.suresofttech.com/customer/inquiry.php"
+        },
+        {
+          "email": "ir@suresofttech.com",
+          "label": "투자 문의",
+          "source": "https://www.suresofttech.com/customer/inquiry.php"
+        }
+      ],
+      "source": "https://www.suresofttech.com/customer/inquiry.php"
+    },
+    {
+      "code": "304360",
+      "name": "에스바이오메딕스",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "info@sbiomedics.com",
+          "label": "일반 문의",
+          "source": "https://www.sbiomedics.com/aboutus/about.php?PHPSESSID=d7d344273b05b02792c069614c31410e"
+        }
+      ],
+      "source": "https://www.sbiomedics.com/aboutus/about.php?PHPSESSID=d7d344273b05b02792c069614c31410e"
+    },
+    {
+      "code": "310210",
+      "name": "보로노이",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "ir@voronoi.io",
+          "label": "투자 문의",
+          "source": "https://voronoi.io/location_contact.html"
+        }
+      ],
+      "source": "https://voronoi.io/location_contact.html"
+    },
+    {
+      "code": "321550",
+      "name": "티움바이오",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "ir@tiumbio.com",
+          "label": "투자·언론 문의",
+          "source": "https://www.tiumbio.com/m17.php"
+        }
+      ],
+      "source": "https://www.tiumbio.com/m17.php"
+    },
+    {
+      "code": "321550",
+      "name": "티움바이오",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "ir@tiumbio.com",
+          "label": "투자·언론 문의",
+          "source": "https://www.tiumbio.com/m17.php"
+        }
+      ],
+      "after": [
+        {
+          "email": "ir@tiumbio.com",
+          "label": "투자·언론 문의",
+          "source": "https://www.tiumbio.com/m17.php"
+        },
+        {
+          "email": "recruit@tiumbio.com",
+          "label": "채용 문의",
+          "source": "https://www.tiumbio.com/m17.php"
+        }
+      ],
+      "source": "https://www.tiumbio.com/m17.php"
+    },
+    {
+      "code": "327260",
+      "name": "RF머트리얼즈",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@rf-materials.com",
+          "label": "영업 문의",
+          "source": "https://www.rf-materials.com/page/62"
+        }
+      ],
+      "source": "https://www.rf-materials.com/page/62"
+    },
+    {
+      "code": "335810",
+      "name": "프리시젼바이오",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "info@precision-bio.com",
+          "label": "일반 문의",
+          "source": "https://precision-bio.com/en/animal/sub/about/about.php"
+        }
+      ],
+      "source": "https://precision-bio.com/en/animal/sub/about/about.php"
+    },
+    {
+      "code": "347000",
+      "name": "센코",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@senko.co.kr",
+          "label": "본사 영업 문의",
+          "source": "https://senko.co.kr/about/location.php"
+        }
+      ],
+      "source": "https://senko.co.kr/about/location.php"
+    },
+    {
+      "code": "347850",
+      "name": "디앤디파마텍",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "info@ddpharmatech.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://www.ddpharmatech.com/"
+        }
+      ],
+      "after": [
+        {
+          "email": "info@ddpharmatech.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://www.ddpharmatech.com/"
+        },
+        {
+          "email": "ir@ddpharmatech.com",
+          "label": "투자 문의",
+          "source": "https://www.ddpharmatech.com/m15.php"
+        }
+      ],
+      "source": "https://www.ddpharmatech.com/m15.php"
+    },
+    {
+      "code": "348030",
+      "name": "모비릭스",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "biz@mobirix.com",
+          "label": "사업 제안",
+          "source": "https://www.mobirix.com/company/contact.html"
+        }
+      ],
+      "source": "https://www.mobirix.com/company/contact.html"
+    },
+    {
+      "code": "348030",
+      "name": "모비릭스",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "biz@mobirix.com",
+          "label": "사업 제안",
+          "source": "https://www.mobirix.com/company/contact.html"
+        }
+      ],
+      "after": [
+        {
+          "email": "biz@mobirix.com",
+          "label": "사업 제안",
+          "source": "https://www.mobirix.com/company/contact.html"
+        },
+        {
+          "email": "recruit@mobirix.com",
+          "label": "채용 문의",
+          "source": "https://www.mobirix.com/company/contact.html"
+        }
+      ],
+      "source": "https://www.mobirix.com/company/contact.html"
+    },
+    {
+      "code": "348210",
+      "name": "넥스틴",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "ir@nextinsol.com",
+          "label": "IR 문의",
+          "source": "https://www.nextinsol.com/en/"
+        }
+      ],
+      "after": [
+        {
+          "email": "ir@nextinsol.com",
+          "label": "IR 문의",
+          "source": "https://www.nextinsol.com/en/"
+        },
+        {
+          "email": "hr@nextinsol.com",
+          "label": "채용·인사 문의",
+          "source": "https://www.nextinsol.com/ko/koreahead-office-2/"
+        }
+      ],
+      "source": "https://www.nextinsol.com/ko/koreahead-office-2/"
+    },
+    {
+      "code": "348210",
+      "name": "넥스틴",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "ir@nextinsol.com",
+          "label": "IR 문의",
+          "source": "https://www.nextinsol.com/en/"
+        },
+        {
+          "email": "hr@nextinsol.com",
+          "label": "채용·인사 문의",
+          "source": "https://www.nextinsol.com/ko/koreahead-office-2/"
+        }
+      ],
+      "after": [
+        {
+          "email": "ir@nextinsol.com",
+          "label": "IR 문의",
+          "source": "https://www.nextinsol.com/en/"
+        },
+        {
+          "email": "hr@nextinsol.com",
+          "label": "채용·인사 문의",
+          "source": "https://www.nextinsol.com/ko/koreahead-office-2/"
+        },
+        {
+          "email": "sales@nextinsol.com",
+          "label": "영업·사업 문의",
+          "source": "https://www.nextinsol.com/ko/koreahead-office-2/"
+        }
+      ],
+      "source": "https://www.nextinsol.com/ko/koreahead-office-2/"
+    },
+    {
+      "code": "352910",
+      "name": "오비고",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "sales@obigo.com",
+          "label": "영업 문의",
+          "source": "https://obigo.com/"
+        }
+      ],
+      "after": [
+        {
+          "email": "sales@obigo.com",
+          "label": "영업 문의",
+          "source": "https://obigo.com/"
+        },
+        {
+          "email": "marketing@obigo.com",
+          "label": "마케팅 문의",
+          "source": "https://obigo.com/contact-us/"
+        }
+      ],
+      "source": "https://obigo.com/contact-us/"
+    },
+    {
+      "code": "357880",
+      "name": "SKAI",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "inquiry@skaiworldwide.com",
+          "label": "대표 이메일",
+          "source": "https://skaiworldwide.com/ko"
+        }
+      ],
+      "after": [
+        {
+          "email": "inquiry@skaiworldwide.com",
+          "label": "대표 이메일",
+          "source": "https://skaiworldwide.com/ko"
+        },
+        {
+          "email": "ir@skaiworldwide.com",
+          "label": "투자 문의",
+          "source": "https://skaiworldwide.com/ko/ir/contact"
+        }
+      ],
+      "source": "https://skaiworldwide.com/ko/ir/contact"
+    },
+    {
+      "code": "367000",
+      "name": "플래티어",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "info@plateer.com",
+          "label": "디지털전환 솔루션 문의",
+          "source": "https://www.plateer.com/ko/company/contactus"
+        }
+      ],
+      "source": "https://www.plateer.com/ko/company/contactus"
+    },
+    {
+      "code": "367000",
+      "name": "플래티어",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "info@plateer.com",
+          "label": "디지털전환 솔루션 문의",
+          "source": "https://www.plateer.com/ko/company/contactus"
+        }
+      ],
+      "after": [
+        {
+          "email": "info@plateer.com",
+          "label": "디지털전환 솔루션 문의",
+          "source": "https://www.plateer.com/ko/company/contactus"
+        },
+        {
+          "email": "marketing@plateer.com",
+          "label": "제휴·마케팅 문의",
+          "source": "https://www.plateer.com/ko/company/contactus"
+        }
+      ],
+      "source": "https://www.plateer.com/ko/company/contactus"
+    },
+    {
+      "code": "368770",
+      "name": "파이버프로",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@fiberpro.com",
+          "label": "국내 영업 문의",
+          "source": "https://fiberpro.com/company/company.php"
+        }
+      ],
+      "source": "https://fiberpro.com/company/company.php"
+    },
+    {
+      "code": "372320",
+      "name": "큐로셀",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "contact@curocellbtx.com",
+          "label": "일반 문의",
+          "source": "https://curocellbtx.com/contact/"
+        }
+      ],
+      "source": "https://curocellbtx.com/contact/"
+    },
+    {
+      "code": "373170",
+      "name": "엠아이큐브솔루션",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "sales@micube.co.kr",
+          "label": "영업 문의",
+          "source": "https://www.micube.co.kr/"
+        }
+      ],
+      "after": [
+        {
+          "email": "sales@micube.co.kr",
+          "label": "영업 문의",
+          "source": "https://www.micube.co.kr/"
+        },
+        {
+          "email": "marketing@micube.co.kr",
+          "label": "솔루션·제휴 문의",
+          "source": "https://www.micube.co.kr/contactus/write"
+        }
+      ],
+      "source": "https://www.micube.co.kr/contactus/write"
+    },
+    {
+      "code": "373200",
+      "name": "엑스플러스",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@xplusinc.com",
+          "label": "영업 문의",
+          "source": "https://www.xplusinc.com/ko/aboutus/contact"
+        }
+      ],
+      "source": "https://www.xplusinc.com/ko/aboutus/contact"
+    },
+    {
+      "code": "373200",
+      "name": "엑스플러스",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "sales@xplusinc.com",
+          "label": "영업 문의",
+          "source": "https://www.xplusinc.com/ko/aboutus/contact"
+        }
+      ],
+      "after": [
+        {
+          "email": "sales@xplusinc.com",
+          "label": "영업 문의",
+          "source": "https://www.xplusinc.com/ko/aboutus/contact"
+        },
+        {
+          "email": "cs@xplusinc.com",
+          "label": "고객지원",
+          "source": "https://www.xplusinc.com/ko/aboutus/contact"
+        }
+      ],
+      "source": "https://www.xplusinc.com/ko/aboutus/contact"
+    },
+    {
+      "code": "380540",
+      "name": "옵티코어",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "Sales@opticore.co.kr",
+          "label": "영업 문의",
+          "source": "https://www.opticore.co.kr/"
+        }
+      ],
+      "after": [
+        {
+          "email": "Sales@opticore.co.kr",
+          "label": "영업 문의",
+          "source": "https://www.opticore.co.kr/"
+        },
+        {
+          "email": "hr@opticore.co.kr",
+          "label": "인사 문의",
+          "source": "https://www.opticore.co.kr/theme/sample81/html/d1.php"
+        }
+      ],
+      "source": "https://www.opticore.co.kr/theme/sample81/html/d1.php"
+    },
+    {
+      "code": "380540",
+      "name": "옵티코어",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "Sales@opticore.co.kr",
+          "label": "영업 문의",
+          "source": "https://www.opticore.co.kr/"
+        },
+        {
+          "email": "hr@opticore.co.kr",
+          "label": "인사 문의",
+          "source": "https://www.opticore.co.kr/theme/sample81/html/d1.php"
+        }
+      ],
+      "after": [
+        {
+          "email": "Sales@opticore.co.kr",
+          "label": "영업 문의",
+          "source": "https://www.opticore.co.kr/"
+        },
+        {
+          "email": "hr@opticore.co.kr",
+          "label": "인사 문의",
+          "source": "https://www.opticore.co.kr/theme/sample81/html/d1.php"
+        },
+        {
+          "email": "ir@opticore.co.kr",
+          "label": "투자 문의",
+          "source": "https://www.opticore.co.kr/theme/sample81/html/d1.php"
+        }
+      ],
+      "source": "https://www.opticore.co.kr/theme/sample81/html/d1.php"
+    },
+    {
+      "code": "389020",
+      "name": "자람테크놀로지",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@zaram.com",
+          "label": "영업 문의",
+          "source": "https://zaram.com/m51.php"
+        }
+      ],
+      "source": "https://zaram.com/m51.php"
+    },
+    {
+      "code": "396270",
+      "name": "넥스트칩",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@nextchip.com",
+          "label": "본사 영업 문의",
+          "source": "https://www.nextchip.com/kr/about/vision_professional.php"
+        }
+      ],
+      "source": "https://www.nextchip.com/kr/about/vision_professional.php"
+    },
+    {
+      "code": "397810",
+      "name": "애드포러스",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "help@adforus.co.kr",
+          "label": "일반 문의",
+          "source": "https://www.adforus.co.kr/contact.html"
+        }
+      ],
+      "source": "https://www.adforus.co.kr/contact.html"
+    },
+    {
+      "code": "398120",
+      "name": "에스지헬스케어",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "sales@sghealthcare.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://sghealthcare.com/user/mainPage.do"
+        },
+        {
+          "email": "info@sghealthcare.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://sghealthcare.com/user/mainPage.do"
+        }
+      ],
+      "after": [
+        {
+          "email": "sales@sghealthcare.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://sghealthcare.com/user/mainPage.do"
+        },
+        {
+          "email": "info@sghealthcare.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://sghealthcare.com/user/mainPage.do"
+        },
+        {
+          "email": "service@sghealthcare.com",
+          "label": "서비스 문의",
+          "source": "https://sghealthcare.com/user/page/contact"
+        }
+      ],
+      "source": "https://sghealthcare.com/user/page/contact"
+    },
+    {
+      "code": "417010",
+      "name": "나노팀",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "sales@nanotim.co.kr",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://www.nanotim.co.kr/"
+        }
+      ],
+      "after": [
+        {
+          "email": "sales@nanotim.co.kr",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://www.nanotim.co.kr/"
+        },
+        {
+          "email": "info@nanotim.co.kr",
+          "label": "일반 문의",
+          "source": "https://www.nanotim.co.kr/contact"
+        }
+      ],
+      "source": "https://www.nanotim.co.kr/contact"
+    },
+    {
+      "code": "417970",
+      "name": "모델솔루션",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@model-solution.com",
+          "label": "영업 문의",
+          "source": "https://www.model-solution.com/en/company/contact"
+        }
+      ],
+      "source": "https://www.model-solution.com/en/company/contact"
+    },
+    {
+      "code": "418470",
+      "name": "KT밀리의서재",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "help@millie.town",
+          "label": "이용 문의",
+          "source": "https://www.millie.town/contact/"
+        }
+      ],
+      "source": "https://www.millie.town/contact/"
+    },
+    {
+      "code": "452200",
+      "name": "민테크",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "ir@g-mintech.co.kr",
+          "label": "투자 문의",
+          "source": "https://www.g-mintech.co.kr/kor/investors/menu_04.html"
+        }
+      ],
+      "source": "https://www.g-mintech.co.kr/kor/investors/menu_04.html"
+    },
+    {
+      "code": "456010",
+      "name": "아이씨티케이",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@ictk.com",
+          "label": "제품 문의",
+          "source": "https://www.ictk.com/contact"
+        }
+      ],
+      "source": "https://www.ictk.com/contact"
+    },
+    {
+      "code": "466410",
+      "name": "사이냅소프트",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@synapsoft.co.kr",
+          "label": "영업 문의",
+          "source": "https://www.synapsoft.co.kr/contact/"
+        }
+      ],
+      "source": "https://www.synapsoft.co.kr/contact/"
+    },
+    {
+      "code": "466410",
+      "name": "사이냅소프트",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "sales@synapsoft.co.kr",
+          "label": "영업 문의",
+          "source": "https://www.synapsoft.co.kr/contact/"
+        }
+      ],
+      "after": [
+        {
+          "email": "sales@synapsoft.co.kr",
+          "label": "영업 문의",
+          "source": "https://www.synapsoft.co.kr/contact/"
+        },
+        {
+          "email": "support@synapsoft.co.kr",
+          "label": "기술지원",
+          "source": "https://www.synapsoft.co.kr/contact/"
+        }
+      ],
+      "source": "https://www.synapsoft.co.kr/contact/"
+    },
+    {
+      "code": "477850",
+      "name": "마키나락스",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "contact@makinarocks.ai",
+          "label": "지원 문의",
+          "source": "https://www.makinarocks.ai/contact-us/"
+        }
+      ],
+      "source": "https://www.makinarocks.ai/contact-us/"
+    },
+    {
+      "code": "486990",
+      "name": "노타",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "contact@nota.ai",
+          "label": "일반 문의",
+          "source": "https://www.nota.ai/contact-us"
+        }
+      ],
+      "source": "https://www.nota.ai/contact-us"
+    },
+    {
+      "code": "487400",
+      "name": "케이앤에스아이앤씨",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "sales@kns-kr.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://kns-kr.com/english"
+        }
+      ],
+      "after": [
+        {
+          "email": "sales@kns-kr.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://kns-kr.com/english"
+        },
+        {
+          "email": "support@kns-kr.com",
+          "label": "기술지원",
+          "source": "https://kns-kr.com/english/ContactUs"
+        }
+      ],
+      "source": "https://kns-kr.com/english/ContactUs"
+    },
+    {
+      "code": "487400",
+      "name": "케이앤에스아이앤씨",
+      "field": "publicContacts",
+      "before": [
+        {
+          "email": "sales@kns-kr.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://kns-kr.com/english"
+        },
+        {
+          "email": "support@kns-kr.com",
+          "label": "기술지원",
+          "source": "https://kns-kr.com/english/ContactUs"
+        }
+      ],
+      "after": [
+        {
+          "email": "sales@kns-kr.com",
+          "label": "공식 홈페이지 공개 이메일",
+          "source": "https://kns-kr.com/english"
+        },
+        {
+          "email": "support@kns-kr.com",
+          "label": "기술지원",
+          "source": "https://kns-kr.com/english/ContactUs"
+        },
+        {
+          "email": "info@kns-kr.com",
+          "label": "인사 문의",
+          "source": "https://kns-kr.com/english/ContactUs"
+        }
+      ],
+      "source": "https://kns-kr.com/english/ContactUs"
+    },
+    {
+      "code": "489500",
+      "name": "엘케이켐",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "sales@lkchem.co.kr",
+          "label": "본사 영업 문의",
+          "source": "https://lkchem.co.kr/wp/overview-conpany-ko2/"
+        }
+      ],
+      "source": "https://lkchem.co.kr/wp/overview-conpany-ko2/"
+    },
+    {
+      "code": "078000",
+      "name": "텔코웨어",
+      "field": "email",
+      "before": null,
+      "after": "telcoware@telcoware.com",
+      "source": "https://www.telcoware.com/doc/company.php/contact"
+    },
+    {
+      "code": "451800",
+      "name": "한화리츠",
+      "field": "phone",
+      "before": "",
+      "after": "02-6950-0000",
+      "source": "https://www.hanwhareit.com/index.php"
+    },
+    {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "field": "phone",
+      "before": "",
+      "after": "02-3777-1114",
+      "source": "https://www.lgensol.com/kr/company/network-all"
+    },
+    {
+      "code": "348950",
+      "name": "제이알글로벌리츠",
+      "field": "phone",
+      "before": "",
+      "after": "02-2008-7060",
+      "source": "https://www.jrglobalreit.com/index.php"
+    },
+    {
+      "code": "452450",
+      "name": "피아이이",
+      "field": "phone",
+      "before": "",
+      "after": "031-375-9122",
+      "source": "https://www.piegroup.co.kr/company/company-introduction/location"
+    },
+    {
+      "code": "460930",
+      "name": "현대힘스",
+      "field": "phone",
+      "before": "",
+      "after": "052-203-9021",
+      "source": "https://www.hyms.kr/"
+    },
+    {
+      "code": "451800",
+      "name": "한화리츠",
+      "field": "website",
+      "before": "",
+      "after": "https://www.hanwhareit.com/",
+      "source": "https://www.hanwhareit.com/index.php"
+    },
+    {
+      "code": "452450",
+      "name": "피아이이",
+      "field": "publicContacts",
+      "before": null,
+      "after": [
+        {
+          "email": "pie@piegroup.co.kr",
+          "label": "본사 문의",
+          "source": "https://www.piegroup.co.kr/contact-online"
+        }
+      ],
+      "source": "https://www.piegroup.co.kr/contact-online"
+    }
+  ],
+  "heldEmailCandidateIndices": [
+    5,
+    6,
+    15,
+    35,
+    36,
+    78,
+    86
+  ],
+  "heldDates": [
+    "007570: official month only",
+    "089010: official month only",
+    "183190: anniversary age basis unresolved",
+    "234080: anniversary base year unresolved",
+    "950170: official founding month only"
+  ],
+  "summary": {
+    "companiesReviewedForOfficialPages": 2652,
+    "companiesUpdated": 80,
+    "addedOfficialAnniversaries": 20,
+    "officialAnniversaries": 34,
+    "incorporationBasedAnniversaries": 2605,
+    "withoutAnyDate": 13,
+    "addedPublicContacts": 81,
+    "missingFields": {
+      "phone": 41,
+      "address": 16,
+      "website": 160,
+      "founded": 15,
+      "email": 2650,
+      "anniversary": 2618,
+      "careers": 2258,
+      "sns": 2165,
+      "group": 2644,
+      "department": 2652
+    },
+    "withoutAnyEmail": 2374
+  }
+}

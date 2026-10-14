@@ -20,7 +20,7 @@ if(origin) {const u=new URL(origin);if(u.protocol!=='https:'||u.origin!==origin)
 let input=await fs.readFile('lib/companies.ts','utf8');
 for(const [name,file] of [['listed','listed-companies.json'],['catalogMeta','catalog-meta.json'],['officialLinks','official-links.json'],['curated','curated-overrides.json']])input=input.replace(`import ${name} from './${file}';`,`const ${name}=${await fs.readFile('lib/'+file,'utf8')};`);
 const module=ts.transpileModule(input,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText;
-const {companies}=await import('data:text/javascript;base64,'+Buffer.from(module).toString('base64'));
+const {companies,commemoration}=await import('data:text/javascript;base64,'+Buffer.from(module).toString('base64'));
 const routes=['/','/anniversaries',...companies.map(c=>'/companies/'+c.id)];
 const assetVersion=createHash('sha256').update(await fs.readFile('portable/generated/client.txt')).update(await fs.readFile('portable/generated/style.txt')).digest('hex').slice(0,16);
 const escape=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
@@ -34,7 +34,7 @@ for(const route of [...routes,'/not-found']) {
   if(origin&&response.status===200)html=html.replace('</head>',`<link rel="canonical" href="${escape(origin+route)}"></head>`);
   await write(route==='/not-found'?'404.html':route==='/'?'index.html':route.slice(1)+'.html',html);
 }
-for(const c of companies.filter(c=>c.anniversary)) {
+for(const c of companies.filter(c=>commemoration(c))) {
   const r=await worker.fetch(new Request('https://build.invalid/api/calendar/'+c.id));
   if(r.status!==200)throw new Error('Calendar build failed: '+c.id);
   await write('api/calendar/'+c.id,await r.text());

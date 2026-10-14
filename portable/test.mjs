@@ -36,7 +36,10 @@ assert.ok(!homeHtml.includes('anniversary-panel'),'Anonymous homepage must not s
 assert.equal((homeHtml.match(/class="company-card"/g)||[]).length,3,'Home should show only three companies');
 for(const route of ['/','/anniversaries',...companies.filter((c,i)=>i<8||i%100===0).map(c=>'/companies/'+c.id)]){const r=await worker.fetch(new Request('https://example.com'+route));assert.equal(r.status,200,route);assert.ok((await r.text()).includes('기업의 날'));}
 assert.equal((await worker.fetch(new Request('https://example.com/no-such-company'))).status,404);
-assert.equal((await worker.fetch(new Request('https://example.com/api/calendar/krx-001550'))).status,404);
+const establishmentCalendar=await worker.fetch(new Request('https://example.com/api/calendar/krx-001550'));
+assert.equal(establishmentCalendar.status,200);
+assert.ok((await establishmentCalendar.text()).includes('설립기념일'));
+assert.equal((await worker.fetch(new Request('https://example.com/api/calendar/krx-950210'))).status,404);
 const cal=await worker.fetch(new Request('https://example.com/api/calendar/samsung-electronics'));assert.equal(cal.status,200);const ics=await cal.text();assert.ok(ics.includes('RRULE:FREQ=YEARLY'));assert.ok(ics.includes('DTSTART;VALUE=DATE:20261101'));assert.ok(ics.includes('DTEND;VALUE=DATE:20261102'));
 assert.equal((await worker.fetch(new Request('https://example.com/',{method:'POST'}))).status,405);
 console.log('PASS: Korean/initials/English/keyboard search, timezone/year rollover, 10 rendered routes, calendar, 404, method restrictions.');

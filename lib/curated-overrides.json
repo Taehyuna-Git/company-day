@@ -771,8 +771,13 @@
       {
         "label": "기업 기본 정보 · 2026-10-09 확인",
         "url": "https://www.lgensol.com/kr/company/info-outline"
+      },
+      {
+        "label": "본사 전화 · 2026-10-13 확인",
+        "url": "https://www.lgensol.com/kr/company/network-all"
       }
-    ]
+    ],
+    "phone": "02-3777-1114"
   },
   "323410": {
     "website": "https://www.kakaobank.com/",
@@ -1733,6 +1738,22 @@
         "email": "info@com2usn.com",
         "label": "공식 홈페이지 공개 이메일",
         "source": "https://com2usn.com/"
+      },
+      {
+        "email": "biz@com2usn.com",
+        "label": "협업 문의",
+        "source": "https://com2usn.com/contact"
+      },
+      {
+        "email": "contact@com2usn.com",
+        "label": "본사 문의",
+        "source": "https://com2usn.com/contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://com2usn.com/contact"
       }
     ]
   },
@@ -1874,6 +1895,17 @@
         "email": "info@ddpharmatech.com",
         "label": "공식 홈페이지 공개 이메일",
         "source": "https://www.ddpharmatech.com/"
+      },
+      {
+        "email": "ir@ddpharmatech.com",
+        "label": "투자 문의",
+        "source": "https://www.ddpharmatech.com/m15.php"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.ddpharmatech.com/m15.php"
       }
     ]
   },
@@ -1892,6 +1924,22 @@
         "email": "ir@nextinsol.com",
         "label": "IR 문의",
         "source": "https://www.nextinsol.com/en/"
+      },
+      {
+        "email": "hr@nextinsol.com",
+        "label": "채용·인사 문의",
+        "source": "https://www.nextinsol.com/ko/koreahead-office-2/"
+      },
+      {
+        "email": "sales@nextinsol.com",
+        "label": "영업·사업 문의",
+        "source": "https://www.nextinsol.com/ko/koreahead-office-2/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.nextinsol.com/ko/koreahead-office-2/"
       }
     ]
   },
@@ -1924,6 +1972,17 @@
         "email": "sales@obigo.com",
         "label": "영업 문의",
         "source": "https://obigo.com/"
+      },
+      {
+        "email": "marketing@obigo.com",
+        "label": "마케팅 문의",
+        "source": "https://obigo.com/contact-us/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://obigo.com/contact-us/"
       }
     ]
   },
@@ -1961,6 +2020,11 @@
         "email": "inquiry@skaiworldwide.com",
         "label": "대표 이메일",
         "source": "https://skaiworldwide.com/ko"
+      },
+      {
+        "email": "ir@skaiworldwide.com",
+        "label": "투자 문의",
+        "source": "https://skaiworldwide.com/ko/ir/contact"
       }
     ],
     "email": "inquiry@skaiworldwide.com",
@@ -1968,6 +2032,10 @@
       {
         "label": "기업 기본 정보 · 2026-10-09 확인",
         "url": "https://skaiworldwide.com/ko"
+      },
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://skaiworldwide.com/ko/ir/contact"
       }
     ]
   },
@@ -2001,6 +2069,16 @@
         "label": "공식 홈페이지 공개 이메일",
         "source": "https://www.ysfc.co.kr/"
       }
+    ],
+    "anniversary": "1986-08-01",
+    "source": "https://www.ysfc.co.kr/",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.ysfc.co.kr/"
+      }
     ]
   },
   "389470": {
@@ -2032,6 +2110,17 @@
         "email": "info@sghealthcare.com",
         "label": "공식 홈페이지 공개 이메일",
         "source": "https://sghealthcare.com/user/mainPage.do"
+      },
+      {
+        "email": "service@sghealthcare.com",
+        "label": "서비스 문의",
+        "source": "https://sghealthcare.com/user/page/contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://sghealthcare.com/user/page/contact"
       }
     ]
   },
@@ -2059,6 +2148,17 @@
         "email": "sales@nanotim.co.kr",
         "label": "공식 홈페이지 공개 이메일",
         "source": "https://www.nanotim.co.kr/"
+      },
+      {
+        "email": "info@nanotim.co.kr",
+        "label": "일반 문의",
+        "source": "https://www.nanotim.co.kr/contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.nanotim.co.kr/contact"
       }
     ]
   },
@@ -2259,6 +2359,1156 @@
         "email": "sales@kns-kr.com",
         "label": "공식 홈페이지 공개 이메일",
         "source": "https://kns-kr.com/english"
+      },
+      {
+        "email": "support@kns-kr.com",
+        "label": "기술지원",
+        "source": "https://kns-kr.com/english/ContactUs"
+      },
+      {
+        "email": "info@kns-kr.com",
+        "label": "인사 문의",
+        "source": "https://kns-kr.com/english/ContactUs"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://kns-kr.com/english/ContactUs"
+      }
+    ]
+  },
+  "001260": {
+    "anniversary": "1947-07-07",
+    "source": "https://www.namkwang.co.kr/histories",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.namkwang.co.kr/histories"
+      }
+    ]
+  },
+  "002290": {
+    "anniversary": "1958-02-05",
+    "source": "https://samilenter.com/company/history",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://samilenter.com/company/history"
+      }
+    ]
+  },
+  "004020": {
+    "anniversary": "1953-06-10",
+    "source": "https://www.hyundai-steel.com/kr/company/history",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.hyundai-steel.com/kr/company/history"
+      },
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.hyundai-steel.com/kr/support/contact-info"
+      }
+    ],
+    "publicContacts": [
+      {
+        "email": "ir@hyundai-steel.com",
+        "label": "투자 문의",
+        "source": "https://www.hyundai-steel.com/kr/support/contact-info"
+      },
+      {
+        "email": "recruiting@hyundai-steel.com",
+        "label": "채용 문의",
+        "source": "https://www.hyundai-steel.com/kr/support/contact-info"
+      }
+    ]
+  },
+  "033320": {
+    "anniversary": "1984-02-14",
+    "source": "https://www.jchyun.com/company/about",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.jchyun.com/company/about"
+      }
+    ]
+  },
+  "076610": {
+    "anniversary": "1988-02-10",
+    "source": "https://www.hso.co.kr/company/aboutus",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.hso.co.kr/company/aboutus"
+      }
+    ]
+  },
+  "079190": {
+    "anniversary": "1998-06-01",
+    "source": "https://www.kespion.co.kr/theme/mild01/subpage/company/introduction.php",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.kespion.co.kr/theme/mild01/subpage/company/introduction.php"
+      }
+    ]
+  },
+  "137080": {
+    "anniversary": "1990-01-01",
+    "source": "https://www.naraenano.co.kr/kr/company/intro.php",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.naraenano.co.kr/kr/company/intro.php"
+      }
+    ]
+  },
+  "192440": {
+    "anniversary": "2004-05-17",
+    "source": "https://www.spigenkorea.co.kr/about/overview.php",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.spigenkorea.co.kr/about/overview.php"
+      }
+    ]
+  },
+  "241710": {
+    "anniversary": "2000-05-12",
+    "source": "https://www.cosmecca.com/ko/home",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.cosmecca.com/ko/home"
+      }
+    ]
+  },
+  "271830": {
+    "anniversary": "2003-10-05",
+    "source": "https://pamtek.com/",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://pamtek.com/"
+      }
+    ]
+  },
+  "314930": {
+    "anniversary": "2009-09-11",
+    "source": "https://www.biodyne.asia/overview",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 홈페이지에 안내된 창립일 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.biodyne.asia/overview"
+      }
+    ]
+  },
+  "329180": {
+    "anniversary": "1972-03-23",
+    "source": "https://hd-hhi.com/kr/company/overview/company-overview",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://hd-hhi.com/kr/company/overview/company-overview"
+      }
+    ]
+  },
+  "383220": {
+    "anniversary": "1992-08-27",
+    "source": "https://www.fnf.co.kr/about/identity",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "회사 공식 홈페이지의 창립 연혁 기준입니다. 현재 법인의 설립일과 다를 수 있습니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.fnf.co.kr/about/identity"
+      }
+    ]
+  },
+  "000660": {
+    "anniversary": "1983-10-10",
+    "source": "https://news.skhynix.co.kr/skhynix-40th-anniversary-talk/",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://news.skhynix.co.kr/skhynix-40th-anniversary-talk/"
+      }
+    ]
+  },
+  "000720": {
+    "anniversary": "1947-05-25",
+    "source": "https://www1.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=1481&NewsType=JOURNAL",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www1.hdec.kr/kr/newsroom/news_view.aspx?NewsListType=news_clist&NewsSeq=1481&NewsType=JOURNAL"
+      }
+    ]
+  },
+  "001750": {
+    "anniversary": "1956-03-27",
+    "source": "https://www.hygood.co.kr/contents/06/02/060205",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.hygood.co.kr/contents/06/02/060205"
+      }
+    ]
+  },
+  "014990": {
+    "anniversary": "1980-09-08",
+    "source": "https://www.inthef.co.kr/views/front/company/overview",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.inthef.co.kr/views/front/company/overview"
+      }
+    ]
+  },
+  "248170": {
+    "anniversary": "1946-08-20",
+    "source": "https://www.sempio.com/about/history",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.sempio.com/about/history"
+      }
+    ]
+  },
+  "006280": {
+    "anniversary": "1967-10-05",
+    "source": "https://www.gcbiopharma.com/kor/news_view.do?idx=3225",
+    "sourceVerifiedAt": "2026-10-13",
+    "anniversaryNote": "공식 창립 연혁·기념일 안내 기준입니다. 법인 설립일과 구분해 표시합니다.",
+    "fieldSources": [
+      {
+        "label": "공식 창립일 · 2026-10-13 확인",
+        "url": "https://www.gcbiopharma.com/kor/news_view.do?idx=3225"
+      }
+    ]
+  },
+  "293940": {
+    "fieldSources": [
+      {
+        "label": "법인 설립일 2017-12-18 확인 · 2026-10-13 확인",
+        "url": "https://kind.krx.co.kr/external/2024/06/11/000316/20240611000942/11011.htm"
+      }
+    ]
+  },
+  "0039P0": {
+    "publicContacts": [
+      {
+        "email": "contact@madup.com",
+        "label": "광고·사업 문의",
+        "source": "https://madup.com/sub/contact/form.html"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://madup.com/sub/contact/form.html"
+      }
+    ]
+  },
+  "018880": {
+    "publicContacts": [
+      {
+        "email": "ir@hanonsystems.com",
+        "label": "투자 문의",
+        "source": "https://www.hanonsystems.com/En/Investors/Emailalert"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.hanonsystems.com/En/Investors/Emailalert"
+      }
+    ]
+  },
+  "023960": {
+    "publicContacts": [
+      {
+        "email": "ir@sc-eng.com",
+        "label": "투자 문의",
+        "source": "https://www.sc-eng.com/contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.sc-eng.com/contact"
+      }
+    ]
+  },
+  "069410": {
+    "publicContacts": [
+      {
+        "email": "info@ntels.com",
+        "label": "일반 문의",
+        "source": "https://www.ntels.com/ko/company/contact"
+      },
+      {
+        "email": "sales@ntels.com",
+        "label": "영업 문의",
+        "source": "https://www.ntels.com/ko/company/contact"
+      },
+      {
+        "email": "ir@ntels.com",
+        "label": "투자 문의",
+        "source": "https://www.ntels.com/ko/company/contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.ntels.com/ko/company/contact"
+      }
+    ]
+  },
+  "070300": {
+    "publicContacts": [
+      {
+        "email": "admin@quantumrail.co.kr",
+        "label": "일반 문의",
+        "source": "https://www.quantumrail.co.kr/contact-us"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.quantumrail.co.kr/contact-us"
+      }
+    ]
+  },
+  "074610": {
+    "publicContacts": [
+      {
+        "email": "sales@en3.co.kr",
+        "label": "영업 문의",
+        "source": "https://www.en3.co.kr/ko/inquirynew"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.en3.co.kr/ko/inquirynew"
+      }
+    ]
+  },
+  "078000": {
+    "publicContacts": [
+      {
+        "email": "sales@telcoware.com",
+        "label": "영업 문의",
+        "source": "https://www.telcoware.com/doc/company.php/contact"
+      },
+      {
+        "email": "recruit@telcoware.com",
+        "label": "채용 문의",
+        "source": "https://www.telcoware.com/doc/company.php/contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.telcoware.com/doc/company.php/contact"
+      },
+      {
+        "label": "공식 대표 이메일 · 2026-10-13 확인",
+        "url": "https://www.telcoware.com/doc/company.php/contact"
+      }
+    ],
+    "email": "telcoware@telcoware.com"
+  },
+  "093240": {
+    "publicContacts": [
+      {
+        "email": "webmaster@hyungji-elite.com",
+        "label": "홈페이지 문의",
+        "source": "https://www.hyungji-elite.com/?p=21"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.hyungji-elite.com/?p=21"
+      }
+    ]
+  },
+  "095270": {
+    "publicContacts": [
+      {
+        "email": "webmaster@wavetc.com",
+        "label": "기업·투자 문의",
+        "source": "https://wavetc.com/comp-2/comp_tel/"
+      },
+      {
+        "email": "recruit@wavetc.com",
+        "label": "채용 문의",
+        "source": "https://wavetc.com/comp-2/comp_tel/"
+      },
+      {
+        "email": "sales@wavetc.com",
+        "label": "통신제품 문의",
+        "source": "https://wavetc.com/comp-2/comp_tel/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://wavetc.com/comp-2/comp_tel/"
+      }
+    ]
+  },
+  "099750": {
+    "publicContacts": [
+      {
+        "email": "pr@ezcaretech.com",
+        "label": "홍보 문의",
+        "source": "https://www.ezcaretech.com/contact/"
+      },
+      {
+        "email": "recruit@ezcaretech.com",
+        "label": "채용 문의",
+        "source": "https://www.ezcaretech.com/contact/"
+      },
+      {
+        "email": "biz@ezcaretech.com",
+        "label": "의료정보시스템 문의",
+        "source": "https://www.ezcaretech.com/contact/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.ezcaretech.com/contact/"
+      }
+    ]
+  },
+  "109820": {
+    "publicContacts": [
+      {
+        "email": "sales@genematrix.net",
+        "label": "영업 문의",
+        "source": "https://www.genematrix.net/"
+      },
+      {
+        "email": "support@genematrix.net",
+        "label": "학술 문의",
+        "source": "https://www.genematrix.net/m33.php"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.genematrix.net/m33.php"
+      }
+    ]
+  },
+  "123860": {
+    "publicContacts": [
+      {
+        "email": "ir@anapass.com",
+        "label": "홍보·투자 문의",
+        "source": "https://www.anapass.com/?act=info.page&pcode=sub1_1"
+      },
+      {
+        "email": "marketing@anapass.com",
+        "label": "제품·기술지원",
+        "source": "https://www.anapass.com/?act=info.page&pcode=sub1_1"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.anapass.com/?act=info.page&pcode=sub1_1"
+      }
+    ]
+  },
+  "127710": {
+    "publicContacts": [
+      {
+        "email": "marketing@asiae.co.kr",
+        "label": "온라인 광고·기사 제휴",
+        "source": "https://www.asiae.co.kr/company/ad-join/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.asiae.co.kr/company/ad-join/"
+      }
+    ]
+  },
+  "145170": {
+    "publicContacts": [
+      {
+        "email": "info@nobland.com",
+        "label": "기타 안내·문의",
+        "source": "https://www.nobland.com/n_nobland/about.asp?p_mbs=03-01"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.nobland.com/n_nobland/about.asp?p_mbs=03-01"
+      }
+    ]
+  },
+  "183300": {
+    "publicContacts": [
+      {
+        "email": "webmaster@komico.com",
+        "label": "홈페이지 관리자",
+        "source": "https://www.komico.com/kr/index.php"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.komico.com/kr/index.php"
+      }
+    ]
+  },
+  "188260": {
+    "publicContacts": [
+      {
+        "email": "info@sanigen.kr",
+        "label": "본사 문의",
+        "source": "https://sanigen.kr/html/dh/intropage/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://sanigen.kr/html/dh/intropage/"
+      }
+    ]
+  },
+  "189690": {
+    "publicContacts": [
+      {
+        "email": "sales@forcs.com",
+        "label": "제품구매·유지보수",
+        "source": "https://kr.forcs.com/contact/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://kr.forcs.com/contact/"
+      }
+    ]
+  },
+  "194480": {
+    "publicContacts": [
+      {
+        "email": "help_cookierunbraverse@devsisters.com",
+        "label": "공개 문의 이메일",
+        "source": "https://www.devsisters.com/"
+      },
+      {
+        "email": "biz@devsisters.com",
+        "label": "제휴 문의",
+        "source": "https://www.devsisters.com/contact"
+      },
+      {
+        "email": "pr@devsisters.com",
+        "label": "홍보 문의",
+        "source": "https://www.devsisters.com/contact"
+      },
+      {
+        "email": "ir@devsisters.com",
+        "label": "주식 문의",
+        "source": "https://www.devsisters.com/contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.devsisters.com/contact"
+      }
+    ]
+  },
+  "200350": {
+    "publicContacts": [
+      {
+        "email": "info@artiststudio.co.kr",
+        "label": "일반 문의",
+        "source": "https://www.artiststudio.co.kr/contact/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.artiststudio.co.kr/contact/"
+      }
+    ]
+  },
+  "206560": {
+    "publicContacts": [
+      {
+        "email": "pr@dexterstudios.com",
+        "label": "홍보 문의",
+        "source": "https://dexterstudios.com/contact/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://dexterstudios.com/contact/"
+      }
+    ]
+  },
+  "289930": {
+    "publicContacts": [
+      {
+        "email": "sales@wavice.com",
+        "label": "영업 문의",
+        "source": "https://www.wavice.com/Contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.wavice.com/Contact"
+      }
+    ]
+  },
+  "298380": {
+    "publicContacts": [
+      {
+        "email": "info@ablbio.com",
+        "label": "일반 문의",
+        "source": "https://www.ablbio.com/kr/company/contact"
+      },
+      {
+        "email": "recruit@ablbio.com",
+        "label": "채용 문의",
+        "source": "https://www.ablbio.com/kr/company/contact"
+      },
+      {
+        "email": "support@ablbio.com",
+        "label": "웹사이트 문의",
+        "source": "https://www.ablbio.com/kr/company/contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.ablbio.com/kr/company/contact"
+      }
+    ]
+  },
+  "298830": {
+    "publicContacts": [
+      {
+        "email": "help@suresofttech.com",
+        "label": "기술 문의",
+        "source": "https://www.suresofttech.com/customer/inquiry.php"
+      },
+      {
+        "email": "recruit@suresofttech.com",
+        "label": "채용·기타 문의",
+        "source": "https://www.suresofttech.com/customer/inquiry.php"
+      },
+      {
+        "email": "ir@suresofttech.com",
+        "label": "투자 문의",
+        "source": "https://www.suresofttech.com/customer/inquiry.php"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.suresofttech.com/customer/inquiry.php"
+      }
+    ]
+  },
+  "304360": {
+    "publicContacts": [
+      {
+        "email": "info@sbiomedics.com",
+        "label": "일반 문의",
+        "source": "https://www.sbiomedics.com/aboutus/about.php?PHPSESSID=d7d344273b05b02792c069614c31410e"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.sbiomedics.com/aboutus/about.php?PHPSESSID=d7d344273b05b02792c069614c31410e"
+      }
+    ]
+  },
+  "310210": {
+    "publicContacts": [
+      {
+        "email": "ir@voronoi.io",
+        "label": "투자 문의",
+        "source": "https://voronoi.io/location_contact.html"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://voronoi.io/location_contact.html"
+      }
+    ]
+  },
+  "321550": {
+    "publicContacts": [
+      {
+        "email": "ir@tiumbio.com",
+        "label": "투자·언론 문의",
+        "source": "https://www.tiumbio.com/m17.php"
+      },
+      {
+        "email": "recruit@tiumbio.com",
+        "label": "채용 문의",
+        "source": "https://www.tiumbio.com/m17.php"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.tiumbio.com/m17.php"
+      }
+    ]
+  },
+  "327260": {
+    "publicContacts": [
+      {
+        "email": "sales@rf-materials.com",
+        "label": "영업 문의",
+        "source": "https://www.rf-materials.com/page/62"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.rf-materials.com/page/62"
+      }
+    ]
+  },
+  "335810": {
+    "publicContacts": [
+      {
+        "email": "info@precision-bio.com",
+        "label": "일반 문의",
+        "source": "https://precision-bio.com/en/animal/sub/about/about.php"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://precision-bio.com/en/animal/sub/about/about.php"
+      }
+    ]
+  },
+  "347000": {
+    "publicContacts": [
+      {
+        "email": "sales@senko.co.kr",
+        "label": "본사 영업 문의",
+        "source": "https://senko.co.kr/about/location.php"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://senko.co.kr/about/location.php"
+      }
+    ]
+  },
+  "348030": {
+    "publicContacts": [
+      {
+        "email": "biz@mobirix.com",
+        "label": "사업 제안",
+        "source": "https://www.mobirix.com/company/contact.html"
+      },
+      {
+        "email": "recruit@mobirix.com",
+        "label": "채용 문의",
+        "source": "https://www.mobirix.com/company/contact.html"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.mobirix.com/company/contact.html"
+      }
+    ]
+  },
+  "367000": {
+    "publicContacts": [
+      {
+        "email": "info@plateer.com",
+        "label": "디지털전환 솔루션 문의",
+        "source": "https://www.plateer.com/ko/company/contactus"
+      },
+      {
+        "email": "marketing@plateer.com",
+        "label": "제휴·마케팅 문의",
+        "source": "https://www.plateer.com/ko/company/contactus"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.plateer.com/ko/company/contactus"
+      }
+    ]
+  },
+  "368770": {
+    "publicContacts": [
+      {
+        "email": "sales@fiberpro.com",
+        "label": "국내 영업 문의",
+        "source": "https://fiberpro.com/company/company.php"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://fiberpro.com/company/company.php"
+      }
+    ]
+  },
+  "372320": {
+    "publicContacts": [
+      {
+        "email": "contact@curocellbtx.com",
+        "label": "일반 문의",
+        "source": "https://curocellbtx.com/contact/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://curocellbtx.com/contact/"
+      }
+    ]
+  },
+  "373170": {
+    "publicContacts": [
+      {
+        "email": "sales@micube.co.kr",
+        "label": "영업 문의",
+        "source": "https://www.micube.co.kr/"
+      },
+      {
+        "email": "marketing@micube.co.kr",
+        "label": "솔루션·제휴 문의",
+        "source": "https://www.micube.co.kr/contactus/write"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.micube.co.kr/contactus/write"
+      }
+    ]
+  },
+  "373200": {
+    "publicContacts": [
+      {
+        "email": "sales@xplusinc.com",
+        "label": "영업 문의",
+        "source": "https://www.xplusinc.com/ko/aboutus/contact"
+      },
+      {
+        "email": "cs@xplusinc.com",
+        "label": "고객지원",
+        "source": "https://www.xplusinc.com/ko/aboutus/contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.xplusinc.com/ko/aboutus/contact"
+      }
+    ]
+  },
+  "380540": {
+    "publicContacts": [
+      {
+        "email": "Sales@opticore.co.kr",
+        "label": "영업 문의",
+        "source": "https://www.opticore.co.kr/"
+      },
+      {
+        "email": "hr@opticore.co.kr",
+        "label": "인사 문의",
+        "source": "https://www.opticore.co.kr/theme/sample81/html/d1.php"
+      },
+      {
+        "email": "ir@opticore.co.kr",
+        "label": "투자 문의",
+        "source": "https://www.opticore.co.kr/theme/sample81/html/d1.php"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.opticore.co.kr/theme/sample81/html/d1.php"
+      }
+    ]
+  },
+  "389020": {
+    "publicContacts": [
+      {
+        "email": "sales@zaram.com",
+        "label": "영업 문의",
+        "source": "https://zaram.com/m51.php"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://zaram.com/m51.php"
+      }
+    ]
+  },
+  "396270": {
+    "publicContacts": [
+      {
+        "email": "sales@nextchip.com",
+        "label": "본사 영업 문의",
+        "source": "https://www.nextchip.com/kr/about/vision_professional.php"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.nextchip.com/kr/about/vision_professional.php"
+      }
+    ]
+  },
+  "397810": {
+    "publicContacts": [
+      {
+        "email": "help@adforus.co.kr",
+        "label": "일반 문의",
+        "source": "https://www.adforus.co.kr/contact.html"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.adforus.co.kr/contact.html"
+      }
+    ]
+  },
+  "417970": {
+    "publicContacts": [
+      {
+        "email": "sales@model-solution.com",
+        "label": "영업 문의",
+        "source": "https://www.model-solution.com/en/company/contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.model-solution.com/en/company/contact"
+      }
+    ]
+  },
+  "418470": {
+    "publicContacts": [
+      {
+        "email": "help@millie.town",
+        "label": "이용 문의",
+        "source": "https://www.millie.town/contact/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.millie.town/contact/"
+      }
+    ]
+  },
+  "452200": {
+    "publicContacts": [
+      {
+        "email": "ir@g-mintech.co.kr",
+        "label": "투자 문의",
+        "source": "https://www.g-mintech.co.kr/kor/investors/menu_04.html"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.g-mintech.co.kr/kor/investors/menu_04.html"
+      }
+    ]
+  },
+  "456010": {
+    "publicContacts": [
+      {
+        "email": "sales@ictk.com",
+        "label": "제품 문의",
+        "source": "https://www.ictk.com/contact"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.ictk.com/contact"
+      }
+    ]
+  },
+  "466410": {
+    "publicContacts": [
+      {
+        "email": "sales@synapsoft.co.kr",
+        "label": "영업 문의",
+        "source": "https://www.synapsoft.co.kr/contact/"
+      },
+      {
+        "email": "support@synapsoft.co.kr",
+        "label": "기술지원",
+        "source": "https://www.synapsoft.co.kr/contact/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.synapsoft.co.kr/contact/"
+      }
+    ]
+  },
+  "477850": {
+    "publicContacts": [
+      {
+        "email": "contact@makinarocks.ai",
+        "label": "지원 문의",
+        "source": "https://www.makinarocks.ai/contact-us/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.makinarocks.ai/contact-us/"
+      }
+    ]
+  },
+  "486990": {
+    "publicContacts": [
+      {
+        "email": "contact@nota.ai",
+        "label": "일반 문의",
+        "source": "https://www.nota.ai/contact-us"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.nota.ai/contact-us"
+      }
+    ]
+  },
+  "489500": {
+    "publicContacts": [
+      {
+        "email": "sales@lkchem.co.kr",
+        "label": "본사 영업 문의",
+        "source": "https://lkchem.co.kr/wp/overview-conpany-ko2/"
+      }
+    ],
+    "fieldSources": [
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://lkchem.co.kr/wp/overview-conpany-ko2/"
+      }
+    ]
+  },
+  "451800": {
+    "phone": "02-6950-0000",
+    "fieldSources": [
+      {
+        "label": "본사 전화 · 2026-10-13 확인",
+        "url": "https://www.hanwhareit.com/index.php"
+      },
+      {
+        "label": "공식 홈페이지 · 2026-10-13 확인",
+        "url": "https://www.hanwhareit.com/index.php"
+      }
+    ],
+    "website": "https://www.hanwhareit.com/"
+  },
+  "348950": {
+    "phone": "02-2008-7060",
+    "fieldSources": [
+      {
+        "label": "본사 전화 · 2026-10-13 확인",
+        "url": "https://www.jrglobalreit.com/index.php"
+      }
+    ]
+  },
+  "452450": {
+    "phone": "031-375-9122",
+    "fieldSources": [
+      {
+        "label": "본사 전화 · 2026-10-13 확인",
+        "url": "https://www.piegroup.co.kr/company/company-introduction/location"
+      },
+      {
+        "label": "공개 문의 연락처 · 2026-10-13 확인",
+        "url": "https://www.piegroup.co.kr/contact-online"
+      }
+    ],
+    "publicContacts": [
+      {
+        "email": "pie@piegroup.co.kr",
+        "label": "본사 문의",
+        "source": "https://www.piegroup.co.kr/contact-online"
+      }
+    ]
+  },
+  "460930": {
+    "phone": "052-203-9021",
+    "fieldSources": [
+      {
+        "label": "본사 전화 · 2026-10-13 확인",
+        "url": "https://www.hyms.kr/"
       }
     ]
   }

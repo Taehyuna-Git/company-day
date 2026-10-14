@@ -26,4 +26,17 @@ const compact=(s:string)=>s.toLowerCase().replace(/\s/g,'');
 const jamo=(s:string)=>s.normalize('NFD').replace(/[ᄀ-하-ᅵᆨ-ᇂ]/g,c=>{const a='ᄀᄁᄂᄃᄄᄅᄆᄇᄈᄉᄊᄋᄌᄍᄎᄏᄐᄑᄒ',b='ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ',v='ᅡᅢᅣᅤᅥᅦᅧᅨᅩᅪᅫᅬᅭᅮᅯᅰᅱᅲᅳᅴᅵ',w='ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ',t='ᆨᆩᆪᆫᆬᆭᆮᆯᆰᆱᆲᆳᆴᆵᆶᆷᆸᆹᆺᆻᆼᆽᆾᆿᇀᇁᇂ',u='ㄱㄲㄳㄴㄵㄶㄷㄹㄺㄻㄼㄽㄾㄿㅀㅁㅂㅄㅅㅆㅇㅈㅊㅋㅌㅍㅎ';return a.includes(c)?b[a.indexOf(c)]:v.includes(c)?w[v.indexOf(c)]:u[t.indexOf(c)]});
 export function matches(c:Company,q:string){const s=compact(q),hay=compact(c.name+c.en+(c.stockCode||'')+c.tags.join(''));return !s||hay.includes(s)||initials(compact(c.name+c.en)).includes(s)||jamo(hay).includes([...s].map(k=>keyMap[k]??k).join(''));}
 export const koreaDate=(now=new Date())=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(now);
-export function occasion(c:Company,now=new Date()){if(!c.anniversary)return null;const today=new Date(koreaDate(now)+'T00:00:00Z');const monthday=c.anniversary.slice(5);let year=today.getUTCFullYear();let next=new Date(`${year}-${monthday}T00:00:00Z`);if(next<today){year++;next=new Date(`${year}-${monthday}T00:00:00Z`)}return {days:Math.round((+next-+today)/86400000),year,age:year-Number(c.anniversary.slice(0,4)),date:`${year}-${monthday}`};}
+// Keep the original facts separate: a legal date is never an official founding date.
+export function commemoration(c:Company){
+  const date=c.anniversary||c.founded;
+  if(!date||!/^\d{4}-\d{2}-\d{2}$/.test(date)||new Date(date+'T00:00:00Z').toISOString().slice(0,10)!==date)return null;
+  const official=Boolean(c.anniversary);
+  return {date,basis:official?'official':'incorporation',label:official?'창립기념일':'설립기념일',description:official?'회사 공식 창립일 기준':'법인 설립일 기준 · 별도 창립기념일은 정보 수집 중',source:official?c.source:c.catalogSource};
+}
+export function occasion(c:Company,now=new Date()){
+  const event=commemoration(c);if(!event)return null;
+  const today=new Date(koreaDate(now)+'T00:00:00Z');let year=today.getUTCFullYear();
+  const annual=(y:number)=>new Date(Date.UTC(y,Number(event.date.slice(5,7))-1,Number(event.date.slice(8))));
+  let next=annual(year);if(next<today)next=annual(++year);
+  return {...event,days:Math.round((+next-+today)/86400000),year,age:year-Number(event.date.slice(0,4)),date:next.toISOString().slice(0,10)};
+}
