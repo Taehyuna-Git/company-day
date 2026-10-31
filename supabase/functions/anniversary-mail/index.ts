@@ -2,6 +2,7 @@ import {createClient} from 'npm:@supabase/supabase-js@2.116.0';
 import nodemailer from 'npm:nodemailer@9';
 import {createHandler,type Job,type Mail} from './core.ts';
 import {createVerificationHandler} from './verification.ts';
+import {createNewsHandler,normalizeNews,type NewsJob} from './news.ts';
 
 const site='https://company-day-kr.taehyuna-github.workers.dev';
 const admin=createClient(Deno.env.get('SUPABASE_URL')!,Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,{auth:{persistSession:false,autoRefreshToken:false}});
@@ -45,4 +46,39 @@ const handler=createHandler({site,configured,enabled,verifyUser,send,
   revalidate,
   finish:async(id,status,provider)=>{await rpc('finish_anniversary_mail',{p_id:id,p_status:status,p_provider_id:provider||null})}
 });
-Deno.serve(async request=>{try{return await (new URL(request.url).pathname.includes('/email/')?verificationHandler:handler)(request)}catch{return new Response(JSON.stringify({error:'메일 서비스를 잠시 이용할 수 없습니다.'}),{status:503,headers:{'Content-Type':'application/json','Access-Control-Allow-Origin':site,'Cache-Control':'no-store'}})}});
+
+const newsEnabled=async()=>{const {data,error}=await admin.from('news_mail_settings').select('enabled').eq('id',true).single();if(error)throw Error('settings');return data.enabled};
+async function collectNews(user:string|null){
+ const rows=await rpc('claim_news_feeds',{p_user:user}) as {company_id:string}[];
+ for(let start=0;start<rows.length;start+=4)await Promise.all(rows.slice(start,start+4).map(async row=>{
+  const checked_at=new Date().toISOString();
+  try{
+   const response=await fetch(site+'/api/news/'+encodeURIComponent(row.company_id),{redirect:'manual',signal:AbortSignal.timeout(10000)});
+   if(!response.ok)throw Error('feed');
+   const raw=await response.text();if(raw.length>100000)throw Error('size');
+   const data=JSON.parse(raw);if(data.stale||typeof data.companyName!=='string'||!Array.isArray(data.articles))throw Error('stale');
+   const articles=await normalizeNews(row.company_id,data.companyName,data.articles);
+   const {error}=await admin.from('news_feed_cache').update({articles,checked_at,refreshed_at:checked_at,retry_after:new Date(Date.now()+6*3600000).toISOString()}).eq('company_id',row.company_id);if(error)throw Error('cache');
+  }catch{const {error}=await admin.from('news_feed_cache').update({checked_at,retry_after:new Date(Date.now()+15*60000).toISOString()}).eq('company_id',row.company_id);if(error)throw Error('cache')}
+ }));
+}
+async function revalidateNews(job:NewsJob):Promise<NewsJob|null>{
+ const [recipient,prefs,follows]=await Promise.all([
+  admin.from('notification_emails').select('email').eq('user_id',job.user_id).maybeSingle(),
+  admin.from('notification_preferences').select('news_digest_enabled,send_hour').eq('user_id',job.user_id).maybeSingle(),
+  admin.from('company_follows').select('company_id').eq('user_id',job.user_id)
+ ]);
+ if(recipient.error||prefs.error||follows.error)throw Error('settings');
+ const hour=Number(new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Seoul',hour:'2-digit',hourCycle:'h23'}).format(new Date()));
+ if(!await newsEnabled()||recipient.data?.email!==job.recipient||!prefs.data?.news_digest_enabled||hour<prefs.data.send_hour)return null;
+ const items=job.payload.items.filter(i=>follows.data?.some(f=>f.company_id===i.companyId));
+ return items.length?{...job,payload:{...job.payload,items}}:null;
+}
+const newsHandler=createNewsHandler({site,configured,enabled:newsEnabled,verifyUser,send,
+ verifyScheduler:async token=>Boolean(await rpc('check_anniversary_scheduler',{p_token:token})),
+ collect:collectNews,preview:async user=>await rpc('preview_news_digest',{p_user:user}),
+ reserve:async()=>await rpc('reserve_news_mail'),revalidate:revalidateNews,
+ finish:async(id,status,provider)=>{await rpc('finish_news_mail',{p_id:id,p_status:status,p_provider_id:provider||null})}
+});
+
+Deno.serve(async request=>{try{return await (new URL(request.url).pathname.endsWith('/news')?newsHandler:new URL(request.url).pathname.includes('/email/')?verificationHandler:handler)(request)}catch{return new Response(JSON.stringify({error:'메일 서비스를 잠시 이용할 수 없습니다.'}),{status:503,headers:{'Content-Type':'application/json','Access-Control-Allow-Origin':site,'Cache-Control':'no-store'}})}});

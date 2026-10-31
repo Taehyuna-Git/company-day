@@ -44,7 +44,7 @@ export async function newsApi(request:Request):Promise<Response>{
     while(true){const {done,value}=await reader.read();if(done)break;total+=value.length;if(total>1048576){await reader.cancel();throw Error('size')}chunks.push(value)}
     const buffer=new Uint8Array(total);let offset=0;for(const chunk of chunks){buffer.set(chunk,offset);offset+=chunk.length}
     const xml=new TextDecoder().decode(buffer);if(!xml.includes('<rss'))throw Error('format');
-    const result=new Response(JSON.stringify({articles:parseNews(xml,__NEWS_COMPANIES__[id]),updatedAt:new Date().toISOString()}),{headers:{...headers,'Cache-Control':'public, max-age=900'}});
+    const result=new Response(JSON.stringify({companyName:__NEWS_COMPANIES__[id],articles:parseNews(xml,__NEWS_COMPANIES__[id]),updatedAt:new Date().toISOString()}),{headers:{...headers,'Cache-Control':'public, max-age=900'}});
     if(cache){
       const backup=result.clone();backup.headers.set('Cache-Control','public, max-age=86400');
       await Promise.all([cache.put(key,result.clone()),cache.put(backupKey,backup)]);

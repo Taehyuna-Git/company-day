@@ -730,6 +730,10 @@
       {
         "label": "기업 기본 정보 · 2026-10-09 확인",
         "url": "https://www.psomagen.com/"
+      },
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://kind.krx.co.kr/external/2026/05/15/000885/20260515001889/11013.htm"
       }
     ],
     "publicContacts": [
@@ -738,7 +742,10 @@
         "label": "공식 홈페이지 공개 이메일",
         "source": "https://www.psomagen.com/"
       }
-    ]
+    ],
+    "founded": "2004-12-02",
+    "catalogSource": "https://kind.krx.co.kr/external/2026/05/15/000885/20260515001889/11013.htm",
+    "address": "Corporation Trust Center, 1209 Orange Street, City of Wilmington, County of New Castle, Delaware 19801, USA"
   },
   "950210": {
     "address": "21 Biopolis Road, #04-24 Nucleos, Singapore 138567",
@@ -746,8 +753,15 @@
       {
         "label": "기업 기본 정보 · 2026-10-09 확인",
         "url": "https://prestigebiopharma.com/2026-contact/"
+      },
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://kind.krx.co.kr/external/2026/03/03/000923/20260303002692/11012.htm"
       }
-    ]
+    ],
+    "founded": "2015-07-13",
+    "catalogSource": "https://kind.krx.co.kr/external/2026/03/03/000923/20260303002692/11012.htm",
+    "phone": "+65-6924-6535"
   },
   "950250": {
     "address": "1 Enterprise, Cambridge Research Park, Cambridge CB25 9PD, United Kingdom",
@@ -755,6 +769,10 @@
       {
         "label": "기업 기본 정보 · 2026-10-09 확인",
         "url": "https://teraview.com/contact/"
+      },
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250121000231&method=searchListInvstgCorpDetail"
       }
     ],
     "publicContacts": [
@@ -763,7 +781,10 @@
         "label": "본사 문의",
         "source": "https://teraview.com/contact/"
       }
-    ]
+    ],
+    "founded": "2024-07-19",
+    "catalogSource": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250121000231&method=searchListInvstgCorpDetail",
+    "anniversaryNote": "상장 법인 TERAVIEW HOLDINGS PLC의 설립일 기준입니다. 사업회사 TeraView Limited의 설립일과 다릅니다."
   },
   "373220": {
     "website": "https://www.lgensol.com/kr/index",
@@ -3509,6 +3530,113 @@
       {
         "label": "본사 전화 · 2026-10-13 확인",
         "url": "https://www.hyms.kr/"
+      }
+    ]
+  },
+  "900100": {
+    "founded": "1978-05-01",
+    "catalogSource": "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00781202",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00781202"
+      }
+    ]
+  },
+  "900110": {
+    "founded": "2009-07-22",
+    "catalogSource": "https://kind.krx.co.kr/external/2024/05/30/000825/20240530001936/11013.htm",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://kind.krx.co.kr/external/2024/05/30/000825/20240530001936/11013.htm"
+      }
+    ]
+  },
+  "900120": {
+    "founded": "2009-02-24",
+    "catalogSource": "https://kind.krx.co.kr/external/2026/03/03/001320/20260303003388/11012.htm",
+    "phone": "+86-591-8803-1033",
+    "address": "Third Floor, Century Yard, Cricket Square, P.O. Box 902, Grand Cayman, KY1-1103, Cayman Islands",
+    "website": "http://cxihealthcare.com",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://kind.krx.co.kr/external/2026/03/03/001320/20260303003388/11012.htm"
+      }
+    ]
+  },
+  "900140": {
+    "founded": "2009-06-16",
+    "catalogSource": "https://links.sgx.com/FileOpen/KOLAO_Holdings_20182Q_consolidated_ENG.ashx?AnncID=FTJRCXV17D5UCW2A&App=ArchiveAnnouncement&FileID=525397",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://links.sgx.com/FileOpen/KOLAO_Holdings_20182Q_consolidated_ENG.ashx?AnncID=FTJRCXV17D5UCW2A&App=ArchiveAnnouncement&FileID=525397"
+      }
+    ]
+  },
+  "900260": {
+    "founded": "2014-02-05",
+    "catalogSource": "https://kind.krx.co.kr/external/2026/05/29/001099/20260529001841/11013.htm",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://kind.krx.co.kr/external/2026/05/29/001099/20260529001841/11013.htm"
+      }
+    ]
+  },
+  "900310": {
+    "founded": "2013-10-14",
+    "catalogSource": "https://kind.krx.co.kr/external/2021/08/30/000462/20210830001223/11012.htm",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://kind.krx.co.kr/external/2021/08/30/000462/20210830001223/11012.htm"
+      }
+    ]
+  },
+  "900340": {
+    "founded": "2015-04-24",
+    "catalogSource": "https://kind.krx.co.kr/external/2022/05/27/000244/20220527000623/11013.htm",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://kind.krx.co.kr/external/2022/05/27/000244/20220527000623/11013.htm"
+      }
+    ]
+  },
+  "950190": {
+    "founded": "2016-09-06",
+    "catalogSource": "https://kind.krx.co.kr/external/2026/05/15/001712/20260515003788/11013.htm",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://kind.krx.co.kr/external/2026/05/15/001712/20260515003788/11013.htm"
+      }
+    ]
+  },
+  "950220": {
+    "founded": "2014-01-29",
+    "catalogSource": "https://kind.krx.co.kr/external/2025/07/07/000060/20250707000102/10601.htm",
+    "phone": "+1-240-801-9068",
+    "address": "2400 Research Blvd., Suite 250, Rockville, MD 20850, USA",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://kind.krx.co.kr/external/2025/07/07/000060/20250707000102/10601.htm"
+      }
+    ]
+  },
+  "950260": {
+    "founded": "2018-03-22",
+    "catalogSource": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250923000002&method=searchListInvstgCorpDetail",
+    "phone": "+1-617-440-2500",
+    "address": "490 Arsenal Way, Suite 100B, Watertown, USA",
+    "fieldSources": [
+      {
+        "label": "법인 설립일 및 기본 정보 · 2026-10-14 확인",
+        "url": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250923000002&method=searchListInvstgCorpDetail"
       }
     ]
   }

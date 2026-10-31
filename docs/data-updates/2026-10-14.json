@@ -1,0 +1,299 @@
+{
+  "checkedAt": "2026-10-14",
+  "changes": [
+    {
+      "code": "950210",
+      "name": "프레스티지바이오파마",
+      "field": "founded",
+      "before": null,
+      "after": "2015-07-13",
+      "source": "https://kind.krx.co.kr/external/2026/03/03/000923/20260303002692/11012.htm"
+    },
+    {
+      "code": "950210",
+      "name": "프레스티지바이오파마",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://kind.krx.co.kr/external/2026/03/03/000923/20260303002692/11012.htm",
+      "source": "https://kind.krx.co.kr/external/2026/03/03/000923/20260303002692/11012.htm"
+    },
+    {
+      "code": "950210",
+      "name": "프레스티지바이오파마",
+      "field": "phone",
+      "before": "",
+      "after": "+65-6924-6535",
+      "source": "https://kind.krx.co.kr/external/2026/03/03/000923/20260303002692/11012.htm"
+    },
+    {
+      "code": "900140",
+      "name": "엘브이엠씨",
+      "field": "founded",
+      "before": null,
+      "after": "2009-06-16",
+      "source": "https://links.sgx.com/FileOpen/KOLAO_Holdings_20182Q_consolidated_ENG.ashx?AnncID=FTJRCXV17D5UCW2A&App=ArchiveAnnouncement&FileID=525397"
+    },
+    {
+      "code": "900140",
+      "name": "엘브이엠씨",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://links.sgx.com/FileOpen/KOLAO_Holdings_20182Q_consolidated_ENG.ashx?AnncID=FTJRCXV17D5UCW2A&App=ArchiveAnnouncement&FileID=525397",
+      "source": "https://links.sgx.com/FileOpen/KOLAO_Holdings_20182Q_consolidated_ENG.ashx?AnncID=FTJRCXV17D5UCW2A&App=ArchiveAnnouncement&FileID=525397"
+    },
+    {
+      "code": "950260",
+      "name": "인제니아테라퓨틱스",
+      "field": "founded",
+      "before": null,
+      "after": "2018-03-22",
+      "source": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250923000002&method=searchListInvstgCorpDetail"
+    },
+    {
+      "code": "950260",
+      "name": "인제니아테라퓨틱스",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250923000002&method=searchListInvstgCorpDetail",
+      "source": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250923000002&method=searchListInvstgCorpDetail"
+    },
+    {
+      "code": "950260",
+      "name": "인제니아테라퓨틱스",
+      "field": "phone",
+      "before": "",
+      "after": "+1-617-440-2500",
+      "source": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250923000002&method=searchListInvstgCorpDetail"
+    },
+    {
+      "code": "950260",
+      "name": "인제니아테라퓨틱스",
+      "field": "address",
+      "before": "",
+      "after": "490 Arsenal Way, Suite 100B, Watertown, USA",
+      "source": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250923000002&method=searchListInvstgCorpDetail"
+    },
+    {
+      "code": "950250",
+      "name": "테라뷰",
+      "field": "founded",
+      "before": null,
+      "after": "2024-07-19",
+      "source": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250121000231&method=searchListInvstgCorpDetail"
+    },
+    {
+      "code": "950250",
+      "name": "테라뷰",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250121000231&method=searchListInvstgCorpDetail",
+      "source": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250121000231&method=searchListInvstgCorpDetail"
+    },
+    {
+      "code": "950250",
+      "name": "테라뷰",
+      "field": "anniversaryNote",
+      "before": null,
+      "after": "상장 법인 TERAVIEW HOLDINGS PLC의 설립일 기준입니다. 사업회사 TeraView Limited의 설립일과 다릅니다.",
+      "source": "https://kind.krx.co.kr/listinvstg/listinvstgcom.do?bizProcNo=20250121000231&method=searchListInvstgCorpDetail"
+    },
+    {
+      "code": "950220",
+      "name": "네오이뮨텍",
+      "field": "founded",
+      "before": null,
+      "after": "2014-01-29",
+      "source": "https://kind.krx.co.kr/external/2025/07/07/000060/20250707000102/10601.htm"
+    },
+    {
+      "code": "950220",
+      "name": "네오이뮨텍",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://kind.krx.co.kr/external/2025/07/07/000060/20250707000102/10601.htm",
+      "source": "https://kind.krx.co.kr/external/2025/07/07/000060/20250707000102/10601.htm"
+    },
+    {
+      "code": "950220",
+      "name": "네오이뮨텍",
+      "field": "phone",
+      "before": "",
+      "after": "+1-240-801-9068",
+      "source": "https://kind.krx.co.kr/external/2025/07/07/000060/20250707000102/10601.htm"
+    },
+    {
+      "code": "950220",
+      "name": "네오이뮨텍",
+      "field": "address",
+      "before": "",
+      "after": "2400 Research Blvd., Suite 250, Rockville, MD 20850, USA",
+      "source": "https://kind.krx.co.kr/external/2025/07/07/000060/20250707000102/10601.htm"
+    },
+    {
+      "code": "950190",
+      "name": "고스트스튜디오",
+      "field": "founded",
+      "before": null,
+      "after": "2016-09-06",
+      "source": "https://kind.krx.co.kr/external/2026/05/15/001712/20260515003788/11013.htm"
+    },
+    {
+      "code": "950190",
+      "name": "고스트스튜디오",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://kind.krx.co.kr/external/2026/05/15/001712/20260515003788/11013.htm",
+      "source": "https://kind.krx.co.kr/external/2026/05/15/001712/20260515003788/11013.htm"
+    },
+    {
+      "code": "950200",
+      "name": "소마젠",
+      "field": "founded",
+      "before": null,
+      "after": "2004-12-02",
+      "source": "https://kind.krx.co.kr/external/2026/05/15/000885/20260515001889/11013.htm"
+    },
+    {
+      "code": "950200",
+      "name": "소마젠",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://kind.krx.co.kr/external/2026/05/15/000885/20260515001889/11013.htm",
+      "source": "https://kind.krx.co.kr/external/2026/05/15/000885/20260515001889/11013.htm"
+    },
+    {
+      "code": "950200",
+      "name": "소마젠",
+      "field": "address",
+      "before": "",
+      "after": "Corporation Trust Center, 1209 Orange Street, City of Wilmington, County of New Castle, Delaware 19801, USA",
+      "source": "https://kind.krx.co.kr/external/2026/05/15/000885/20260515001889/11013.htm"
+    },
+    {
+      "code": "900340",
+      "name": "윙입푸드",
+      "field": "founded",
+      "before": null,
+      "after": "2015-04-24",
+      "source": "https://kind.krx.co.kr/external/2022/05/27/000244/20220527000623/11013.htm"
+    },
+    {
+      "code": "900340",
+      "name": "윙입푸드",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://kind.krx.co.kr/external/2022/05/27/000244/20220527000623/11013.htm",
+      "source": "https://kind.krx.co.kr/external/2022/05/27/000244/20220527000623/11013.htm"
+    },
+    {
+      "code": "900310",
+      "name": "컬러레이",
+      "field": "founded",
+      "before": null,
+      "after": "2013-10-14",
+      "source": "https://kind.krx.co.kr/external/2021/08/30/000462/20210830001223/11012.htm"
+    },
+    {
+      "code": "900310",
+      "name": "컬러레이",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://kind.krx.co.kr/external/2021/08/30/000462/20210830001223/11012.htm",
+      "source": "https://kind.krx.co.kr/external/2021/08/30/000462/20210830001223/11012.htm"
+    },
+    {
+      "code": "900260",
+      "name": "로스웰",
+      "field": "founded",
+      "before": null,
+      "after": "2014-02-05",
+      "source": "https://kind.krx.co.kr/external/2026/05/29/001099/20260529001841/11013.htm"
+    },
+    {
+      "code": "900260",
+      "name": "로스웰",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://kind.krx.co.kr/external/2026/05/29/001099/20260529001841/11013.htm",
+      "source": "https://kind.krx.co.kr/external/2026/05/29/001099/20260529001841/11013.htm"
+    },
+    {
+      "code": "900110",
+      "name": "딥커머스",
+      "field": "founded",
+      "before": null,
+      "after": "2009-07-22",
+      "source": "https://kind.krx.co.kr/external/2024/05/30/000825/20240530001936/11013.htm"
+    },
+    {
+      "code": "900110",
+      "name": "딥커머스",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://kind.krx.co.kr/external/2024/05/30/000825/20240530001936/11013.htm",
+      "source": "https://kind.krx.co.kr/external/2024/05/30/000825/20240530001936/11013.htm"
+    },
+    {
+      "code": "900100",
+      "name": "파이온엑스",
+      "field": "founded",
+      "before": null,
+      "after": "1978-05-01",
+      "source": "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00781202"
+    },
+    {
+      "code": "900100",
+      "name": "파이온엑스",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00781202",
+      "source": "https://englishdart.fss.or.kr/dsbc001/selectPopup.ax?selectKey=00781202"
+    },
+    {
+      "code": "900120",
+      "name": "씨엑스아이",
+      "field": "founded",
+      "before": null,
+      "after": "2009-02-24",
+      "source": "https://kind.krx.co.kr/external/2026/03/03/001320/20260303003388/11012.htm"
+    },
+    {
+      "code": "900120",
+      "name": "씨엑스아이",
+      "field": "catalogSource",
+      "before": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage",
+      "after": "https://kind.krx.co.kr/external/2026/03/03/001320/20260303003388/11012.htm",
+      "source": "https://kind.krx.co.kr/external/2026/03/03/001320/20260303003388/11012.htm"
+    },
+    {
+      "code": "900120",
+      "name": "씨엑스아이",
+      "field": "phone",
+      "before": "",
+      "after": "+86-591-8803-1033",
+      "source": "https://kind.krx.co.kr/external/2026/03/03/001320/20260303003388/11012.htm"
+    },
+    {
+      "code": "900120",
+      "name": "씨엑스아이",
+      "field": "address",
+      "before": "",
+      "after": "Third Floor, Century Yard, Cricket Square, P.O. Box 902, Grand Cayman, KY1-1103, Cayman Islands",
+      "source": "https://kind.krx.co.kr/external/2026/03/03/001320/20260303003388/11012.htm"
+    },
+    {
+      "code": "900120",
+      "name": "씨엑스아이",
+      "field": "website",
+      "before": "",
+      "after": "http://cxihealthcare.com",
+      "source": "https://kind.krx.co.kr/external/2026/03/03/001320/20260303003388/11012.htm"
+    }
+  ],
+  "notes": [
+    "설립일만 반영: 공식 창립기념일로 추정하지 않음.",
+    "테라뷰 상장 지주회사와 사업회사의 법인 식별을 대조함.",
+    "고스트스튜디오 회사 개요 및 재무제표의 2016-09-06을 사용. 주주변동표 2017 표기는 별도로 취급.",
+    "딥커머스 2026년 공시에서 이스트아시아홀딩스로부터 상호 변경 확인."
+  ]
+}
